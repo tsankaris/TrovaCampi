@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TrovaCampi</string>
+    <string name="title_activity_login">Login</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string-array name="Sport">
+        <item> @string/CALCIO</item>
+        <item> @string/PALLAVOLO</item>
+        <item> @string/TENNIS</item>
+        <item> @string/PADEL</item>
+        <item> @string/BASKET</item>
+    </string-array>
+    <string name="Benvenuto">BENVENUTO</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="CALCIO">calcio</string>
+    <string name="PALLAVOLO">pallavolo</string>
+    <string name="TENNIS">tennis</string>
+    <string name="PADEL">padel</string>
+    <string name="BASKET">basket</string>
+    <string name="seleziona_lo_sport">Seleziona lo sport</string>
+    <string name="next">NEXT</string>
+</resources>
