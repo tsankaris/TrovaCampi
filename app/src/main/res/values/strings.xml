@@ -22,4 +22,9 @@
     <string name="BASKET">basket</string>
     <string name="seleziona_lo_sport">Seleziona lo sport</string>
     <string name="next">NEXT</string>
+    <string name="title_activity_calcio">Calcio</string>
+    <string name="descrizione_calcio">
+        TELEFONO : 039 2494846<br>MAIL : info@sportparkonline.com</br> <br></br>COPERTO : NO <br></br>TIPO CAMPO : CALCIO A 5, CALCIO A 7
+    </string>
+    <string name="action_settings">Settings</string>
 </resources>
