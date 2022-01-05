@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/lucag/TrovaCampi1/app/src/main/res/layout/activity_calcio.xml" value="0.1" />
+        <entry key="..\:/Users/lucag/TrovaCampi1/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/lucag/TrovaCampi1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/lucag/TrovaCampi1/app/src/main/res/layout/activity_registrati.xml" value="0.1796875" />
+        <entry key="..\:/Users/lucag/TrovaCampi1/app/src/main/res/layout/activity_seconda.xml" value="0.1" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.17291666666666666" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.17291666666666666" />
         <entry key="app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.16875" />
