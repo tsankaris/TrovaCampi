@@ -15,7 +15,7 @@
         android:theme="@style/Theme.TrovaCampi" >
         <activity
             android:name=".Calcio_activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".SceltaSport"
             android:exported="false" />
