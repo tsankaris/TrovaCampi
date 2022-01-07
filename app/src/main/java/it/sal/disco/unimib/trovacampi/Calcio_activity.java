@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-/*import android.widget.Button;*/
+
 
 
 public class Calcio_activity extends AppCompatActivity {
@@ -19,11 +19,11 @@ public class Calcio_activity extends AppCompatActivity {
 
 
     public void goToSo (View view) {
-        goToUrl ( "https://docs.google.com/forms/d/e/1FAIpQLScrtyp4cQ7QILiA1EeFmkRf3-KZq0Q2lLtRPam4GMKLkUfBwA/viewform?usp=sf_link");
+        goToUrl ();
     }
 
-    private void goToUrl(String url) {
-        Uri uriUrl = Uri.parse(url);
+    private void goToUrl() {
+        Uri uriUrl = Uri.parse("https://docs.google.com/forms/d/e/1FAIpQLScrtyp4cQ7QILiA1EeFmkRf3-KZq0Q2lLtRPam4GMKLkUfBwA/viewform?usp=sf_link");
         Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
         startActivity(launchBrowser);
     }

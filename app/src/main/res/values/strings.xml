@@ -6,7 +6,7 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="login">LOGIN</string>
     <string name="contattaci">CONTATTACI</string>
-    <string name="non_hai_trovato_il_campo">Non hai trovato il tuo campo? <br></br> Clicca il bottone per contattarci!</string>
+    <string name="non_hai_trovato_il_campo">Non hai trovato il tuo campo? <br> </br> Clicca il bottone per contattarci!</string>
     <string name="register">REGISTER</string>
     <string-array name="Sport">
         <item> @string/CALCIO</item>
@@ -26,7 +26,7 @@
     <string name="next">NEXT</string>
     <string name="title_activity_calcio">Calcio</string>
     <string name="descrizione_sportpark">
-        TELEFONO : 039 2494846<br>MAIL : info@sportparkonline.com</br> <br></br>COPERTO : NO <br></br>TIPO CAMPO : CALCIO A 5, CALCIO A 7
+        TELEFONO : 039 2494846<br> </br>MAIL : info@sportparkonline.com <br> </br>COPERTO : NO <br> </br>TIPO CAMPO : CALCIO A 5, <br> </br> CALCIO A 7
     </string>
     <string name="action_settings">Settings</string>
     <string name="sportpark">SPORTPARK</string>
@@ -44,13 +44,13 @@
     <string name="piscineLissone_img">piscineLissone_img</string>
     <string name="playsport_img">playsport_img</string>
     <string name="tijuana_img">tijuana_img</string>
-    <string name="descrizione_opensport"> TELEFONO : 3897874334<br></br>
-MAIL : tennis.sportsopen@libero.it<br></br>
-COPERTO : SI<br></br>
+    <string name="descrizione_opensport"> TELEFONO : 3897874334<br> </br>
+MAIL : tennis.sportsopen@libero.it<br> </br>
+COPERTO : SI<br> </br>
 TIPO CAMPO : CALCIO A 5 </string>
-    <string name="descrizione_tijuana">TELEFONO : 338 6360999<br></br>
-    MAIL : manuel.tiju@gmail.com<br></br>
-    COPERTO : NO<br></br>
+    <string name="descrizione_tijuana">TELEFONO : 338 6360999<br> </br>
+    MAIL : manuel.tiju@gmail.com<br> </br>
+    COPERTO : NO<br> </br>
         TIPO CAMPO : CALCIO A 5 </string>
     <string name="derby_img">derby_img</string>
     <string name="cantera_img">cantera_img</string>
@@ -58,39 +58,47 @@ TIPO CAMPO : CALCIO A 5 </string>
     <string name="inSport_img">inSport_img</string>
     <string name="opensport_img">opensport_img</string>
     <string name="descrizione_cantera">
-TELEFONO : 375 5667883<br></br>
-MAIL : srl.gruppofive@gmail.com<br></br>
-COPERTO : NO<br></br>
+TELEFONO : 375 5667883<br> </br>
+MAIL : srl.gruppofive@gmail.com<br> </br>
+COPERTO : NO<br> </br>
 TIPO CAMPO : CALCIO A 5</string>
-    <string name="descrizione_derby">TELEFONO : 039 733229<br></br>
-MAIL : info@derbymonza.it<br></br>
-COPERTO : SI<br></br>
+    <string name="descrizione_derby">TELEFONO : 039 733229<br> </br>
+MAIL : info@derbymonza.it<br> </br>
+COPERTO : SI<br> </br>
 TIPO CAMPO : CALCIO A 5</string>
-    <string name="descrizione_piscineLissone">TELEFONO : 039 262 2048<br></br>
-    MAIL : info@cierregroup.it<br></br>
-    COPERTO : SI<br></br>
+    <string name="descrizione_piscineLissone">TELEFONO : 039 262 2048<br> </br>
+    MAIL : info@cierregroup.it<br> </br>
+    COPERTO : SI<br> </br>
     TIPO CAMPO : CALCIO A 5</string>
-    <string name="descrizione_LaDominante">TELEFONO : 039 321221<br></br>
-    MAIL : info@ladominante.it<br></br>
-    COPERTO : NO<br></br>
+    <string name="descrizione_LaDominante">TELEFONO : 039 321221<br> </br>
+    MAIL : info@ladominante.it<br> </br>
+    COPERTO : NO<br> </br>
         TIPO CAMPO : CALCIO A 5, CALCIO A 7, CALCIO A 11 </string>
-    <string name="descrizione_InSport">TELEFONO : 039 617831<br></br>
-    MAIL : arcore@insportsrl.it<br></br>
-    COPERTO : NO<br></br>
+    <string name="descrizione_InSport">TELEFONO : 039 617831<br> </br>
+    MAIL : arcore@insportsrl.it<br> </br>
+    COPERTO : NO<br> </br>
         TIPO CAMPO : CALCIO A 5, CALCIO A 7</string>
     <string name="descrizione_playsport">
-    TELEFONO : 039 6980021<br></br>
-    MAIL : info@playsportlesmo.it<br></br>
-    COPERTO : SI<br></br>
+    TELEFONO : 039 6980021<br> </br>
+    MAIL : info@playsportlesmo.it<br> </br>
+    COPERTO : SI<br> </br>
         TIPO CAMPO : CALCIO A 5</string>
 
-    <string name="descrizione_leonArena">TELEFONO : 348-8207614<br></br>
-    MAIL : ND<br></br>
-    COPERTO : NO<br></br>
+    <string name="descrizione_leonArena">TELEFONO : 348–8207614<br> </br>
+    MAIL : ND<br> </br>
+    COPERTO : NO<br> </br>
         TIPO CAMPO : CALCIO A 5, CALCIO A 7 </string>
     <string name="title_activity_main2">MainActivity2</string>
     <string name="previous">Previous</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="il_tuo_campo_non_ce">Il tuo campo non c\'è?</string>
+    <string name="user_address">User Address</string>
+    <string name="get_current_location">Get Current Location</string>
+    <string name="e_mail">e-mail</string>
+    <string name="numero_di_telefono">Numero di telefono</string>
+    <string name="indirizzo_postale">Indirizzo postale</string>
+    <string name="password">Password</string>
+    <string name="ripeti_password">Ripeti password</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>

@@ -43,7 +43,7 @@ public class EmailPasswordActivity extends Activity {
         // [START initialize_auth]
         // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
-        setContentView(R.layout.activity_registrati);
+        setContentView(R.layout.activity_emailPassword);
         // [END initialize_auth]
     }
 
@@ -123,5 +123,4 @@ public class EmailPasswordActivity extends Activity {
 
     private void updateUI(FirebaseUser user) {
 
-    }
-}
+    }}
