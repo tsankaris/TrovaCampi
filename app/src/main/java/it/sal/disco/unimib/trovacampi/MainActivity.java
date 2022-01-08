@@ -48,7 +48,7 @@ import com.google.android.gms.tasks.Task;
          super.onCreate(savedInstanceState);
          setContentView(R.layout.activity_main);
 
-         AddressText = findViewById(R.id.addressText);
+
          LocationButton = findViewById(R.id.locationButton);
 
          locationRequest = LocationRequest.create();

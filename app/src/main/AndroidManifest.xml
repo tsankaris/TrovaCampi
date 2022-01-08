@@ -17,9 +17,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TrovaCampi">
-        <activity
-            android:name=".autenticazione"
-            android:exported="false" />
+
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -38,7 +36,7 @@
             android:label="@string/title_activity_maps" />
         <activity
             android:name=".EmailPasswordActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Calcio_activity"
             android:exported="true" />
