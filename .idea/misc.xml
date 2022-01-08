@@ -7,6 +7,7 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.17291666666666666" />
         <entry key="app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.16875" />
         <entry key="app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.14754098360655737" />
+        <entry key="app/src/main/res/layout/activity_autenticazione.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_brova.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_calcio.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_dopo_login.xml" value="0.33" />
