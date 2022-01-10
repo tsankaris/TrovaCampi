@@ -20,6 +20,7 @@ import android.os.Bundle;
 import android.os.Looper;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -41,12 +42,27 @@ import com.google.android.gms.tasks.Task;
      private TextView AddressText;
      private Button LocationButton;
      private LocationRequest locationRequest;
-
+     Button button3;
+     private Spinner mSpinner;
 
      @Override
      protected void onCreate(Bundle savedInstanceState) {
          super.onCreate(savedInstanceState);
          setContentView(R.layout.activity_main);
+         mSpinner = findViewById(R.id.spinner);
+
+         button3 = findViewById(R.id.button);
+         button3.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                 String sport = mSpinner.getSelectedItem().toString();
+                 if (sport.equals("calcio")) {
+                     startActivity(new Intent(getApplicationContext(), Calcio_activity.class));
+                 }
+             }
+         });
+
+
 
 
          LocationButton = findViewById(R.id.locationButton);

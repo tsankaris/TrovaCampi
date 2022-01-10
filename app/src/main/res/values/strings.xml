@@ -6,6 +6,7 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="login">LOGIN</string>
     <string name="contattaci">CONTATTACI</string>
+    <string name="registrati">NON SEI REGISTRATO?</string>
     <string name="non_hai_trovato_il_campo">Non hai trovato il tuo campo? <br> </br> Clicca il bottone per contattarci!</string>
     <string name="register">REGISTER</string>
     <string-array name="Sport">
@@ -58,11 +59,12 @@ TIPO CAMPO : CALCIO A 5 </string>
     <string name="inSport_img">inSport_img</string>
     <string name="opensport_img">opensport_img</string>
     <string name="descrizione_cantera">
-TELEFONO : 375 5667883<br> </br>
-MAIL : srl.gruppofive@gmail.com<br> </br>
-COPERTO : NO<br> </br>
-TIPO CAMPO : CALCIO A 5</string>
-    <string name="descrizione_derby">TELEFONO : 039 733229<br> </br>
+TELEFONO : 375 5667883<br>
+MAIL : srl.gruppofive@gmail.com<br></br>
+COPERTO : NO<br></br>
+    TIPO CAMPO : CALCIO A 5</br> </string>
+    <string name="descrizione_derby">
+        TELEFONO : 039 733229<br> </br>
 MAIL : info@derbymonza.it<br> </br>
 COPERTO : SI<br> </br>
 TIPO CAMPO : CALCIO A 5</string>
