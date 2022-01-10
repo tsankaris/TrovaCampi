@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textAlignment="textStart"
     tools:context=".Calcio_activity">
 
     <ScrollView
@@ -623,12 +624,16 @@
 
                     <TextView
                         android:id="@+id/textView4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
+                        android:layout_width="236dp"
+                        android:layout_height="85dp"
+                        android:lines="5"
+                        android:singleLine="false"
                         android:text="@string/descrizione_sportpark"
+                        android:textAlignment="gravity"
                         android:textColor="#000000"
                         android:textSize="14sp"
+                        app:layout_constraintEnd_toStartOf="@+id/imageView"
+                        app:layout_constraintHorizontal_bias="0.0"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/Sportpark" />
 
