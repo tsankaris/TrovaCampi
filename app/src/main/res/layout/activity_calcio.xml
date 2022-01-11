@@ -479,6 +479,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:barrierDirection="top" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="150dp"
+                        android:layout_height="58dp"
+                        android:text="Via Principale 38, Correzzana"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView6" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -536,6 +544,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:barrierDirection="top" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="173dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="23dp"
+                        android:clickable="true"
+                        android:text="Viale Lombardia, 17"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView5" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -625,7 +643,7 @@
                         android:id="@+id/imageView"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:layout_marginTop="2dp"
+                        android:layout_marginTop="32dp"
                         android:layout_marginEnd="1dp"
                         android:contentDescription="@string/sportpark_img"
                         app:layout_constraintEnd_toEndOf="parent"
