@@ -7,20 +7,35 @@ import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toolbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 
 public class Calcio_activity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calcio);
+
+        FloatingActionButton fab = (FloatingActionButton)findViewById(R.id.floatingActionButton);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+                toolbar.setVisibility(View.VISIBLE);// show the searchbox and bla bla...
+            }
+        });
+
         TextView textView = (TextView) findViewById(R.id.textView3);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
         textView.setText(Html.fromHtml("<a href=\"https://www.google.it/maps/place/Centro+Sportivo+Sportpark/@45.6183641,9.2783404,14z/data=!4m5!3m4!1s0x4786bbcf7934a365:0x9bb080f0b3a79618!8m2!3d45.6153534!4d9.265605\">VIA VITTORIO ALFIERI 32, VEDANO\n</a>"));
+
+
 
         TextView textView1 = (TextView) findViewById(R.id.textView9);
         textView1.setMovementMethod(LinkMovementMethod.getInstance());

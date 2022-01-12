@@ -8,6 +8,7 @@
     tools:context=".Calcio_activity">
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -77,6 +78,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:barrierDirection="top" />
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -676,6 +678,8 @@
                         android:textColor="#020000"
                         android:textSize="24sp"
                         android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
@@ -688,13 +692,14 @@
                         android:textColor="#090909"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/Sportpark1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="300dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -703,34 +708,31 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="300dp"
                     tools:layout_editor_absoluteY="1dp">
 
                     <ImageView
                         android:id="@+id/imageView"
-                        android:layout_width="150dp"
+                        android:layout_width="170dp"
                         android:layout_height="150dp"
-                        android:layout_marginTop="32dp"
-                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="59dp"
                         android:contentDescription="@string/sportpark_img"
+                        app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="@id/Sportpark"
                         app:srcCompat="@drawable/schermata_2021_12_30_alle_17_22_46" />
 
                     <TextView
                         android:id="@+id/textView4"
-                        android:layout_width="236dp"
-                        android:layout_height="85dp"
+                        android:layout_width="219dp"
+                        android:layout_height="70dp"
                         android:lines="5"
                         android:singleLine="false"
                         android:text="@string/descrizione_sportpark"
                         android:textAlignment="gravity"
                         android:textColor="#000000"
                         android:textSize="14sp"
-                        app:layout_constraintEnd_toStartOf="@+id/imageView"
-                        app:layout_constraintHorizontal_bias="0.0"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/Sportpark" />
+                        app:layout_constraintTop_toBottomOf="@+id/ratingBar1" />
 
                     <TextView
                         android:id="@+id/Sportpark"
@@ -741,6 +743,8 @@
                         android:textColor="#020000"
                         android:textSize="24sp"
                         android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
@@ -754,11 +758,21 @@
                         android:id="@+id/textView3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="31dp"
                         android:text="VIA VITTORIO ALFIERI 32, VEDANO "
                         android:textColor="#090909"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent" />
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBar1"
+                        style="@style/Widget.AppCompat.RatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:numStars="5"
+                        app:layout_constraintTop_toBottomOf="@+id/Sportpark"
+                        tools:ignore="SpeakableTextPresentCheck"
+                        tools:layout_editor_absoluteX="91dp" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -766,5 +780,31 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/purple_500"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/black" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_search_black_24dp"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
