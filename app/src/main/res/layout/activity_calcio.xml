@@ -110,8 +110,8 @@
 
                     <TextView
                         android:id="@+id/textViewOpensport3"
-                        android:layout_width="237dp"
-                        android:layout_height="89dp"
+                        android:layout_width="238dp"
+                        android:layout_height="65dp"
                         android:text="@string/descrizione_opensport"
                         android:textColor="#000000"
                         app:layout_constraintStart_toStartOf="parent"
@@ -134,6 +134,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:barrierDirection="top" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="239dp"
+                        android:layout_height="19dp"
+                        android:clickable="true"
+                        android:text="VIA LAMBRO, SOVICO"
+                        android:textColor="#0C0C0C"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewOpensport3" />
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -167,8 +178,8 @@
 
                     <TextView
                         android:id="@+id/textView7"
-                        android:layout_width="237dp"
-                        android:layout_height="89dp"
+                        android:layout_width="243dp"
+                        android:layout_height="66dp"
                         android:text="@string/descrizione_LaDominante"
                         android:textColor="#000000"
                         app:layout_constraintStart_toStartOf="parent"
@@ -191,6 +202,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:barrierDirection="top" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="240dp"
+                        android:layout_height="21dp"
+                        android:clickable="true"
+                        android:text="VIA A. RAMAZZOTTI 19, MONZA"
+                        android:textColor="#0B0A0A"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -225,8 +246,8 @@
 
                     <TextView
                         android:id="@+id/TextViewLeonArena2"
-                        android:layout_width="237dp"
-                        android:layout_height="89dp"
+                        android:layout_width="236dp"
+                        android:layout_height="68dp"
                         android:text="@string/descrizione_leonArena"
                         android:textColor="#000000"
                         app:layout_constraintStart_toStartOf="parent"
@@ -249,6 +270,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:barrierDirection="top" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="VIA DEGLI ATLETI, VIMERCATE"
+                        android:textColor="#0B0A0A"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/TextViewLeonArena2" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -283,8 +314,8 @@
 
                     <TextView
                         android:id="@+id/textView8"
-                        android:layout_width="237dp"
-                        android:layout_height="89dp"
+                        android:layout_width="235dp"
+                        android:layout_height="71dp"
                         android:text="@string/descrizione_InSport"
                         android:textColor="#000000"
                         app:layout_constraintStart_toStartOf="parent"
@@ -307,6 +338,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:barrierDirection="top" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="VIA S. MARTINO 7, ARCORE"
+                        android:textColor="#0E0E0E"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -364,6 +406,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:barrierDirection="top" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="198dp"
+                        android:layout_height="24dp"
+                        android:clickable="true"
+                        android:text="VIA CILEA 2, LISSONE"
+                        android:textColor="#0E0E0E"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewLaDominante" />
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -421,6 +474,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:barrierDirection="top" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="238dp"
+                        android:layout_height="0dp"
+                        android:clickable="true"
+                        android:text="VIA PETRARCA 2, LESMO"
+                        android:textColor="#0B0A0A"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewLissone" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -482,11 +545,14 @@
 
                     <TextView
                         android:id="@+id/textView11"
-                        android:layout_width="150dp"
-                        android:layout_height="58dp"
-                        android:text="Via Principale 38, Correzzana"
+                        android:layout_width="245dp"
+                        android:layout_height="59dp"
+                        android:clickable="true"
+                        android:text="VIA PRINCIPALE 38, CORREZZANA"
+                        android:textColor="#0B0A0A"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -547,13 +613,14 @@
 
                     <TextView
                         android:id="@+id/textView10"
-                        android:layout_width="173dp"
+                        android:layout_width="237dp"
                         android:layout_height="50dp"
-                        android:layout_marginTop="23dp"
                         android:clickable="true"
-                        android:text="Viale Lombardia, 17"
+                        android:text="VIALE LOMBARDIA 17, MONZA"
+                        android:textColor="#0B0B0B"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
