@@ -59,6 +59,18 @@ import com.google.android.gms.tasks.Task;
                  if (sport.equals("calcio")) {
                      startActivity(new Intent(getApplicationContext(), Calcio_activity.class));
                  }
+                 if (sport.equals("tennis")) {
+                     startActivity(new Intent(getApplicationContext(), Tennis.class));
+                 }
+                 if (sport.equals("pallavolo")) {
+                     startActivity(new Intent(getApplicationContext(), Pallavolo.class));
+                 }
+                 if (sport.equals("padel")) {
+                     startActivity(new Intent(getApplicationContext(), Padel.class));
+                 }
+                 if (sport.equals("basket")) {
+                     startActivity(new Intent(getApplicationContext(), Basket.class));
+                 }
              }
          });
 

@@ -577,7 +577,7 @@
                         android:text="VIA PETRARCA 2, LESMO"
                         android:textColor="#0B0A0A"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/textViewLissone" />
+                        tools:layout_editor_absoluteY="88dp" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 

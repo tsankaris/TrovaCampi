@@ -18,6 +18,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrovaCampi">
         <activity
+            android:name=".Pallavolo"
+            android:exported="false" />
+        <activity
+            android:name=".Tennis"
+            android:exported="false" />
+        <activity
+            android:name=".Basket"
+            android:exported="false" />
+        <activity
+            android:name=".Padel"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="true" />
         <!--
