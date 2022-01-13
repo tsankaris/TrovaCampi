@@ -7,11 +7,8 @@ import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toolbar;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 
 public class Calcio_activity extends AppCompatActivity {
@@ -22,14 +19,6 @@ public class Calcio_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calcio);
 
-        FloatingActionButton fab = (FloatingActionButton)findViewById(R.id.floatingActionButton);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-                toolbar.setVisibility(View.VISIBLE);// show the searchbox and bla bla...
-            }
-        });
 
         TextView textView = (TextView) findViewById(R.id.textView3);
         textView.setMovementMethod(LinkMovementMethod.getInstance());

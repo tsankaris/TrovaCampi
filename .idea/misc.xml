@@ -3,13 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/lucag/TrovaCampi/app/src/main/res/layout/activity_autenticazione.xml" value="0.1" />
-        <entry key="..\:/Users/lucag/TrovaCampi/app/src/main/res/layout/activity_calcio.xml" value="0.22" />
-        <entry key="..\:/Users/lucag/TrovaCampi/app/src/main/res/layout/activity_dopo_login.xml" value="0.1" />
-        <entry key="..\:/Users/lucag/TrovaCampi/app/src/main/res/layout/activity_emailPassword.xml" value="0.1" />
-        <entry key="..\:/Users/lucag/TrovaCampi/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
-        <entry key="..\:/Users/lucag/TrovaCampi/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/matte/AndroidStudioProjects/TrovaCampi2/app/src/main/res/layout/activity_calcio.xml" value="0.264" />
+        <entry key="..\:/Users/lucag/TrovaCampi1/app/src/main/res/drawable/my_great_logo.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/lucag/TrovaCampi1/app/src/main/res/layout/activity_calcio.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/lucag/TrovaCampi1/app/src/main/res/layout/activity_emailPassword.xml" value="0.1796875" />
+        <entry key="..\:/Users/lucag/TrovaCampi1/app/src/main/res/layout/activity_firebase_ui.xml" value="0.11145833333333334" />
+        <entry key="..\:/Users/lucag/TrovaCampi1/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/lucag/TrovaCampi1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/lucag/TrovaCampi1/app/src/main/res/layout/activity_registrati.xml" value="0.1796875" />
+        <entry key="..\:/Users/lucag/TrovaCampi1/app/src/main/res/layout/activity_scrolling.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/lucag/TrovaCampi1/app/src/main/res/layout/activity_seconda.xml" value="0.1" />
+        <entry key="..\:/Users/lucag/TrovaCampi1/app/src/main/res/layout/content_scrolling.xml" value="0.1539855072463768" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.17291666666666666" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.17291666666666666" />
         <entry key="app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.16875" />
@@ -18,22 +21,15 @@
         <entry key="app/src/main/res/layout/activity_brova.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_calcio.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_dopo_login.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/activity_emailPassword.xml" value="0.2223731884057971" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/activity_prova.xml" value="0.19739583333333333" />
-        <entry key="app/src/main/res/layout/activity_registrati2.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_scelta_sport.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_seconda.xml" value="0.33" />
         <entry key="app/src/main/res/layout/content_login.xml" value="0.33" />
         <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_first2.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/fragment_maps.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.33" />
-        <entry key="app/src/main/res/menu/menu_calcio.xml" value="0.33" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.17291666666666666" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.17291666666666666" />
       </map>
