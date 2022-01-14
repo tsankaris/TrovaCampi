@@ -34,10 +34,11 @@
                     android:layout_height="150dp"
                     tools:layout_editor_absoluteY="1dp">
 
+
                     <TextView
                         android:id="@+id/textView2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="203dp"
+                        android:layout_height="53dp"
                         android:text="@string/non_hai_trovato_il_campo"
                         android:textColor="#000000"
                         app:layout_constraintStart_toStartOf="parent"
@@ -100,6 +101,17 @@
                     android:layout_height="300dp"
                     tools:layout_editor_absoluteY="1dp">
 
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="SUBMIT"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ratingBar8"
+                        app:layout_constraintTop_toBottomOf="@id/TextViewOpensport2" />
+
                     <RatingBar
                         android:id="@+id/ratingBar8"
                         style="@style/Widget.AppCompat.RatingBar"
@@ -108,7 +120,7 @@
                         android:clickable="true"
                         android:numStars="5"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintHorizontal_bias="0.2"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/TextViewOpensport2"
                         tools:ignore="SpeakableTextPresentCheck" />
@@ -191,10 +203,21 @@
                         android:clickable="true"
                         android:numStars="5"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintHorizontal_bias="0.2"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/playsport"
                         tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="SUBMIT"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ratingBar9"
+                        app:layout_constraintTop_toBottomOf="@id/playsport" />
 
                     <ImageView
                         android:id="@+id/imageView7"
@@ -238,7 +261,7 @@
                     <TextView
                         android:id="@+id/textView17"
                         android:layout_width="240dp"
-                        android:layout_height="21dp"
+                        android:layout_height="48dp"
                         android:clickable="true"
                         android:text="VIA A. RAMAZZOTTI 19, MONZA"
                         android:textColor="#0B0A0A"
@@ -257,7 +280,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginEnd="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintHorizontal_bias="0.2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/InSport">
 
@@ -274,10 +297,21 @@
                         android:clickable="true"
                         android:numStars="5"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintHorizontal_bias="0.2"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/TextViewLeonArena"
                         tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/buttonLeonArena"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="SUBMIT"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ratingBar7"
+                        app:layout_constraintTop_toBottomOf="@id/TextViewLeonArena" />
 
                     <ImageView
                         android:id="@+id/imageViewLeonArena"
@@ -321,7 +355,7 @@
                     <TextView
                         android:id="@+id/textView15"
                         android:layout_width="230dp"
-                        android:layout_height="25dp"
+                        android:layout_height="48dp"
                         android:clickable="true"
                         android:text="VIA DEGLI ATLETI, VIMERCATE"
                         android:textColor="#0B0A0A"
@@ -357,10 +391,21 @@
                         android:clickable="true"
                         android:numStars="5"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintHorizontal_bias="0.2"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/TextViewInSport"
                         tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/buttonInSport"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="SUBMIT"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ratingBar6"
+                        app:layout_constraintTop_toBottomOf="@id/TextViewInSport" />
 
                     <ImageView
                         android:id="@+id/imageViewInSport"
@@ -406,6 +451,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:clickable="true"
+                        android:minHeight="48dp"
                         android:text="VIA S. MARTINO 7, ARCORE"
                         android:textColor="#0E0E0E"
                         app:layout_constraintStart_toStartOf="parent"
@@ -440,10 +486,21 @@
                         android:clickable="true"
                         android:numStars="5"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintHorizontal_bias="0.2"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/laDominante"
                         tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/buttonPL"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="SUBMIT"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ratingBar5"
+                        app:layout_constraintTop_toBottomOf="@id/laDominante" />
 
                     <ImageView
                         android:id="@+id/imageViewLaDominante"
@@ -488,7 +545,7 @@
                     <TextView
                         android:id="@+id/textView13"
                         android:layout_width="198dp"
-                        android:layout_height="24dp"
+                        android:layout_height="48dp"
                         android:clickable="true"
                         android:text="VIA CILEA 2, LISSONE"
                         android:textColor="#0E0E0E"
@@ -524,10 +581,21 @@
                         android:clickable="true"
                         android:numStars="5"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintHorizontal_bias="0.2"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/piscineLissone"
                         tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/buttonPlaysport1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="SUBMIT"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ratingBar4"
+                        app:layout_constraintTop_toBottomOf="@id/piscineLissone" />
 
                     <ImageView
                         android:id="@+id/imageViewLissone"
@@ -572,12 +640,13 @@
                     <TextView
                         android:id="@+id/textView12"
                         android:layout_width="238dp"
-                        android:layout_height="0dp"
+                        android:layout_height="51dp"
+                        android:layout_marginTop="3dp"
                         android:clickable="true"
                         android:text="VIA PETRARCA 2, LESMO"
                         android:textColor="#0B0A0A"
                         app:layout_constraintStart_toStartOf="parent"
-                        tools:layout_editor_absoluteY="88dp" />
+                        app:layout_constraintTop_toBottomOf="@id/textViewLissone" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -608,10 +677,21 @@
                         android:clickable="true"
                         android:numStars="5"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintHorizontal_bias="0.2"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/Tijuana2"
                         tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/buttonT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="SUBMIT"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ratingBar3"
+                        app:layout_constraintTop_toBottomOf="@id/Tijuana2" />
 
                     <ImageView
                         android:id="@+id/imageView4"
@@ -692,10 +772,21 @@
                         android:clickable="true"
                         android:numStars="5"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintHorizontal_bias="0.2"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/Tijuana"
                         tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/buttonCantera"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="SUBMIT"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ratingBar2"
+                        app:layout_constraintTop_toBottomOf="@id/Tijuana" />
 
                     <ImageView
                         android:id="@+id/imageView5"
@@ -755,6 +846,7 @@
                 android:id="@+id/Cantera"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="6dp"
                 android:layout_marginEnd="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -765,7 +857,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="300dp"
                     android:layout_marginStart="10dp"
-                    android:layout_marginTop="10dp">
+                    android:layout_marginTop="0dp">
 
                     <RatingBar
                         android:id="@+id/ratingBar"
@@ -775,10 +867,21 @@
                         android:clickable="true"
                         android:numStars="5"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintHorizontal_bias="0.2"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/Sportpark2"
                         tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/button12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="SUBMIT"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ratingBar"
+                        app:layout_constraintTop_toBottomOf="@id/Sportpark2" />
 
                     <androidx.constraintlayout.widget.Barrier
                         android:id="@+id/barrier3"
@@ -915,10 +1018,21 @@
                         android:clickable="true"
                         android:numStars="5"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintHorizontal_bias="0.2"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/Sportpark"
                         tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/buttonSP1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="SUBMIT"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ratingBar1"
+                        app:layout_constraintTop_toBottomOf="@id/Sportpark" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 

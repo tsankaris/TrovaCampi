@@ -77,20 +77,7 @@ import com.google.android.gms.tasks.Task;
 
 
 
-         LocationButton = findViewById(R.id.locationButton);
 
-         locationRequest = LocationRequest.create();
-         locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-         locationRequest.setInterval(5000);
-         locationRequest.setFastestInterval(2000);
-
-         LocationButton.setOnClickListener(new View.OnClickListener() {
-             @Override
-             public void onClick(View v) {
-
-                 getCurrentLocation();
-             }
-         });
 
 
      }
