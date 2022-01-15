@@ -13,27 +13,43 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class Calcio_activity extends AppCompatActivity {
 
-
+    List<Double> Rating = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calcio);
 
 
+
+
         RatingBar ratingbar1=(RatingBar)findViewById(R.id.ratingBar1);
         Button buttonSubmit=(Button)findViewById(R.id.buttonSP1);
+        TextView ValoreMedia = (TextView)findViewById(R.id.textView22);
+        ValoreMedia.setText(this.mediaRating());
         //Performing action on Button Click
         buttonSubmit.setOnClickListener(new View.OnClickListener(){
+
+
 
             @Override
             public void onClick(View arg0) {
                 //Getting the rating and displaying it on the toast
                 String rating=String.valueOf(ratingbar1.getRating());
                 Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                Double numStelle = Double.valueOf(ratingbar1.getRating());
+                Rating.add(numStelle);
+
+
             }});
+
+
 
 
             TextView textView = (TextView) findViewById(R.id.textView3);
@@ -78,7 +94,24 @@ public class Calcio_activity extends AppCompatActivity {
         textView9.setMovementMethod(LinkMovementMethod.getInstance());
         textView9.setText(Html.fromHtml("<a href=\"https://www.bing.com/local?lid=YN1354x5271279973866090072&id=YN1354x5271279973866090072&q=Societ%c3%a0+Sportiva+La+Dominante&name=Societ%c3%a0+Sportiva+La+Dominante&cp=45.60129928588867%7e9.263500213623047&ppois=45.60129928588867_9.263500213623047_Societ%c3%a0+Sportiva+La+Dominante\"> VIA A. RAMAZZOTTI 19, MONZA</a>"));
     }
+    public String mediaRating(){
+        Double[] mediaValori = Rating.toArray(new Double[0]);
+        Double media = 0.0;
+        Double a = 0.0;
+        String stringaMedia="";
+        if(mediaValori.length>0){
+        for (int i = 0; i <= mediaValori.length; i++) {
+                a= a + mediaValori[i] ;
+        }
 
+            media = a / mediaValori.length;
+            stringaMedia = String.valueOf(media);
+        }else{
+            stringaMedia="0";
+        }
+
+return stringaMedia;
+    }
 
 
     public void goToSo (View view) {
