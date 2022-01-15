@@ -6,8 +6,8 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="login">LOGIN</string>
     <string name="contattaci">CONTATTACI</string>
-    <string name="registrati">NON SEI REGISTRATO?</string>
-    <string name="non_hai_trovato_il_campo">"Non hai trovato il tuo campo?"\n"Clicca il bottone per contattarci!"</string>
+    <string name="registrati">REGISTRATI</string>
+    <string name="non_hai_trovato_il_campo">"Non hai trovato il tuo campo?"\n"Clicca il bottone per contattarci"</string>
     <string name="register">REGISTER</string>
     <string-array name="Sport">
         <item> @string/CALCIO</item>
@@ -172,4 +172,5 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
+    <string name="accedi_come_ospite">Accedi come ospite</string>
 </resources>
