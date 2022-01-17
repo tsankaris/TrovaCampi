@@ -13,12 +13,17 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import java.util.ArrayList;
 import java.util.List;
 
 
 public class Calcio_activity extends AppCompatActivity {
 
+
+    private static final String TAG = "Calcio_activity";
     List<Double> Rating = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,13 +31,12 @@ public class Calcio_activity extends AppCompatActivity {
         setContentView(R.layout.activity_calcio);
 
 
-
-
+        
         RatingBar ratingbar1=(RatingBar)findViewById(R.id.ratingBar1);
         Button buttonSubmit=(Button)findViewById(R.id.buttonSP1);
-        TextView ValoreMedia = (TextView)findViewById(R.id.textView22);
-        ValoreMedia.setText(this.mediaRating());
-        //Performing action on Button Click
+
+
+
         buttonSubmit.setOnClickListener(new View.OnClickListener(){
 
 
@@ -45,14 +49,236 @@ public class Calcio_activity extends AppCompatActivity {
 
                 Double numStelle = Double.valueOf(ratingbar1.getRating());
                 Rating.add(numStelle);
+                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                mediDatabase.push().setValue(numStelle);
+
+            }
+
+        });
 
 
-            }});
+        RatingBar ratingbar2=(RatingBar)findViewById(R.id.ratingBar);
+        Button buttonSubmit2=(Button)findViewById(R.id.button12);
+
+
+
+        buttonSubmit2.setOnClickListener(new View.OnClickListener(){
+
+
+
+            @Override
+            public void onClick(View arg0) {
+                //Getting the rating and displaying it on the toast
+                String rating=String.valueOf(ratingbar2.getRating());
+                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                Double numStelle = Double.valueOf(ratingbar2.getRating());
+                Rating.add(numStelle);
+                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("cantera");
+                mediDatabase.push().setValue(numStelle);
+
+            }
+
+        });
+
+        RatingBar ratingbar3=(RatingBar)findViewById(R.id.ratingBar2);
+        Button buttonSubmit3=(Button)findViewById(R.id.buttonCantera);
+
+
+
+        buttonSubmit3.setOnClickListener(new View.OnClickListener(){
+
+
+
+            @Override
+            public void onClick(View arg0) {
+                //Getting the rating and displaying it on the toast
+                String rating=String.valueOf(ratingbar3.getRating());
+                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                Double numStelle = Double.valueOf(ratingbar3.getRating());
+                Rating.add(numStelle);
+                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("derby");
+                mediDatabase.push().setValue(numStelle);
+
+            }
+
+        });
+
+       RatingBar ratingbar4=(RatingBar)findViewById(R.id.ratingBar3);
+        Button buttonSubmit4=(Button)findViewById(R.id.buttonT);
+
+
+
+        buttonSubmit4.setOnClickListener(new View.OnClickListener(){
+
+
+
+            @Override
+            public void onClick(View arg0) {
+                //Getting the rating and displaying it on the toast
+                String rating=String.valueOf(ratingbar4.getRating());
+                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                Double numStelle = Double.valueOf(ratingbar4.getRating());
+                Rating.add(numStelle);
+                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("tijuana");
+                mediDatabase.push().setValue(numStelle);
+
+            }
+
+        });
+
+        RatingBar ratingbar5=(RatingBar)findViewById(R.id.ratingBar4);
+        Button buttonSubmit5=(Button)findViewById(R.id.buttonPlaysport1);
+
+
+
+        buttonSubmit5.setOnClickListener(new View.OnClickListener(){
+
+
+
+            @Override
+            public void onClick(View arg0) {
+                //Getting the rating and displaying it on the toast
+                String rating=String.valueOf(ratingbar5.getRating());
+                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                Double numStelle = Double.valueOf(ratingbar5.getRating());
+                Rating.add(numStelle);
+                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("playsport");
+                mediDatabase.push().setValue(numStelle);
+
+            }
+
+        });
+
+        RatingBar ratingbar6=(RatingBar)findViewById(R.id.ratingBar5);
+        Button buttonSubmit6=(Button)findViewById(R.id.buttonPL);
+
+
+
+        buttonSubmit6.setOnClickListener(new View.OnClickListener(){
+
+
+
+            @Override
+            public void onClick(View arg0) {
+                //Getting the rating and displaying it on the toast
+                String rating=String.valueOf(ratingbar6.getRating());
+                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                Double numStelle = Double.valueOf(ratingbar6.getRating());
+                Rating.add(numStelle);
+                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("piscine lissone");
+                mediDatabase.push().setValue(numStelle);
+
+            }
+
+        });
+
+        RatingBar ratingbar7=(RatingBar)findViewById(R.id.ratingBar6);
+        Button buttonSubmit7=(Button)findViewById(R.id.buttonInSport);
+
+
+
+        buttonSubmit7.setOnClickListener(new View.OnClickListener(){
+
+
+
+            @Override
+            public void onClick(View arg0) {
+                //Getting the rating and displaying it on the toast
+                String rating=String.valueOf(ratingbar7.getRating());
+                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                Double numStelle = Double.valueOf(ratingbar7.getRating());
+                Rating.add(numStelle);
+                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("In Sport");
+                mediDatabase.push().setValue(numStelle);
+
+            }
+
+        });
+
+        RatingBar ratingbar8=(RatingBar)findViewById(R.id.ratingBar7);
+        Button buttonSubmit8=(Button)findViewById(R.id.buttonLeonArena);
+
+
+
+        buttonSubmit8.setOnClickListener(new View.OnClickListener(){
+
+
+
+            @Override
+            public void onClick(View arg0) {
+                //Getting the rating and displaying it on the toast
+                String rating=String.valueOf(ratingbar8.getRating());
+                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                Double numStelle = Double.valueOf(ratingbar8.getRating());
+                Rating.add(numStelle);
+                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("leon arena");
+                mediDatabase.push().setValue(numStelle);
+
+            }
+
+        });
+
+        RatingBar ratingbar9=(RatingBar)findViewById(R.id.ratingBar9);
+        Button buttonSubmit9=(Button)findViewById(R.id.button7);
+
+
+
+        buttonSubmit9.setOnClickListener(new View.OnClickListener(){
+
+
+
+            @Override
+            public void onClick(View arg0) {
+                //Getting the rating and displaying it on the toast
+                String rating=String.valueOf(ratingbar9.getRating());
+                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                Double numStelle = Double.valueOf(ratingbar9.getRating());
+                Rating.add(numStelle);
+                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("la dominante");
+                mediDatabase.push().setValue(numStelle);
+
+            }
+
+        });
+
+        RatingBar ratingbar10=(RatingBar)findViewById(R.id.ratingBar8);
+        Button buttonSubmit10=(Button)findViewById(R.id.button6);
+
+
+
+        buttonSubmit10.setOnClickListener(new View.OnClickListener(){
+
+
+
+            @Override
+            public void onClick(View arg0) {
+                //Getting the rating and displaying it on the toast
+                String rating=String.valueOf(ratingbar10.getRating());
+                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                Double numStelle = Double.valueOf(ratingbar10.getRating());
+                Rating.add(numStelle);
+                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("opensport");
+                mediDatabase.push().setValue(numStelle);
+
+            }
+
+        });
 
 
 
 
-            TextView textView = (TextView) findViewById(R.id.textView3);
+
+
+        TextView textView = (TextView) findViewById(R.id.textView3);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
         textView.setText(Html.fromHtml("<a href=\"https://www.google.it/maps/place/Centro+Sportivo+Sportpark/@45.6183641,9.2783404,14z/data=!4m5!3m4!1s0x4786bbcf7934a365:0x9bb080f0b3a79618!8m2!3d45.6153534!4d9.265605\">VIA VITTORIO ALFIERI 32, VEDANO\n</a>"));
 
