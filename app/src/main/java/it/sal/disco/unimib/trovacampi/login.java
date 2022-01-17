@@ -51,7 +51,9 @@ public class login extends AppCompatActivity {
 
                 if (TextUtils.isEmpty(email)) {
                     memail.setError("email is required");
-                    return;
+                }
+                else if(!android.util.Patterns.EMAIL_ADDRESS.matcher(memail.getText().toString()).matches()){
+                    memail.setError("please enter a valid email");
                 }
                 if (TextUtils.isEmpty(password)) {
                     mpassword.setError("password is required");
@@ -60,7 +62,7 @@ public class login extends AppCompatActivity {
 
 
                 if (password.length()<6) {
-                    mpassword.setError("la password deve contenere almeno 6 caratteri");
+                    mpassword.setError("please enter password minimum in 6 char");
                     return;
                 }
                 mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {

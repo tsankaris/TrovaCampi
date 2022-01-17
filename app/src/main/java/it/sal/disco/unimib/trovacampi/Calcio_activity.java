@@ -93,7 +93,20 @@ public class Calcio_activity extends AppCompatActivity {
         TextView textView9 = (TextView) findViewById(R.id.textView17);
         textView9.setMovementMethod(LinkMovementMethod.getInstance());
         textView9.setText(Html.fromHtml("<a href=\"https://www.bing.com/local?lid=YN1354x5271279973866090072&id=YN1354x5271279973866090072&q=Societ%c3%a0+Sportiva+La+Dominante&name=Societ%c3%a0+Sportiva+La+Dominante&cp=45.60129928588867%7e9.263500213623047&ppois=45.60129928588867_9.263500213623047_Societ%c3%a0+Sportiva+La+Dominante\"> VIA A. RAMAZZOTTI 19, MONZA</a>"));
+
+        Button callB = (Button) findViewById(R.id.callButton);
+        callB.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intentB= new Intent(Intent.ACTION_DIAL);
+                intentB.setData(Uri.parse("tel:0123456789"));
+                startActivity(intentB);
+            }
+        });
+
     }
+
+
     public String mediaRating(){
         Double[] mediaValori = Rating.toArray(new Double[0]);
         Double media = 0.0;

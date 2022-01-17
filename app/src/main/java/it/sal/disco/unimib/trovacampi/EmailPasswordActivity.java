@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -37,6 +38,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class EmailPasswordActivity extends Activity {
 
+
     private static final String TAG = "EmailPassword";
     // [START declare_auth]
     private FirebaseAuth mAuth;
@@ -53,9 +55,9 @@ public class EmailPasswordActivity extends Activity {
         mAuth = FirebaseAuth.getInstance();
         setContentView(R.layout.activity_emailpassword);
         // [END initialize_auth]
-        memail = findViewById(R.id.editTextTextEmailAddress);
-        mpassword = findViewById(R.id.editTextTextPassword);
-        mripetipassword = findViewById(R.id.editTextTextPasswordRipetuta);
+        memail = findViewById(R.id.editTextTextEmailAddress); //indirizzo email
+        mpassword = findViewById(R.id.editTextTextPassword); //password
+        mripetipassword = findViewById(R.id.editTextTextPasswordRipetuta); //ripeti password
         button = findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,24 +67,26 @@ public class EmailPasswordActivity extends Activity {
                 String ripetipassword = mripetipassword.getText().toString().trim();
                 if (TextUtils.isEmpty(email)) {
                     memail.setError("email is required");
-                    return;
+                }
+                else if(!android.util.Patterns.EMAIL_ADDRESS.matcher(memail.getText().toString()).matches()){
+                    memail.setError("please enter a valid email");
                 }
                 if (TextUtils.isEmpty(password)) {
                     mpassword.setError("password is required");
-                    return;
                 }
+
                 if (TextUtils.isEmpty(ripetipassword)) {
                     mripetipassword.setError("password is required");
                     return;
                 }
 
                 if (!(password.equals(ripetipassword))){
-                    mripetipassword.setError("non l hai scritta uguale");
+                    mripetipassword.setError("passwords are not matched");
                     return;
                 }
 
                 if (password.length()<6) {
-                    mpassword.setError("la password deve contenere almeno 6 caratteri");
+                    mpassword.setError("please enter password minimum in 6 char");
                     return;
                 }
 
@@ -110,6 +114,7 @@ public class EmailPasswordActivity extends Activity {
             }
         });
     }
+
 
     // [START on_start_check_user]
     @Override
