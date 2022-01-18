@@ -23,7 +23,7 @@ import java.util.List;
 public class Calcio_activity extends AppCompatActivity {
 
 
-    private static final String TAG = "Calcio_activity";
+
     List<Double> Rating = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
