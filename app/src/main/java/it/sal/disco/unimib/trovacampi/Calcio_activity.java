@@ -322,14 +322,101 @@ public class Calcio_activity extends AppCompatActivity {
 
         Button callB = (Button) findViewById(R.id.callButton);
         callB.setOnClickListener(new View.OnClickListener(){
-            @Override
+            @Override //CANTERA
             public void onClick(View v){
                 Intent intentB= new Intent(Intent.ACTION_DIAL);
-                intentB.setData(Uri.parse("tel:0123456789"));
+                intentB.setData(Uri.parse("tel:3755667883"));
                 startActivity(intentB);
             }
         });
 
+        Button callA = (Button) findViewById(R.id.callButtonA);
+        callB.setOnClickListener(new View.OnClickListener(){
+            @Override //SPORTPARK
+            public void onClick(View v){
+                Intent intentA= new Intent(Intent.ACTION_DIAL);
+                intentA.setData(Uri.parse("tel:0392494846"));
+                startActivity(intentA);
+            }
+        });
+
+        Button callOp = (Button) findViewById(R.id.callButtonC);
+        callB.setOnClickListener(new View.OnClickListener(){
+            @Override //opensport
+            public void onClick(View v){
+                Intent intentC= new Intent(Intent.ACTION_DIAL);
+                intentC.setData(Uri.parse("tel:3897874334"));
+                startActivity(intentC);
+            }
+        });
+        Button callTi = (Button) findViewById(R.id.callButtonD);
+        callB.setOnClickListener(new View.OnClickListener(){
+            @Override //tijuana
+            public void onClick(View v){
+                Intent intentD= new Intent(Intent.ACTION_DIAL);
+                intentD.setData(Uri.parse("tel:3386360999"));
+                startActivity(intentD);
+            }
+        });
+
+        Button callDe = (Button) findViewById(R.id.callButtonE);
+        callB.setOnClickListener(new View.OnClickListener(){
+            @Override //derby
+            public void onClick(View v){
+                Intent intentE= new Intent(Intent.ACTION_DIAL);
+                intentE.setData(Uri.parse("tel:039733229"));
+                startActivity(intentE);
+            }
+        });
+        Button callPiL = (Button) findViewById(R.id.callButtonF);
+        callB.setOnClickListener(new View.OnClickListener(){
+            @Override //piscine lissone
+            public void onClick(View v){
+                Intent intentF= new Intent(Intent.ACTION_DIAL);
+                intentF.setData(Uri.parse("tel:0392622048"));
+                startActivity(intentF);
+            }
+        });
+
+        Button callLaD = (Button) findViewById(R.id.callButtonG);
+        callB.setOnClickListener(new View.OnClickListener(){
+            @Override //la dominante
+            public void onClick(View v){
+                Intent intentG= new Intent(Intent.ACTION_DIAL);
+                intentG.setData(Uri.parse("tel:039321221"));
+                startActivity(intentG);
+            }
+        });
+
+        Button callInS = (Button) findViewById(R.id.callButtonH);
+        callB.setOnClickListener(new View.OnClickListener(){
+            @Override //Insport
+            public void onClick(View v){
+                Intent intentH= new Intent(Intent.ACTION_DIAL);
+                intentH.setData(Uri.parse("tel:039617831"));
+                startActivity(intentH);
+            }
+        });
+
+        Button callPlaysport = (Button) findViewById(R.id.callButtonI);
+        callB.setOnClickListener(new View.OnClickListener(){
+            @Override //playsport
+            public void onClick(View v){
+                Intent intentI= new Intent(Intent.ACTION_DIAL);
+                intentI.setData(Uri.parse("tel:0396980021"));
+                startActivity(intentI);
+            }
+        });
+
+        Button callLeon = (Button) findViewById(R.id.callButtonJ);
+        callB.setOnClickListener(new View.OnClickListener(){
+            @Override //Leonareana
+            public void onClick(View v){
+                Intent intentJ= new Intent(Intent.ACTION_DIAL);
+                intentJ.setData(Uri.parse("tel:3488207614"));
+                startActivity(intentJ);
+            }
+        });
     }
 
 

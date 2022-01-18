@@ -173,4 +173,16 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="accedi_come_ospite">Accedi come ospite</string>
+    <string name="viale_lombardia_17_monza">VIALE LOMBARDIA 17, MONZA</string>
+    <string name="via_parco_51_biassono">VIA PARCO 51, BIASSONO</string>
+    <string name="via_vittorio_alfieri_32_vedano">VIA VITTORIO ALFIERI 32, VEDANO</string>
+    <string name="call">CALL</string>
+    <string name="via_principale_38_correzzana">VIA PRINCIPALE 38, CORREZZANA</string>
+    <string name="via_petrarca_2_lesmo">VIA PETRARCA 2, LESMO</string>
+    <string name="via_cilea_2_lissone">VIA CILEA 2, LISSONE</string>
+    <string name="via_s_martino_7_arcore">VIA S. MARTINO 7, ARCORE</string>
+    <string name="submit">SUBMIT</string>
+    <string name="via_degli_atleti_vimercate">VIA DEGLI ATLETI, VIMERCATE</string>
+    <string name="via_a_ramazzotti_19_monza">VIA A. RAMAZZOTTI 19, MONZA</string>
+    <string name="via_lambro_sovico">VIA LAMBRO, SOVICO</string>
 </resources>

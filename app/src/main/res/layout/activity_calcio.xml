@@ -107,7 +107,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="1dp"
                         android:layout_marginEnd="1dp"
-                        android:text="SUBMIT"
+                        android:text="@string/submit"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/ratingBar8"
                         app:layout_constraintTop_toBottomOf="@id/TextViewOpensport2" />
@@ -134,6 +134,23 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:srcCompat="@drawable/schermata_2022_01_03_alle_18_19_27" />
+
+                    <Button
+                        android:id="@+id/callButtonC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#4CAF50"
+                        android:text="@string/call"
+                        app:icon="@drawable/ic_baseline_call_24"
+                        app:iconTint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageViewOpenSport2"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewOpensport3" />
+
 
                     <TextView
                         android:id="@+id/textViewOpensport3"
@@ -169,7 +186,7 @@
                         android:layout_width="239dp"
                         android:layout_height="51dp"
                         android:clickable="true"
-                        android:text="VIA LAMBRO, SOVICO"
+                        android:text="@string/via_lambro_sovico"
                         android:textColor="#0C0C0C"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textViewOpensport3" />
@@ -214,7 +231,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="1dp"
                         android:layout_marginEnd="1dp"
-                        android:text="SUBMIT"
+                        android:text="@string/submit"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/ratingBar9"
                         app:layout_constraintTop_toBottomOf="@id/playsport" />
@@ -228,6 +245,23 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/ratingBar9"
                         app:srcCompat="@drawable/schermata_2022_01_03_alle_17_59_36" />
+
+                    <Button
+                        android:id="@+id/callButtonI"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#4CAF50"
+                        android:text="@string/call"
+                        app:icon="@drawable/ic_baseline_call_24"
+                        app:iconTint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
 
                     <TextView
                         android:id="@+id/textView7"
@@ -263,7 +297,7 @@
                         android:layout_width="240dp"
                         android:layout_height="48dp"
                         android:clickable="true"
-                        android:text="VIA A. RAMAZZOTTI 19, MONZA"
+                        android:text="@string/via_a_ramazzotti_19_monza"
                         android:textColor="#0B0A0A"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView7" />
@@ -308,10 +342,27 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="1dp"
                         android:layout_marginEnd="1dp"
-                        android:text="SUBMIT"
+                        android:text="@string/submit"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/ratingBar7"
                         app:layout_constraintTop_toBottomOf="@id/TextViewLeonArena" />
+
+                    <Button
+                        android:id="@+id/callButtonJ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#4CAF50"
+                        android:text="@string/call"
+                        app:icon="@drawable/ic_baseline_call_24"
+                        app:iconTint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageViewLeonArena"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/TextViewLeonArena" />
+
 
                     <ImageView
                         android:id="@+id/imageViewLeonArena"
@@ -357,7 +408,7 @@
                         android:layout_width="230dp"
                         android:layout_height="48dp"
                         android:clickable="true"
-                        android:text="VIA DEGLI ATLETI, VIMERCATE"
+                        android:text="@string/via_degli_atleti_vimercate"
                         android:textColor="#0B0A0A"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/TextViewLeonArena2" />
@@ -402,10 +453,27 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="1dp"
                         android:layout_marginEnd="1dp"
-                        android:text="SUBMIT"
+                        android:text="@string/submit"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/ratingBar6"
                         app:layout_constraintTop_toBottomOf="@id/TextViewInSport" />
+
+                    <Button
+                        android:id="@+id/callButtonH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#4CAF50"
+                        android:text="@string/call"
+                        app:icon="@drawable/ic_baseline_call_24"
+                        app:iconTint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageViewInSport"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
 
                     <ImageView
                         android:id="@+id/imageViewInSport"
@@ -452,7 +520,7 @@
                         android:layout_height="wrap_content"
                         android:clickable="true"
                         android:minHeight="48dp"
-                        android:text="VIA S. MARTINO 7, ARCORE"
+                        android:text="@string/via_s_martino_7_arcore"
                         android:textColor="#0E0E0E"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView8" />
@@ -497,10 +565,27 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="1dp"
                         android:layout_marginEnd="1dp"
-                        android:text="SUBMIT"
+                        android:text="@string/submit"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/ratingBar5"
                         app:layout_constraintTop_toBottomOf="@id/laDominante" />
+
+                    <Button
+                        android:id="@+id/callButtonG"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#4CAF50"
+                        android:text="@string/call"
+                        app:icon="@drawable/ic_baseline_call_24"
+                        app:iconTint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageViewLaDominante"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewLaDominante" />
+
 
                     <ImageView
                         android:id="@+id/imageViewLaDominante"
@@ -547,7 +632,7 @@
                         android:layout_width="198dp"
                         android:layout_height="48dp"
                         android:clickable="true"
-                        android:text="VIA CILEA 2, LISSONE"
+                        android:text="@string/via_cilea_2_lissone"
                         android:textColor="#0E0E0E"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textViewLaDominante" />
@@ -587,12 +672,29 @@
                         tools:ignore="SpeakableTextPresentCheck" />
 
                     <Button
+                        android:id="@+id/callButtonF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#4CAF50"
+                        android:text="@string/call"
+                        app:icon="@drawable/ic_baseline_call_24"
+                        app:iconTint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageViewLissone"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewLissone" />
+
+
+                    <Button
                         android:id="@+id/buttonPlaysport1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="1dp"
                         android:layout_marginEnd="1dp"
-                        android:text="SUBMIT"
+                        android:text="@string/submit"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/ratingBar4"
                         app:layout_constraintTop_toBottomOf="@id/piscineLissone" />
@@ -643,7 +745,7 @@
                         android:layout_height="51dp"
                         android:layout_marginTop="3dp"
                         android:clickable="true"
-                        android:text="VIA PETRARCA 2, LESMO"
+                        android:text="@string/via_petrarca_2_lesmo"
                         android:textColor="#0B0A0A"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/textViewLissone" />
@@ -688,10 +790,26 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="1dp"
                         android:layout_marginEnd="1dp"
-                        android:text="SUBMIT"
+                        android:text="@string/submit"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/ratingBar3"
                         app:layout_constraintTop_toBottomOf="@id/Tijuana2" />
+
+                    <Button
+                        android:id="@+id/callButtonD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#4CAF50"
+                        android:text="@string/call"
+                        app:icon="@drawable/ic_baseline_call_24"
+                        app:iconTint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
                     <ImageView
                         android:id="@+id/imageView4"
@@ -738,7 +856,7 @@
                         android:layout_width="245dp"
                         android:layout_height="59dp"
                         android:clickable="true"
-                        android:text="VIA PRINCIPALE 38, CORREZZANA"
+                        android:text="@string/via_principale_38_correzzana"
                         android:textColor="#0B0A0A"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -778,12 +896,28 @@
                         tools:ignore="SpeakableTextPresentCheck" />
 
                     <Button
+                        android:id="@+id/callButtonE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#4CAF50"
+                        android:text="@string/call"
+                        app:icon="@drawable/ic_baseline_call_24"
+                        app:iconTint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                    <Button
                         android:id="@+id/buttonCantera"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="1dp"
                         android:layout_marginEnd="1dp"
-                        android:text="SUBMIT"
+                        android:text="@string/submit"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/ratingBar2"
                         app:layout_constraintTop_toBottomOf="@id/Tijuana" />
@@ -833,7 +967,7 @@
                         android:layout_width="237dp"
                         android:layout_height="50dp"
                         android:clickable="true"
-                        android:text="VIALE LOMBARDIA 17, MONZA"
+                        android:text="@string/viale_lombardia_17_monza"
                         android:textColor="#0B0B0B"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView5" />
@@ -878,7 +1012,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="1dp"
                         android:layout_marginEnd="1dp"
-                        android:text="SUBMIT"
+                        android:text="@string/submit"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/ratingBar"
                         app:layout_constraintTop_toBottomOf="@id/Sportpark2" />
@@ -916,10 +1050,10 @@
 
                     <TextView
                         android:id="@+id/textView9"
-                        android:layout_width="231dp"
-                        android:layout_height="53dp"
+                        android:layout_width="225dp"
+                        android:layout_height="48dp"
                         android:clickable="true"
-                        android:text="VIA PARCO 51, BIASSONO "
+                        android:text="@string/via_parco_51_biassono"
                         android:textColor="#090909"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView42" />
@@ -941,7 +1075,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="6dp"
                         android:backgroundTint="#4CAF50"
-                        android:text="CALL"
+                        android:text="@string/call"
                         app:icon="@drawable/ic_baseline_call_24"
                         app:iconTint="@color/white"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -949,7 +1083,8 @@
                         app:layout_constraintEnd_toStartOf="@+id/imageView2"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+                        app:layout_constraintTop_toBottomOf="@+id/textView9"
+                        app:layout_constraintVertical_bias="0.0" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -1020,7 +1155,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="77dp"
-                        android:text="VIA VITTORIO ALFIERI 32, VEDANO "
+                        android:text="@string/via_vittorio_alfieri_32_vedano"
                         android:textColor="#090909"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -1045,19 +1180,26 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="1dp"
                         android:layout_marginEnd="1dp"
-                        android:text="SUBMIT"
+                        android:text="@string/submit"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/ratingBar1"
                         app:layout_constraintTop_toBottomOf="@id/Sportpark" />
 
-                    <TextView
-                        android:id="@+id/textView22"
-                        android:layout_width="116dp"
-                        android:layout_height="45dp"
-                        android:layout_marginStart="71dp"
-                        android:layout_marginBottom="37dp"
+                    <Button
+                        android:id="@+id/callButtonA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#4CAF50"
+                        android:text="@string/call"
+                        app:icon="@drawable/ic_baseline_call_24"
+                        app:iconTint="@color/white"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent" />
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageView"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 

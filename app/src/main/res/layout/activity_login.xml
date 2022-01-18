@@ -6,9 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".login">
 
+
     <EditText
         android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="173dp"
         android:drawableStart="@drawable/ic_baseline_email_24"
@@ -22,22 +23,40 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/colorPrimary"
+        android:hint="@string/password"
         android:id="@+id/editTextTextPassword2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="51dp"
         android:layout_marginTop="75dp"
         android:drawableStart="@drawable/ic_baseline_lock_24"
-        android:ems="10"
 
-        android:hint="@string/password"
-        android:importantForAutofill="no"
-        android:inputType="textPassword"
-        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="250dp"
+            android:layout_height="51dp"
+            android:height="51dp"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+
+            android:ems="15"
+
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+
+            android:minHeight="51dp"
+            android:paddingStart="5dp"
+            android:paddingTop="12dp"
+            android:textColorHint="@color/black"
+            tools:ignore="RtlSymmetry" />
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/button4"
