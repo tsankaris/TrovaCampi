@@ -13,6 +13,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -30,248 +32,233 @@ public class Calcio_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calcio);
 
-
-        
-        RatingBar ratingbar1=(RatingBar)findViewById(R.id.ratingBar1);
-        Button buttonSubmit=(Button)findViewById(R.id.buttonSP1);
-
-
-
-        buttonSubmit.setOnClickListener(new View.OnClickListener(){
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+            if(user != null) {
+         RatingBar ratingbar1 = (RatingBar) findViewById(R.id.ratingBar1);
+         Button buttonSubmit = (Button) findViewById(R.id.buttonSP1);
 
 
+         buttonSubmit.setOnClickListener(new View.OnClickListener() {
 
-            @Override
-            public void onClick(View arg0) {
-                //Getting the rating and displaying it on the toast
-                String rating=String.valueOf(ratingbar1.getRating());
-                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
 
-                Double numStelle = Double.valueOf(ratingbar1.getRating());
-                Rating.add(numStelle);
-                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
-                mediDatabase.push().setValue(numStelle);
+             @Override
+             public void onClick(View arg0) {
+                 //Getting the rating and displaying it on the toast
+                 String rating = String.valueOf(ratingbar1.getRating());
+                 Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
 
+                 Double numStelle = Double.valueOf(ratingbar1.getRating());
+                 Rating.add(numStelle);
+                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                 mediDatabase.push().setValue(numStelle);
+
+             }
+
+         });
+
+
+         RatingBar ratingbar2 = (RatingBar) findViewById(R.id.ratingBar);
+         Button buttonSubmit2 = (Button) findViewById(R.id.button12);
+
+
+         buttonSubmit2.setOnClickListener(new View.OnClickListener() {
+
+
+             @Override
+             public void onClick(View arg0) {
+                 //Getting the rating and displaying it on the toast
+                 String rating = String.valueOf(ratingbar2.getRating());
+                 Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                 Double numStelle = Double.valueOf(ratingbar2.getRating());
+                 Rating.add(numStelle);
+                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("cantera");
+                 mediDatabase.push().setValue(numStelle);
+
+             }
+
+         });
+
+         RatingBar ratingbar3 = (RatingBar) findViewById(R.id.ratingBar2);
+         Button buttonSubmit3 = (Button) findViewById(R.id.buttonCantera);
+
+
+         buttonSubmit3.setOnClickListener(new View.OnClickListener() {
+
+
+             @Override
+             public void onClick(View arg0) {
+                 //Getting the rating and displaying it on the toast
+                 String rating = String.valueOf(ratingbar3.getRating());
+                 Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                 Double numStelle = Double.valueOf(ratingbar3.getRating());
+                 Rating.add(numStelle);
+                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("derby");
+                 mediDatabase.push().setValue(numStelle);
+
+             }
+
+         });
+
+         RatingBar ratingbar4 = (RatingBar) findViewById(R.id.ratingBar3);
+         Button buttonSubmit4 = (Button) findViewById(R.id.buttonT);
+
+
+         buttonSubmit4.setOnClickListener(new View.OnClickListener() {
+
+
+             @Override
+             public void onClick(View arg0) {
+                 //Getting the rating and displaying it on the toast
+                 String rating = String.valueOf(ratingbar4.getRating());
+                 Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                 Double numStelle = Double.valueOf(ratingbar4.getRating());
+                 Rating.add(numStelle);
+                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("tijuana");
+                 mediDatabase.push().setValue(numStelle);
+
+             }
+
+         });
+
+         RatingBar ratingbar5 = (RatingBar) findViewById(R.id.ratingBar4);
+         Button buttonSubmit5 = (Button) findViewById(R.id.buttonPlaysport1);
+
+
+         buttonSubmit5.setOnClickListener(new View.OnClickListener() {
+
+
+             @Override
+             public void onClick(View arg0) {
+                 //Getting the rating and displaying it on the toast
+                 String rating = String.valueOf(ratingbar5.getRating());
+                 Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                 Double numStelle = Double.valueOf(ratingbar5.getRating());
+                 Rating.add(numStelle);
+                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("playsport");
+                 mediDatabase.push().setValue(numStelle);
+
+             }
+
+         });
+
+         RatingBar ratingbar6 = (RatingBar) findViewById(R.id.ratingBar5);
+         Button buttonSubmit6 = (Button) findViewById(R.id.buttonPL);
+
+
+         buttonSubmit6.setOnClickListener(new View.OnClickListener() {
+
+
+             @Override
+             public void onClick(View arg0) {
+                 //Getting the rating and displaying it on the toast
+                 String rating = String.valueOf(ratingbar6.getRating());
+                 Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                 Double numStelle = Double.valueOf(ratingbar6.getRating());
+                 Rating.add(numStelle);
+                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("piscine lissone");
+                 mediDatabase.push().setValue(numStelle);
+
+             }
+
+         });
+
+         RatingBar ratingbar7 = (RatingBar) findViewById(R.id.ratingBar6);
+         Button buttonSubmit7 = (Button) findViewById(R.id.buttonInSport);
+
+
+         buttonSubmit7.setOnClickListener(new View.OnClickListener() {
+
+
+             @Override
+             public void onClick(View arg0) {
+                 //Getting the rating and displaying it on the toast
+                 String rating = String.valueOf(ratingbar7.getRating());
+                 Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                 Double numStelle = Double.valueOf(ratingbar7.getRating());
+                 Rating.add(numStelle);
+                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("In Sport");
+                 mediDatabase.push().setValue(numStelle);
+
+             }
+
+         });
+
+         RatingBar ratingbar8 = (RatingBar) findViewById(R.id.ratingBar7);
+         Button buttonSubmit8 = (Button) findViewById(R.id.buttonLeonArena);
+
+
+         buttonSubmit8.setOnClickListener(new View.OnClickListener() {
+
+
+             @Override
+             public void onClick(View arg0) {
+                 //Getting the rating and displaying it on the toast
+                 String rating = String.valueOf(ratingbar8.getRating());
+                 Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                 Double numStelle = Double.valueOf(ratingbar8.getRating());
+                 Rating.add(numStelle);
+                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("leon arena");
+                 mediDatabase.push().setValue(numStelle);
+
+             }
+
+         });
+
+         RatingBar ratingbar9 = (RatingBar) findViewById(R.id.ratingBar9);
+         Button buttonSubmit9 = (Button) findViewById(R.id.button7);
+
+
+         buttonSubmit9.setOnClickListener(new View.OnClickListener() {
+
+
+             @Override
+             public void onClick(View arg0) {
+                 //Getting the rating and displaying it on the toast
+                 String rating = String.valueOf(ratingbar9.getRating());
+                 Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                 Double numStelle = Double.valueOf(ratingbar9.getRating());
+                 Rating.add(numStelle);
+                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("la dominante");
+                 mediDatabase.push().setValue(numStelle);
+
+             }
+
+         });
+
+         RatingBar ratingbar10 = (RatingBar) findViewById(R.id.ratingBar8);
+         Button buttonSubmit10 = (Button) findViewById(R.id.button6);
+
+
+         buttonSubmit10.setOnClickListener(new View.OnClickListener() {
+
+
+             @Override
+             public void onClick(View arg0) {
+                 //Getting the rating and displaying it on the toast
+                 String rating = String.valueOf(ratingbar10.getRating());
+                 Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
+
+                 Double numStelle = Double.valueOf(ratingbar10.getRating());
+                 Rating.add(numStelle);
+                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("opensport");
+                 mediDatabase.push().setValue(numStelle);
+
+             }
+
+         });
+
+     }else{
+                String errore = " Non Hai Effettuato Il Login";
+                Toast.makeText(getApplicationContext(), errore, Toast.LENGTH_LONG).show();
             }
-
-        });
-
-
-        RatingBar ratingbar2=(RatingBar)findViewById(R.id.ratingBar);
-        Button buttonSubmit2=(Button)findViewById(R.id.button12);
-
-
-
-        buttonSubmit2.setOnClickListener(new View.OnClickListener(){
-
-
-
-            @Override
-            public void onClick(View arg0) {
-                //Getting the rating and displaying it on the toast
-                String rating=String.valueOf(ratingbar2.getRating());
-                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
-
-                Double numStelle = Double.valueOf(ratingbar2.getRating());
-                Rating.add(numStelle);
-                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("cantera");
-                mediDatabase.push().setValue(numStelle);
-
-            }
-
-        });
-
-        RatingBar ratingbar3=(RatingBar)findViewById(R.id.ratingBar2);
-        Button buttonSubmit3=(Button)findViewById(R.id.buttonCantera);
-
-
-
-        buttonSubmit3.setOnClickListener(new View.OnClickListener(){
-
-
-
-            @Override
-            public void onClick(View arg0) {
-                //Getting the rating and displaying it on the toast
-                String rating=String.valueOf(ratingbar3.getRating());
-                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
-
-                Double numStelle = Double.valueOf(ratingbar3.getRating());
-                Rating.add(numStelle);
-                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("derby");
-                mediDatabase.push().setValue(numStelle);
-
-            }
-
-        });
-
-       RatingBar ratingbar4=(RatingBar)findViewById(R.id.ratingBar3);
-        Button buttonSubmit4=(Button)findViewById(R.id.buttonT);
-
-
-
-        buttonSubmit4.setOnClickListener(new View.OnClickListener(){
-
-
-
-            @Override
-            public void onClick(View arg0) {
-                //Getting the rating and displaying it on the toast
-                String rating=String.valueOf(ratingbar4.getRating());
-                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
-
-                Double numStelle = Double.valueOf(ratingbar4.getRating());
-                Rating.add(numStelle);
-                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("tijuana");
-                mediDatabase.push().setValue(numStelle);
-
-            }
-
-        });
-
-        RatingBar ratingbar5=(RatingBar)findViewById(R.id.ratingBar4);
-        Button buttonSubmit5=(Button)findViewById(R.id.buttonPlaysport1);
-
-
-
-        buttonSubmit5.setOnClickListener(new View.OnClickListener(){
-
-
-
-            @Override
-            public void onClick(View arg0) {
-                //Getting the rating and displaying it on the toast
-                String rating=String.valueOf(ratingbar5.getRating());
-                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
-
-                Double numStelle = Double.valueOf(ratingbar5.getRating());
-                Rating.add(numStelle);
-                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("playsport");
-                mediDatabase.push().setValue(numStelle);
-
-            }
-
-        });
-
-        RatingBar ratingbar6=(RatingBar)findViewById(R.id.ratingBar5);
-        Button buttonSubmit6=(Button)findViewById(R.id.buttonPL);
-
-
-
-        buttonSubmit6.setOnClickListener(new View.OnClickListener(){
-
-
-
-            @Override
-            public void onClick(View arg0) {
-                //Getting the rating and displaying it on the toast
-                String rating=String.valueOf(ratingbar6.getRating());
-                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
-
-                Double numStelle = Double.valueOf(ratingbar6.getRating());
-                Rating.add(numStelle);
-                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("piscine lissone");
-                mediDatabase.push().setValue(numStelle);
-
-            }
-
-        });
-
-        RatingBar ratingbar7=(RatingBar)findViewById(R.id.ratingBar6);
-        Button buttonSubmit7=(Button)findViewById(R.id.buttonInSport);
-
-
-
-        buttonSubmit7.setOnClickListener(new View.OnClickListener(){
-
-
-
-            @Override
-            public void onClick(View arg0) {
-                //Getting the rating and displaying it on the toast
-                String rating=String.valueOf(ratingbar7.getRating());
-                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
-
-                Double numStelle = Double.valueOf(ratingbar7.getRating());
-                Rating.add(numStelle);
-                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("In Sport");
-                mediDatabase.push().setValue(numStelle);
-
-            }
-
-        });
-
-        RatingBar ratingbar8=(RatingBar)findViewById(R.id.ratingBar7);
-        Button buttonSubmit8=(Button)findViewById(R.id.buttonLeonArena);
-
-
-
-        buttonSubmit8.setOnClickListener(new View.OnClickListener(){
-
-
-
-            @Override
-            public void onClick(View arg0) {
-                //Getting the rating and displaying it on the toast
-                String rating=String.valueOf(ratingbar8.getRating());
-                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
-
-                Double numStelle = Double.valueOf(ratingbar8.getRating());
-                Rating.add(numStelle);
-                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("leon arena");
-                mediDatabase.push().setValue(numStelle);
-
-            }
-
-        });
-
-        RatingBar ratingbar9=(RatingBar)findViewById(R.id.ratingBar9);
-        Button buttonSubmit9=(Button)findViewById(R.id.button7);
-
-
-
-        buttonSubmit9.setOnClickListener(new View.OnClickListener(){
-
-
-
-            @Override
-            public void onClick(View arg0) {
-                //Getting the rating and displaying it on the toast
-                String rating=String.valueOf(ratingbar9.getRating());
-                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
-
-                Double numStelle = Double.valueOf(ratingbar9.getRating());
-                Rating.add(numStelle);
-                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("la dominante");
-                mediDatabase.push().setValue(numStelle);
-
-            }
-
-        });
-
-        RatingBar ratingbar10=(RatingBar)findViewById(R.id.ratingBar8);
-        Button buttonSubmit10=(Button)findViewById(R.id.button6);
-
-
-
-        buttonSubmit10.setOnClickListener(new View.OnClickListener(){
-
-
-
-            @Override
-            public void onClick(View arg0) {
-                //Getting the rating and displaying it on the toast
-                String rating=String.valueOf(ratingbar10.getRating());
-                Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
-
-                Double numStelle = Double.valueOf(ratingbar10.getRating());
-                Rating.add(numStelle);
-                DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("opensport");
-                mediDatabase.push().setValue(numStelle);
-
-            }
-
-        });
 
 
 
@@ -333,24 +320,7 @@ public class Calcio_activity extends AppCompatActivity {
     }
 
 
-    public String mediaRating(){
-        Double[] mediaValori = Rating.toArray(new Double[0]);
-        Double media = 0.0;
-        Double a = 0.0;
-        String stringaMedia="";
-        if(mediaValori.length>0){
-        for (int i = 0; i <= mediaValori.length; i++) {
-                a= a + mediaValori[i] ;
-        }
 
-            media = a / mediaValori.length;
-            stringaMedia = String.valueOf(media);
-        }else{
-            stringaMedia="0";
-        }
-
-return stringaMedia;
-    }
 
 
     public void goToSo (View view) {
