@@ -44,13 +44,14 @@ public class Calcio_activity extends AppCompatActivity {
              @Override
              public void onClick(View arg0) {
                  //Getting the rating and displaying it on the toast
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
                  String rating = String.valueOf(ratingbar1.getRating());
                  Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
 
                  Double numStelle = Double.valueOf(ratingbar1.getRating());
                  Rating.add(numStelle);
-                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                 if (user != null) {
+
                      DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
                      mediDatabase.push().setValue(numStelle);
 
@@ -72,13 +73,14 @@ public class Calcio_activity extends AppCompatActivity {
              @Override
              public void onClick(View arg0) {
                  //Getting the rating and displaying it on the toast
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
                  String rating = String.valueOf(ratingbar2.getRating());
                  Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
 
                  Double numStelle = Double.valueOf(ratingbar2.getRating());
                  Rating.add(numStelle);
-                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                 if (user != null) {
+
                      DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
                      mediDatabase.push().setValue(numStelle);
 
@@ -99,13 +101,14 @@ public class Calcio_activity extends AppCompatActivity {
              @Override
              public void onClick(View arg0) {
                  //Getting the rating and displaying it on the toast
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
                  String rating = String.valueOf(ratingbar3.getRating());
                  Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
 
                  Double numStelle = Double.valueOf(ratingbar3.getRating());
                  Rating.add(numStelle);
-                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                 if (user != null) {
+
                      DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
                      mediDatabase.push().setValue(numStelle);
 
@@ -126,13 +129,14 @@ public class Calcio_activity extends AppCompatActivity {
              @Override
              public void onClick(View arg0) {
                  //Getting the rating and displaying it on the toast
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
                  String rating = String.valueOf(ratingbar4.getRating());
                  Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
 
                  Double numStelle = Double.valueOf(ratingbar4.getRating());
                  Rating.add(numStelle);
-                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                 if (user != null) {
+
                      DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
                      mediDatabase.push().setValue(numStelle);
 
@@ -153,13 +157,14 @@ public class Calcio_activity extends AppCompatActivity {
              @Override
              public void onClick(View arg0) {
                  //Getting the rating and displaying it on the toast
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
                  String rating = String.valueOf(ratingbar5.getRating());
                  Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
 
                  Double numStelle = Double.valueOf(ratingbar5.getRating());
                  Rating.add(numStelle);
-                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                 if (user != null) {
+
                      DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
                      mediDatabase.push().setValue(numStelle);
 
@@ -180,13 +185,14 @@ public class Calcio_activity extends AppCompatActivity {
              @Override
              public void onClick(View arg0) {
                  //Getting the rating and displaying it on the toast
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
                  String rating = String.valueOf(ratingbar6.getRating());
                  Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
 
                  Double numStelle = Double.valueOf(ratingbar6.getRating());
                  Rating.add(numStelle);
-                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                 if (user != null) {
+
                      DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
                      mediDatabase.push().setValue(numStelle);
 
@@ -207,13 +213,14 @@ public class Calcio_activity extends AppCompatActivity {
              @Override
              public void onClick(View arg0) {
                  //Getting the rating and displaying it on the toast
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
                  String rating = String.valueOf(ratingbar7.getRating());
                  Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
 
                  Double numStelle = Double.valueOf(ratingbar7.getRating());
                  Rating.add(numStelle);
-                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                 if (user != null) {
+
                      DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
                      mediDatabase.push().setValue(numStelle);
 
@@ -234,13 +241,14 @@ public class Calcio_activity extends AppCompatActivity {
              @Override
              public void onClick(View arg0) {
                  //Getting the rating and displaying it on the toast
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
                  String rating = String.valueOf(ratingbar8.getRating());
                  Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
 
                  Double numStelle = Double.valueOf(ratingbar8.getRating());
                  Rating.add(numStelle);
-                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                 if (user != null) {
+
                      DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
                      mediDatabase.push().setValue(numStelle);
 
@@ -261,13 +269,14 @@ public class Calcio_activity extends AppCompatActivity {
              @Override
              public void onClick(View arg0) {
                  //Getting the rating and displaying it on the toast
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
                  String rating = String.valueOf(ratingbar9.getRating());
                  Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
 
                  Double numStelle = Double.valueOf(ratingbar9.getRating());
                  Rating.add(numStelle);
-                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                 if (user != null) {
+
                      DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
                      mediDatabase.push().setValue(numStelle);
 
@@ -288,13 +297,14 @@ public class Calcio_activity extends AppCompatActivity {
              @Override
              public void onClick(View arg0) {
                  //Getting the rating and displaying it on the toast
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
                  String rating = String.valueOf(ratingbar10.getRating());
                  Toast.makeText(getApplicationContext(), rating, Toast.LENGTH_LONG).show();
 
                  Double numStelle = Double.valueOf(ratingbar10.getRating());
                  Rating.add(numStelle);
-                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                 if (user != null) {
+
                      DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
                      mediDatabase.push().setValue(numStelle);
 
