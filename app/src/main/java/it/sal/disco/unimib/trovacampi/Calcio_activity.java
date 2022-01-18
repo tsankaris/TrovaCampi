@@ -32,8 +32,8 @@ public class Calcio_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calcio);
 
-        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-            if(user != null) {
+
+
          RatingBar ratingbar1 = (RatingBar) findViewById(R.id.ratingBar1);
          Button buttonSubmit = (Button) findViewById(R.id.buttonSP1);
 
@@ -49,12 +49,17 @@ public class Calcio_activity extends AppCompatActivity {
 
                  Double numStelle = Double.valueOf(ratingbar1.getRating());
                  Rating.add(numStelle);
-                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
-                 mediDatabase.push().setValue(numStelle);
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
+                     DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                     mediDatabase.push().setValue(numStelle);
 
-             }
 
-         });
+                 } else {
+                     String errore = " Non Hai Effettuato Il Login";
+                     Toast.makeText(getApplicationContext(), errore, Toast.LENGTH_LONG).show();
+                 }
+             }});
 
 
          RatingBar ratingbar2 = (RatingBar) findViewById(R.id.ratingBar);
@@ -72,12 +77,17 @@ public class Calcio_activity extends AppCompatActivity {
 
                  Double numStelle = Double.valueOf(ratingbar2.getRating());
                  Rating.add(numStelle);
-                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("cantera");
-                 mediDatabase.push().setValue(numStelle);
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
+                     DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                     mediDatabase.push().setValue(numStelle);
 
-             }
 
-         });
+                 } else {
+                     String errore = " Non Hai Effettuato Il Login";
+                     Toast.makeText(getApplicationContext(), errore, Toast.LENGTH_LONG).show();
+                 }
+    }});
 
          RatingBar ratingbar3 = (RatingBar) findViewById(R.id.ratingBar2);
          Button buttonSubmit3 = (Button) findViewById(R.id.buttonCantera);
@@ -94,12 +104,17 @@ public class Calcio_activity extends AppCompatActivity {
 
                  Double numStelle = Double.valueOf(ratingbar3.getRating());
                  Rating.add(numStelle);
-                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("derby");
-                 mediDatabase.push().setValue(numStelle);
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
+                     DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                     mediDatabase.push().setValue(numStelle);
 
-             }
 
-         });
+                 } else {
+                     String errore = " Non Hai Effettuato Il Login";
+                     Toast.makeText(getApplicationContext(), errore, Toast.LENGTH_LONG).show();
+                 }
+    }});
 
          RatingBar ratingbar4 = (RatingBar) findViewById(R.id.ratingBar3);
          Button buttonSubmit4 = (Button) findViewById(R.id.buttonT);
@@ -116,12 +131,17 @@ public class Calcio_activity extends AppCompatActivity {
 
                  Double numStelle = Double.valueOf(ratingbar4.getRating());
                  Rating.add(numStelle);
-                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("tijuana");
-                 mediDatabase.push().setValue(numStelle);
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
+                     DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                     mediDatabase.push().setValue(numStelle);
 
-             }
 
-         });
+                 } else {
+                     String errore = " Non Hai Effettuato Il Login";
+                     Toast.makeText(getApplicationContext(), errore, Toast.LENGTH_LONG).show();
+                 }
+    } });
 
          RatingBar ratingbar5 = (RatingBar) findViewById(R.id.ratingBar4);
          Button buttonSubmit5 = (Button) findViewById(R.id.buttonPlaysport1);
@@ -138,12 +158,17 @@ public class Calcio_activity extends AppCompatActivity {
 
                  Double numStelle = Double.valueOf(ratingbar5.getRating());
                  Rating.add(numStelle);
-                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("playsport");
-                 mediDatabase.push().setValue(numStelle);
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
+                     DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                     mediDatabase.push().setValue(numStelle);
 
-             }
 
-         });
+                 } else {
+                     String errore = " Non Hai Effettuato Il Login";
+                     Toast.makeText(getApplicationContext(), errore, Toast.LENGTH_LONG).show();
+                 }
+    }});
 
          RatingBar ratingbar6 = (RatingBar) findViewById(R.id.ratingBar5);
          Button buttonSubmit6 = (Button) findViewById(R.id.buttonPL);
@@ -160,12 +185,17 @@ public class Calcio_activity extends AppCompatActivity {
 
                  Double numStelle = Double.valueOf(ratingbar6.getRating());
                  Rating.add(numStelle);
-                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("piscine lissone");
-                 mediDatabase.push().setValue(numStelle);
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
+                     DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                     mediDatabase.push().setValue(numStelle);
 
-             }
 
-         });
+                 } else {
+                     String errore = " Non Hai Effettuato Il Login";
+                     Toast.makeText(getApplicationContext(), errore, Toast.LENGTH_LONG).show();
+                 }
+    }});
 
          RatingBar ratingbar7 = (RatingBar) findViewById(R.id.ratingBar6);
          Button buttonSubmit7 = (Button) findViewById(R.id.buttonInSport);
@@ -182,12 +212,17 @@ public class Calcio_activity extends AppCompatActivity {
 
                  Double numStelle = Double.valueOf(ratingbar7.getRating());
                  Rating.add(numStelle);
-                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("In Sport");
-                 mediDatabase.push().setValue(numStelle);
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
+                     DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                     mediDatabase.push().setValue(numStelle);
 
-             }
 
-         });
+                 } else {
+                     String errore = " Non Hai Effettuato Il Login";
+                     Toast.makeText(getApplicationContext(), errore, Toast.LENGTH_LONG).show();
+                 }
+    }});
 
          RatingBar ratingbar8 = (RatingBar) findViewById(R.id.ratingBar7);
          Button buttonSubmit8 = (Button) findViewById(R.id.buttonLeonArena);
@@ -204,12 +239,17 @@ public class Calcio_activity extends AppCompatActivity {
 
                  Double numStelle = Double.valueOf(ratingbar8.getRating());
                  Rating.add(numStelle);
-                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("leon arena");
-                 mediDatabase.push().setValue(numStelle);
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
+                     DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                     mediDatabase.push().setValue(numStelle);
 
-             }
 
-         });
+                 } else {
+                     String errore = " Non Hai Effettuato Il Login";
+                     Toast.makeText(getApplicationContext(), errore, Toast.LENGTH_LONG).show();
+                 }
+    }});
 
          RatingBar ratingbar9 = (RatingBar) findViewById(R.id.ratingBar9);
          Button buttonSubmit9 = (Button) findViewById(R.id.button7);
@@ -226,12 +266,17 @@ public class Calcio_activity extends AppCompatActivity {
 
                  Double numStelle = Double.valueOf(ratingbar9.getRating());
                  Rating.add(numStelle);
-                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("la dominante");
-                 mediDatabase.push().setValue(numStelle);
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
+                     DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                     mediDatabase.push().setValue(numStelle);
 
-             }
 
-         });
+                 } else {
+                     String errore = " Non Hai Effettuato Il Login";
+                     Toast.makeText(getApplicationContext(), errore, Toast.LENGTH_LONG).show();
+                 }
+    }});
 
          RatingBar ratingbar10 = (RatingBar) findViewById(R.id.ratingBar8);
          Button buttonSubmit10 = (Button) findViewById(R.id.button6);
@@ -248,17 +293,19 @@ public class Calcio_activity extends AppCompatActivity {
 
                  Double numStelle = Double.valueOf(ratingbar10.getRating());
                  Rating.add(numStelle);
-                 DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("opensport");
-                 mediDatabase.push().setValue(numStelle);
+                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                 if (user != null) {
+                     DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                     mediDatabase.push().setValue(numStelle);
 
-             }
 
-         });
+                 } else {
+                     String errore = " Non Hai Effettuato Il Login";
+                     Toast.makeText(getApplicationContext(), errore, Toast.LENGTH_LONG).show();
+                 }
+    }});
 
-     }else{
-                String errore = " Non Hai Effettuato Il Login";
-                Toast.makeText(getApplicationContext(), errore, Toast.LENGTH_LONG).show();
-            }
+
 
 
 
