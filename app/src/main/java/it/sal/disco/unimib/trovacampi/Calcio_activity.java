@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
@@ -25,7 +26,7 @@ import java.util.List;
 public class Calcio_activity extends AppCompatActivity {
 
 
-
+FloatingActionButton button4 ;
     List<Double> Rating = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +34,13 @@ public class Calcio_activity extends AppCompatActivity {
         setContentView(R.layout.activity_calcio);
 
 
-
+        button4 = findViewById(R.id.home);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), login.class));
+            }
+        });
          RatingBar ratingbar1 = (RatingBar) findViewById(R.id.ratingBar1);
          Button buttonSubmit = (Button) findViewById(R.id.buttonSP1);
 
