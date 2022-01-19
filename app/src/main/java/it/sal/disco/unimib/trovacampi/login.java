@@ -3,6 +3,9 @@ package it.sal.disco.unimib.trovacampi;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -25,6 +28,7 @@ public class login extends AppCompatActivity {
     Button button;
     Button button1;
     Button button2;
+    boolean isPasswordVisible;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,7 +93,11 @@ public class login extends AppCompatActivity {
             }
 
 
-}); }
+});
+
+
+
+    }
 
 
 }

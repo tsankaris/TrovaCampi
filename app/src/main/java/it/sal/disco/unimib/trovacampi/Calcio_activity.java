@@ -382,7 +382,7 @@ FloatingActionButton button4 ;
         });
 
         Button callA = (Button) findViewById(R.id.callButtonA);
-        callB.setOnClickListener(new View.OnClickListener(){
+        callA.setOnClickListener(new View.OnClickListener(){
             @Override //SPORTPARK
             public void onClick(View v){
                 Intent intentA= new Intent(Intent.ACTION_DIAL);
@@ -392,7 +392,7 @@ FloatingActionButton button4 ;
         });
 
         Button callOp = (Button) findViewById(R.id.callButtonC);
-        callB.setOnClickListener(new View.OnClickListener(){
+        callOp.setOnClickListener(new View.OnClickListener(){
             @Override //opensport
             public void onClick(View v){
                 Intent intentC= new Intent(Intent.ACTION_DIAL);
@@ -401,7 +401,7 @@ FloatingActionButton button4 ;
             }
         });
         Button callTi = (Button) findViewById(R.id.callButtonD);
-        callB.setOnClickListener(new View.OnClickListener(){
+        callTi.setOnClickListener(new View.OnClickListener(){
             @Override //tijuana
             public void onClick(View v){
                 Intent intentD= new Intent(Intent.ACTION_DIAL);
@@ -411,7 +411,7 @@ FloatingActionButton button4 ;
         });
 
         Button callDe = (Button) findViewById(R.id.callButtonE);
-        callB.setOnClickListener(new View.OnClickListener(){
+        callDe.setOnClickListener(new View.OnClickListener(){
             @Override //derby
             public void onClick(View v){
                 Intent intentE= new Intent(Intent.ACTION_DIAL);
@@ -420,7 +420,7 @@ FloatingActionButton button4 ;
             }
         });
         Button callPiL = (Button) findViewById(R.id.callButtonF);
-        callB.setOnClickListener(new View.OnClickListener(){
+        callPiL.setOnClickListener(new View.OnClickListener(){
             @Override //piscine lissone
             public void onClick(View v){
                 Intent intentF= new Intent(Intent.ACTION_DIAL);
@@ -430,7 +430,7 @@ FloatingActionButton button4 ;
         });
 
         Button callLaD = (Button) findViewById(R.id.callButtonG);
-        callB.setOnClickListener(new View.OnClickListener(){
+        callLaD.setOnClickListener(new View.OnClickListener(){
             @Override //la dominante
             public void onClick(View v){
                 Intent intentG= new Intent(Intent.ACTION_DIAL);
@@ -440,7 +440,7 @@ FloatingActionButton button4 ;
         });
 
         Button callInS = (Button) findViewById(R.id.callButtonH);
-        callB.setOnClickListener(new View.OnClickListener(){
+        callInS.setOnClickListener(new View.OnClickListener(){
             @Override //Insport
             public void onClick(View v){
                 Intent intentH= new Intent(Intent.ACTION_DIAL);
@@ -450,7 +450,7 @@ FloatingActionButton button4 ;
         });
 
         Button callPlaysport = (Button) findViewById(R.id.callButtonI);
-        callB.setOnClickListener(new View.OnClickListener(){
+        callPlaysport.setOnClickListener(new View.OnClickListener(){
             @Override //playsport
             public void onClick(View v){
                 Intent intentI= new Intent(Intent.ACTION_DIAL);
@@ -460,7 +460,7 @@ FloatingActionButton button4 ;
         });
 
         Button callLeon = (Button) findViewById(R.id.callButtonJ);
-        callB.setOnClickListener(new View.OnClickListener(){
+        callLeon.setOnClickListener(new View.OnClickListener(){
             @Override //Leonareana
             public void onClick(View v){
                 Intent intentJ= new Intent(Intent.ACTION_DIAL);
