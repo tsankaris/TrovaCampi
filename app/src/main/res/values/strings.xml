@@ -2,12 +2,12 @@
     <string name="app_name">TrovaCampi</string>
     <string name="title_activity_login">Login</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
     <string name="login">LOGIN</string>
-    <string name="contattaci">CONTATTACI</string>
-    <string name="registrati">REGISTRATI</string>
-    <string name="non_hai_trovato_il_campo">"Non hai trovato il tuo campo?"\n"Clicca il bottone per contattarci"</string>
+    <string name="contattaci">CONTACT US</string>
+    <string name="registrati">Register</string>
+    <string name="non_hai_trovato_il_campo">"Don't you find the field?"\n"Click the button below to contact us"</string>
     <string name="register">REGISTER</string>
     <string-array name="Sport">
         <item> @string/CALCIO</item>
@@ -16,74 +16,74 @@
         <item> @string/PADEL</item>
         <item> @string/BASKET</item>
     </string-array>
-    <string name="Benvenuto">BENVENUTO</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="CALCIO">calcio</string>
-    <string name="PALLAVOLO">pallavolo</string>
-    <string name="TENNIS">tennis</string>
-    <string name="PADEL">padel</string>
-    <string name="BASKET">basket</string>
-    <string name="seleziona_lo_sport">Seleziona lo sport</string>
+    <string name="Benvenuto">WELCOME!</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
+    <string name="CALCIO">football</string>
+    <string name="PALLAVOLO">volleyball</string>
+    <string name="TENNIS" translatable="false">tennis</string>
+    <string name="PADEL" translatable="false">padel</string>
+    <string name="BASKET" translatable="false">basket</string>
+    <string name="seleziona_lo_sport">Select the sport</string>
     <string name="next">NEXT</string>
-    <string name="title_activity_calcio">Calcio</string>
+    <string name="title_activity_calcio">Football</string>
 
-    <string name="descrizione_sportpark">
+    <string name="descrizione_sportpark" translatable="false">
         "TELEFONO : 039 2494846"\n"MAIL : info@sportparkonline.com"\n"COPERTO : NO"\n"TIPO CAMPO : CALCIO A 5,7"
     </string>
     <string name="action_settings">Settings</string>
-    <string name="sportpark">SPORTPARK</string>
-    <string name="leonArena">LEON ARENA</string>
-    <string name="cantera">CANTERA</string>
-    <string name="derby">DERBY</string>
-    <string name="tijuana">TIJUANA</string>
-    <string name="playsport">PLAYSPORT</string>
-    <string name="piscineLissone">PISCINE LISSONE</string>
-    <string name="La_Dominante">LA DOMINANTE</string>
-    <string name="InSport">IN SPORT</string>
-    <string name="opensport">OPEN SPORT</string>
-    <string name="La_Dominante_img">LaDominante_img</string>
-    <string name="LeonArena_img">LeonArena_img</string>
-    <string name="piscineLissone_img">piscineLissone_img</string>
-    <string name="playsport_img">playsport_img</string>
-    <string name="tijuana_img">tijuana_img</string>
-    <string name="descrizione_opensport">
+    <string name="sportpark" translatable="false">SPORTPARK</string>
+    <string name="leonArena" translatable="false">LEON ARENA</string>
+    <string name="cantera" translatable="false">CANTERA</string>
+    <string name="derby" translatable="false">DERBY</string>
+    <string name="tijuana" translatable="false">TIJUANA</string>
+    <string name="playsport" translatable="false">PLAYSPORT</string>
+    <string name="piscineLissone" translatable="false">PISCINE LISSONE</string>
+    <string name="La_Dominante" translatable="false">LA DOMINANTE</string>
+    <string name="InSport" translatable="false">IN SPORT</string>
+    <string name="opensport" translatable="false">OPEN SPORT</string>
+    <string name="La_Dominante_img" translatable="false">LaDominante_img</string>
+    <string name="LeonArena_img" translatable="false">LeonArena_img</string>
+    <string name="piscineLissone_img" translatable="false">piscineLissone_img</string>
+    <string name="playsport_img" translatable="false">playsport_img</string>
+    <string name="tijuana_img" translatable="false">tijuana_img</string>
+    <string name="descrizione_opensport" translatable="false">
         "TELEFONO : 389 7874334"\n"MAIL : tennis.sportsopen@libero.it"\n"COPERTO : SI"\n"TIPO CAMPO : CALCIO A 5" </string>
-    <string name="descrizione_tijuana">
+    <string name="descrizione_tijuana" translatable="false">
         "TELEFONO : 338 6360999"\n"MAIL : manuel.tiju@gmail.com"\n"COPERTO : NO"\n"TIPO CAMPO : CALCIO A 5" </string>
-    <string name="derby_img">derby_img</string>
-    <string name="cantera_img">cantera_img</string>
-    <string name="sportpark_img">sportpark_img</string>
-    <string name="inSport_img">inSport_img</string>
-    <string name="opensport_img">opensport_img</string>
-    <string name="descrizione_cantera">
+    <string name="derby_img" translatable="false">derby_img</string>
+    <string name="cantera_img" translatable="false">cantera_img</string>
+    <string name="sportpark_img" translatable="false">sportpark_img</string>
+    <string name="inSport_img" translatable="false">inSport_img</string>
+    <string name="opensport_img" translatable="false">opensport_img</string>
+    <string name="descrizione_cantera" translatable="false">
         "TELEFONO : 375 5667883"\n"MAIL : srl.gruppofive@gmail.com"\n"COPERTO : NO"\n"TIPO CAMPO : CALCIO A 5"</string>
-    <string name="descrizione_derby">
+    <string name="descrizione_derby" translatable="false">
         "TELEFONO : 039 733229"\n"MAIL : info@derbymonza.it"\n"COPERTO : SI"\n"TIPO CAMPO : CALCIO A 5"</string>
-    <string name="descrizione_piscineLissone">
+    <string name="descrizione_piscineLissone" translatable="false">
         "TELEFONO : 039 262 2048"\n"MAIL : info@cierregroup.it"\n"COPERTO : SI"\n"TIPO CAMPO : CALCIO A 5"</string>
-    <string name="descrizione_LaDominante">
+    <string name="descrizione_LaDominante" translatable="false">
         "TELEFONO : 039 321221"\n"MAIL : info@ladominante.it"\n"COPERTO : NO"\n"TIPO CAMPO : CALCIO A 5,7,11" </string>
-    <string name="descrizione_InSport">
+    <string name="descrizione_InSport" translatable="false">
         "TELEFONO : 039 617831"\n"MAIL : arcore@insportsrl.it"\n"COPERTO : NO"\n"TIPO CAMPO : CALCIO A 5,7"</string>
-    <string name="descrizione_playsport">
+    <string name="descrizione_playsport" translatable="false">
         "TELEFONO : 039 6980021"\n"MAIL : info@playsportlesmo.it"\n"COPERTO : SI"\n"TIPO CAMPO : CALCIO A 5"</string>
-    <string name="descrizione_leonArena">
+    <string name="descrizione_leonArena" translatable="false">
         "TELEFONO : 348 8207614"\n"MAIL : ND"\n"COPERTO : NO"\n"TIPO CAMPO : CALCIO A 5,7"</string>
-    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_main2" translatable="false">MainActivity2</string>
     <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="il_tuo_campo_non_ce">Il tuo campo non c\'è?</string>
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="il_tuo_campo_non_ce">Isnt your field there? </string>
     <string name="user_address">User Address</string>
     <string name="get_current_location">Get Current Location</string>
-    <string name="e_mail">e-mail</string>
-    <string name="numero_di_telefono">Numero di telefono</string>
-    <string name="indirizzo_postale">Indirizzo postale</string>
-    <string name="password">Password</string>
-    <string name="ripeti_password">Ripeti password</string>
-    <string name="title_activity_maps">MapsActivity</string>
-    <string name="title_activity_scrolling">ScrollingActivity</string>
-    <string name="large_text">
+    <string name="e_mail" translatable="false">e-mail</string>
+    <string name="numero_di_telefono">Telephone number</string>
+    <string name="indirizzo_postale">Postal address</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="ripeti_password">Retype password</string>
+    <string name="title_activity_maps" translatable="false">MapsActivity</string>
+    <string name="title_activity_scrolling" translatable="false">ScrollingActivity</string>
+    <string name="large_text" translatable="false">
         "Material is the metaphor.\n\n"
 
         "A material metaphor is the unifying theory of a rationalized space and a system of motion."
@@ -172,17 +172,19 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
-    <string name="accedi_come_ospite">Accedi come ospite</string>
-    <string name="viale_lombardia_17_monza">VIALE LOMBARDIA 17, MONZA</string>
-    <string name="via_parco_51_biassono">VIA PARCO 51, BIASSONO</string>
-    <string name="via_vittorio_alfieri_32_vedano">VIA VITTORIO ALFIERI 32, VEDANO</string>
+    <string name="accedi_come_ospite">Guest login</string>
+    <string name="viale_lombardia_17_monza" translatable="false">VIALE LOMBARDIA 17, MONZA</string>
+    <string name="via_parco_51_biassono" translatable="false">VIA PARCO 51, BIASSONO</string>
+    <string name="via_vittorio_alfieri_32_vedano" translatable="false">VIA VITTORIO ALFIERI 32, VEDANO</string>
     <string name="call">CALL</string>
-    <string name="via_principale_38_correzzana">VIA PRINCIPALE 38, CORREZZANA</string>
-    <string name="via_petrarca_2_lesmo">VIA PETRARCA 2, LESMO</string>
-    <string name="via_cilea_2_lissone">VIA CILEA 2, LISSONE</string>
-    <string name="via_s_martino_7_arcore">VIA S. MARTINO 7, ARCORE</string>
+    <string name="via_principale_38_correzzana" translatable="false">VIA PRINCIPALE 38, CORREZZANA</string>
+    <string name="via_petrarca_2_lesmo" translatable="false">VIA PETRARCA 2, LESMO</string>
+    <string name="via_cilea_2_lissone" translatable="false">VIA CILEA 2, LISSONE</string>
+    <string name="via_s_martino_7_arcore" translatable="false">VIA S. MARTINO 7, ARCORE</string>
     <string name="submit">SUBMIT</string>
-    <string name="via_degli_atleti_vimercate">VIA DEGLI ATLETI, VIMERCATE</string>
-    <string name="via_a_ramazzotti_19_monza">VIA A. RAMAZZOTTI 19, MONZA</string>
-    <string name="via_lambro_sovico">VIA LAMBRO, SOVICO</string>
+    <string name="via_degli_atleti_vimercate" translatable="false">VIA DEGLI ATLETI, VIMERCATE</string>
+    <string name="via_a_ramazzotti_19_monza" translatable="false">VIA A. RAMAZZOTTI 19, MONZA</string>
+    <string name="via_lambro_sovico" translatable="false">VIA LAMBRO, SOVICO</string>
+    <string name="bentornato">WELCOME BACK!</string>
+    <string name="benvenuto">WELCOME!</string>
 </resources>

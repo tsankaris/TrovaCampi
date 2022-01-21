@@ -56,13 +56,13 @@ public class MainActivity extends AppCompatActivity {
              @Override
              public void onClick(View v) {
                  String sport = mSpinner.getSelectedItem().toString();
-                 if (sport.equals("calcio")) {
+                 if (sport.equals("football") || sport.equals("calcio")) {
                      startActivity(new Intent(getApplicationContext(), Calcio_activity.class));
                  }
                  if (sport.equals("tennis")) {
                      startActivity(new Intent(getApplicationContext(), Tennis.class));
                  }
-                 if (sport.equals("pallavolo")) {
+                 if (sport.equals("volleyball") || sport.equals("pallavolo")) {
                      startActivity(new Intent(getApplicationContext(), Pallavolo.class));
                  }
                  if (sport.equals("padel")) {
