@@ -13,8 +13,8 @@
     <string name="registrati">REGISTRATI</string>
     <string name="non_hai_trovato_il_campo">Non trovi il  campo? Clicca il bottone per contattarci</string>
     <string name="Benvenuto">BENVENUTO</string>
-    <string name="CALCIO">CALCIO</string>
-    <string name="PALLAVOLO">PALLAVOLO</string>
+    <string name="CALCIO">calcio</string>
+    <string name="PALLAVOLO">pallavolo</string>
     <string name="seleziona_lo_sport">Seleziona lo sport</string>
     <string name="title_activity_calcio">Calcio</string>
     <string name="il_tuo_campo_non_ce">Il tuo campo non c\'è?</string>
@@ -26,4 +26,5 @@
     <string name="accedi_come_ospite">Accedi come ospite</string>
     <string name="bentornato">BENTORNATO!</string>
     <string name="benvenuto">BENVENUTO!</string>
+    <string name="password_dimenticata">PASSWORD DIMENTICATA?</string>
 </resources>

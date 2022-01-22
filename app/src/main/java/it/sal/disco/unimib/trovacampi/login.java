@@ -3,9 +3,7 @@ package it.sal.disco.unimib.trovacampi;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.text.method.HideReturnsTransformationMethod;
-import android.text.method.PasswordTransformationMethod;
-import android.view.MotionEvent;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -21,6 +19,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class login extends AppCompatActivity {
 
+    private static final String TAG = "login";
     private FirebaseAuth mAuth;
     // [END declare_auth]
 
@@ -28,6 +27,7 @@ public class login extends AppCompatActivity {
     Button button;
     Button button1;
     Button button2;
+    Button button3;
     boolean isPasswordVisible;
 
     @Override
@@ -40,6 +40,7 @@ public class login extends AppCompatActivity {
         button = findViewById(R.id.button4);
         button1 = findViewById(R.id.button5);
         button2 = findViewById(R.id.button3);
+        button3 = findViewById(R.id.button8);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -64,8 +65,7 @@ public class login extends AppCompatActivity {
 
                 if (TextUtils.isEmpty(email)) {
                     memail.setError("email is required");
-                }
-                else if(!android.util.Patterns.EMAIL_ADDRESS.matcher(memail.getText().toString()).matches()){
+                } else if (!android.util.Patterns.EMAIL_ADDRESS.matcher(memail.getText().toString()).matches()) {
                     memail.setError("please enter a valid email");
                 }
                 if (TextUtils.isEmpty(password)) {
@@ -74,7 +74,7 @@ public class login extends AppCompatActivity {
                 }
 
 
-                if (password.length()<6) {
+                if (password.length() < 6) {
                     mpassword.setError("please enter password minimum in 6 char");
                     return;
                 }
@@ -85,7 +85,7 @@ public class login extends AppCompatActivity {
                             Toast.makeText(login.this, "Logged In Successfully", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         } else {
-                           Toast.makeText(login.this, "error" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(login.this, "error" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
@@ -93,11 +93,35 @@ public class login extends AppCompatActivity {
             }
 
 
-});
+        });
 
+button3.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        FirebaseAuth auth = FirebaseAuth.getInstance();
+        String emailAddress = memail.getText().toString().trim();;
 
+        if (TextUtils.isEmpty(emailAddress)) {
+            memail.setError("email is required");
+        } else if (!android.util.Patterns.EMAIL_ADDRESS.matcher(memail.getText().toString()).matches()) {
+            memail.setError("please enter a valid email");
+        }else{
+
+            auth.sendPasswordResetEmail(emailAddress)
+                    .addOnCompleteListener(new OnCompleteListener<Void>() {
+                        @Override
+                        public void onComplete(@NonNull Task<Void> task) {
+                            if (task.isSuccessful()) {
+                                Log.d(TAG, "Email sent.");
+                            }
+                        }
+                    });
+        }
 
     }
+});
+    }
+
 
 
 }
