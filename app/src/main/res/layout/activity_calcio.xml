@@ -616,7 +616,7 @@
 
                     <TextView
                         android:id="@+id/textViewLaDominante"
-                        android:layout_width="wrap_content"
+                        android:layout_width="219dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="24dp"
                         android:text="@string/descrizione_piscineLissone"
@@ -729,7 +729,7 @@
 
                     <TextView
                         android:id="@+id/textViewLissone"
-                        android:layout_width="wrap_content"
+                        android:layout_width="219dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="24dp"
                         android:text="@string/descrizione_playsport"
@@ -842,7 +842,7 @@
 
                     <TextView
                         android:id="@+id/textView6"
-                        android:layout_width="wrap_content"
+                        android:layout_width="219dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="24dp"
                         android:text="@string/descrizione_tijuana"
@@ -954,7 +954,7 @@
 
                     <TextView
                         android:id="@+id/textView5"
-                        android:layout_width="wrap_content"
+                        android:layout_width="219dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="24dp"
                         android:text="@string/descrizione_derby"
@@ -1047,7 +1047,7 @@
 
                     <TextView
                         android:id="@+id/textView42"
-                        android:layout_width="wrap_content"
+                        android:layout_width="219dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="24dp"
                         android:text="@string/descrizione_cantera"
