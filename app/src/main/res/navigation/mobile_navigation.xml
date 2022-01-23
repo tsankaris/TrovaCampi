@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="it.sal.disco.unimib.trovacampi.ui.home.HomeFragment"
+        android:name="it.sal.disco.unimib.trovacampi.ui.home.Calcio_activity"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_calcio" />
 
@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="it.sal.disco.unimib.trovacampi.ui.notifications.NotificationsFragment"
+        android:name="it.sal.disco.unimib.trovacampi.ui.notifications.Profile"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_profile" />
 </navigation>

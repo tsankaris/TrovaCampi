@@ -1,4 +1,4 @@
-package it.sal.disco.unimib.trovacampi.ui;
+package it.sal.disco.unimib.trovacampi.ui.notifications;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -22,11 +22,11 @@ import it.sal.disco.unimib.trovacampi.R;
 import it.sal.disco.unimib.trovacampi.login;
 
 
-public class profile extends Fragment {
+public class Profile extends Fragment {
     private static final String TAG = "profile";
     Button button9, button10, button11;
 
-    public profile (){}
+    public Profile(){}
 
     @Nullable
     @Override
@@ -87,4 +87,5 @@ public class profile extends Fragment {
 
 
         });
-}}
+    }}
+
