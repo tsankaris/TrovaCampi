@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
              public void onClick(View v) {
                  String sport = mSpinner.getSelectedItem().toString();
                  if (sport.equals("football") || sport.equals("calcio")) {
-                     startActivity(new Intent(getApplicationContext(), Calcio_activity.class));
+                     startActivity(new Intent(getApplicationContext(), NavigationCalcio.class));
                  }
                  if (sport.equals("tennis")) {
                      startActivity(new Intent(getApplicationContext(), Tennis.class));
