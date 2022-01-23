@@ -34,6 +34,8 @@ import com.google.android.gms.location.LocationSettingsStatusCodes;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 
+import it.sal.disco.unimib.trovacampi.ui.home.Calcio_activity;
+
 
 public class MainActivity extends AppCompatActivity {
 

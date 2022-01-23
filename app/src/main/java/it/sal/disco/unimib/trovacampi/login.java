@@ -99,7 +99,7 @@ button3.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
         FirebaseAuth auth = FirebaseAuth.getInstance();
-        String emailAddress = memail.getText().toString().trim();;
+        String emailAddress = memail.getText().toString().trim();
 
         if (TextUtils.isEmpty(emailAddress)) {
             memail.setError("email is required");
