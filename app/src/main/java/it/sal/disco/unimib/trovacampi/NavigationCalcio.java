@@ -2,36 +2,42 @@ package it.sal.disco.unimib.trovacampi;
 
 import android.os.Bundle;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
+import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import it.sal.disco.unimib.trovacampi.databinding.ActivityNavigationCalcioBinding;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 
 public class NavigationCalcio extends AppCompatActivity {
 
-    private ActivityNavigationCalcioBinding binding;
+    private static final String TAG = "NavigationCalcio";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_navigation_calcio);
 
-        binding = ActivityNavigationCalcioBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
 
-        BottomNavigationView navView = findViewById(R.id.nav_view);
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
+
+
+
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications)
-                .build();
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_navigation_calcio);
+                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications).build();
+
+        BottomNavigationView bottomNavigationView = findViewById(R.id.nav_view);
+
+        // Logic to manage the behavior of the BottomNavigationView and Toolbar
+        NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment_activity_navigation_calcio);
+        NavController navController = navHostFragment.getNavController();
+
+        // For the Toolbar
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-        NavigationUI.setupWithNavController(binding.navView, navController);
+
+        // For the BottomNavigationView
+        NavigationUI.setupWithNavController(bottomNavigationView, navController);
     }
 
 }
