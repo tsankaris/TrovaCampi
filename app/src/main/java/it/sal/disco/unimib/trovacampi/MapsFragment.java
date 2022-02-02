@@ -29,6 +29,17 @@ public class MapsFragment extends Fragment {
         supportMapFragment.getMapAsync(new OnMapReadyCallback() {
             @Override
             public void onMapReady(@NonNull GoogleMap googleMap) {
+
+                LatLng cantera = new LatLng(45.630718, 9.285114);
+
+
+                googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(cantera, 13));
+
+                googleMap.addMarker(new MarkerOptions()
+                        .title("Sydney")
+                        .snippet("The most populous city in Australia.")
+                        .position(cantera));
+
                 googleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
                     @Override
                     public void onMapClick(@NonNull LatLng latLng) {
@@ -40,6 +51,8 @@ public class MapsFragment extends Fragment {
                         googleMap.addMarker(markerOptions);
                     }
                 });
+
+
             }
         });
         return view;

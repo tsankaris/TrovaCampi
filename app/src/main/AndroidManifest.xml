@@ -50,10 +50,6 @@
             android:value= "AIzaSyCZeuietnBPkL8YNDM5VqjXagfQKMPG1jY" />
 
         <activity
-            android:name=".MapsActivity"
-            android:exported="true"
-            android:label="@string/title_activity_maps" />
-        <activity
             android:name=".EmailPasswordActivity"
             android:exported="true" />
 
