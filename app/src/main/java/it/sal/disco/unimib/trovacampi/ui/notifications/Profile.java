@@ -49,6 +49,7 @@ public class Profile extends Fragment {
         });
 
         button10 = view.findViewById(R.id.button10);
+
         button10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
