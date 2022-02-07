@@ -14,7 +14,6 @@ import android.os.Looper;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -33,21 +32,21 @@ import com.google.android.gms.location.LocationSettingsResponse;
 import com.google.android.gms.location.LocationSettingsStatusCodes;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-
-import it.sal.disco.unimib.trovacampi.ui.home.Calcio_activity;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 
 public class MainActivity extends AppCompatActivity {
 
 
-
-     private TextView AddressText;
-     private Button LocationButton;
+     Button LocationButton;
      private LocationRequest locationRequest;
      Button button3;
      private Spinner mSpinner;
 
-     @Override
+
+
+    @Override
      protected void onCreate(Bundle savedInstanceState) {
          super.onCreate(savedInstanceState);
          setContentView(R.layout.activity_main);
@@ -73,6 +72,21 @@ public class MainActivity extends AppCompatActivity {
                  if (sport.equals("basket")) {
                      startActivity(new Intent(getApplicationContext(), Basket.class));
                  }
+             }
+         });
+         LocationButton = findViewById(R.id.button13);
+
+         locationRequest = LocationRequest.create();
+         locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+         locationRequest.setInterval(5000);
+         locationRequest.setFastestInterval(2000);
+
+         LocationButton.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+
+                 getCurrentLocation();
+
              }
          });
 
@@ -117,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
          }
      }
 
-     private void getCurrentLocation() {
+     public void getCurrentLocation() {
 
 
          if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -127,6 +141,9 @@ public class MainActivity extends AppCompatActivity {
 
                      LocationServices.getFusedLocationProviderClient(MainActivity.this)
                              .requestLocationUpdates(locationRequest, new LocationCallback() {
+
+
+
                                  @Override
                                  public void onLocationResult(@NonNull LocationResult locationResult) {
                                      super.onLocationResult(locationResult);
@@ -139,8 +156,6 @@ public class MainActivity extends AppCompatActivity {
                                          int index = locationResult.getLocations().size() - 1;
                                          double latitude = locationResult.getLocations().get(index).getLatitude();
                                          double longitude = locationResult.getLocations().get(index).getLongitude();
-
-                                         AddressText.setText("Latitude: "+ latitude + "\n" + "Longitude: "+ longitude);
                                      }
                                  }
                              }, Looper.getMainLooper());

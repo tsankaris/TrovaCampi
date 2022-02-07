@@ -1,13 +1,21 @@
 package it.sal.disco.unimib.trovacampi;
 
+
+
+import android.location.Address;
+import android.location.Location;
+
 import android.os.Bundle;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+
 import androidx.fragment.app.Fragment;
+
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -17,7 +25,6 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsFragment extends Fragment {
-
 
     @Nullable
     @Override
@@ -30,30 +37,24 @@ public class MapsFragment extends Fragment {
             @Override
             public void onMapReady(@NonNull GoogleMap googleMap) {
 
+
+                LatLng posizione = new LatLng(45.6,9.2);
+                googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(posizione, 11));
+
+
+
                 LatLng cantera = new LatLng(45.630718, 9.285114);
-
-
-                googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(cantera, 13));
-
                 googleMap.addMarker(new MarkerOptions()
-                        .title("Sydney")
+                        .title("Cantera")
                         .snippet("The most populous city in Australia.")
                         .position(cantera));
 
-                googleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
-                    @Override
-                    public void onMapClick(@NonNull LatLng latLng) {
-                        MarkerOptions markerOptions = new MarkerOptions();
-                        markerOptions.position(latLng);
-                        markerOptions.title(latLng.latitude + " : " + latLng.longitude);
-                        googleMap.clear();
-                        googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng,10));
-                        googleMap.addMarker(markerOptions);
-                    }
-                });
 
 
             }
+
+
+
         });
         return view;
     }
