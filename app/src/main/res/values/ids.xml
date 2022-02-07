@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="callButtonC" type="id" />
+    <item name="callButtonI" type="id" />
+    <item name="callButtonJ" type="id" />
+    <item name="callButtonH" type="id" />
+    <item name="callButtonG" type="id" />
+    <item name="callButtonF" type="id" />
+    <item name="callButtonE" type="id" />
+    <item name="callButtonD" type="id" />
+</resources>
