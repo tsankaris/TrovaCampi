@@ -185,4 +185,5 @@
     <string name="reset_password" translatable="false">RESET PASSWORD</string>
     <string name="change_ppassword" translatable="false">CHANGE PASSWORD</string>
     <string name="delete_account" translatable="false">DELETE ACCOUNT</string>
+
 </resources>

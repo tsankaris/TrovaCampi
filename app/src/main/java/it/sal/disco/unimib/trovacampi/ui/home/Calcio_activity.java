@@ -33,7 +33,7 @@ import it.sal.disco.unimib.trovacampi.login;
 public class Calcio_activity extends Fragment {
 
 
-FloatingActionButton button4 ;
+
     List<Double> Rating = new ArrayList<>();
     public Calcio_activity(){}
     @Nullable
@@ -42,13 +42,6 @@ FloatingActionButton button4 ;
                              @Nullable Bundle savedInstanceState) {
 
         View view= inflater.inflate(R.layout.fragment_calcio, container, false);
-        button4 = view.findViewById(R.id.home);
-        button4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(requireActivity(), login.class));
-            }
-        });
         RatingBar ratingbar1= (RatingBar) view.findViewById(R.id.ratingBar1);
         Button buttonSubmit = (Button) view.findViewById(R.id.buttonSP1);
 
