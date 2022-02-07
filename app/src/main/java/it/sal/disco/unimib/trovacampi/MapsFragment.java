@@ -38,6 +38,7 @@ public class MapsFragment extends Fragment {
             public void onMapReady(@NonNull GoogleMap googleMap) {
 
 
+
                 LatLng posizione = new LatLng(45.6,9.2);
                 googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(posizione, 11));
 
