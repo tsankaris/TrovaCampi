@@ -25,7 +25,7 @@ public class NavigationCalcio extends AppCompatActivity {
 
 
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications).build();
+                R.id.calcio_activity, R.id.mapsFragment, R.id.navigation_notifications).build();
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.nav_view);
 

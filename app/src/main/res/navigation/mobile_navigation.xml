@@ -3,23 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
-
-    <fragment
-        android:id="@+id/navigation_home"
-        android:name="it.sal.disco.unimib.trovacampi.ui.home.Calcio_activity"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_calcio" />
-
-    <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="it.sal.disco.unimib.trovacampi.MapsFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_maps" />
+    app:startDestination="@id/calcio_activity">
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="it.sal.disco.unimib.trovacampi.ui.notifications.Profile"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/calcio_activity"
+        android:name="it.sal.disco.unimib.trovacampi.ui.home.Calcio_activity"
+        android:label="fragment_calcio"
+        tools:layout="@layout/fragment_calcio" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="it.sal.disco.unimib.trovacampi.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
 </navigation>
