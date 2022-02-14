@@ -34,6 +34,7 @@ public class PallavoloFragment extends Fragment {
     public PallavoloFragment() {
         // Required empty public constructor
     }
+
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
 

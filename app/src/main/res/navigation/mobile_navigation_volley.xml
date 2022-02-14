@@ -5,6 +5,7 @@
     android:id="@+id/mobile_navigation_volley.xml"
     app:startDestination="@id/pallavoloFragment">
 
+
     <fragment
         android:id="@+id/profile2"
         android:name="it.sal.disco.unimib.trovacampi.ui.notifications.Profile"

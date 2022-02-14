@@ -7,6 +7,7 @@
     android:textAlignment="textStart"
     tools:context=".PallavoloFragment">
 
+
     <ScrollView
         android:id="@+id/scrollView_volley"
         android:layout_width="match_parent"
