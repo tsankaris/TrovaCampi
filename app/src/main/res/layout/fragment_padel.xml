@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="textStart"
+    tools:context=".PadelFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView_padel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/CV_CircoloSportivoTriante"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    tools:layout_editor_absoluteY="1dp">
+
+
+                <ImageView
+                    android:id="@+id/imageViewCircoloSportivoTriante"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginBottom="32dp"
+                    android:contentDescription="@string/triante_img"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:srcCompat="@drawable/triante" />
+
+                    <TextView
+                        android:id="@+id/textViewPadel"
+                        android:layout_width="219dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="24dp"
+                        android:lines="5"
+                        android:singleLine="false"
+                        android:text="@string/descrizione_triante"
+                        android:textAlignment="gravity"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toTopOf="@+id/textViewPadel3"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/ratingBarPadel" />
+
+                    <TextView
+                        android:id="@+id/textViewPadel2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/triante"
+                        android:textColor="#020000"
+                        android:textSize="38sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.constraintlayout.widget.Barrier
+                        android:id="@+id/barrierPadel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:barrierDirection="top" />
+
+                    <TextView
+                        android:id="@+id/textViewPadel3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="77dp"
+                        android:text="@string/via_pitagora_monza"
+                        android:textColor="#090909"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadel" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBarPadel"
+                        style="@style/Widget.AppCompat.RatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:numStars="5"
+                        android:progressTint="#CDDC39"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.2"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadel2"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/buttonPadel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="@string/submit"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ratingBarPadel"
+                        app:layout_constraintTop_toBottomOf="@id/textViewPadel2" />
+
+                    <Button
+                        android:id="@+id/callButtonPadel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#4CAF50"
+                        android:text="@string/call"
+                        app:icon="@drawable/ic_baseline_call_24"
+                        app:iconTint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageViewCircoloSportivoTriante"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadel" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/CV_CircoloTennisCarate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/CV_CircoloSportivoTriante">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    tools:layout_editor_absoluteY="1dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewCircoloTennisCarate"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="32dp"
+                        android:contentDescription="@string/circolotennis_img"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:srcCompat="@drawable/caratepadel" />
+
+                    <TextView
+                        android:id="@+id/textViewPadel4"
+                        android:layout_width="219dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="24dp"
+                        android:lines="5"
+                        android:singleLine="false"
+                        android:text="@string/CircoloTennisCarate"
+                        android:textAlignment="gravity"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toTopOf="@+id/textViewPadel6"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/ratingBarPadel2" />
+
+                    <TextView
+                        android:id="@+id/textViewPadel5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/CircoloCarate"
+                        android:textColor="#020000"
+                        android:textSize="38sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.constraintlayout.widget.Barrier
+                        android:id="@+id/barrierPadel2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:barrierDirection="top" />
+
+                    <TextView
+                        android:id="@+id/textViewPadel6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="77dp"
+                        android:text="@string/via_olimpia_carate"
+                        android:textColor="#090909"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadel4" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBarPadel2"
+                        style="@style/Widget.AppCompat.RatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:numStars="5"
+                        android:progressTint="#CDDC39"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.2"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadel5"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/buttonPadel2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="@string/submit"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ratingBarPadel2"
+                        app:layout_constraintTop_toBottomOf="@id/textViewPadel5" />
+
+                    <Button
+                        android:id="@+id/callButtonPadel2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#4CAF50"
+                        android:text="@string/call"
+                        app:icon="@drawable/ic_baseline_call_24"
+                        app:iconTint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageViewCircoloTennisCarate"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadel4" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/CV_CircoloTennisCeriano"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/CV_CircoloTennisCarate">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    tools:layout_editor_absoluteY="1dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewCircoloTennisCeriano"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="32dp"
+                        android:contentDescription="@string/ceriano_img"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:srcCompat="@drawable/cerianopadel" />
+
+                    <TextView
+                        android:id="@+id/textViewPadel7"
+                        android:layout_width="219dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="24dp"
+                        android:lines="5"
+                        android:singleLine="false"
+                        android:text="@string/descrizione_circoloTennisCeriano"
+                        android:textAlignment="gravity"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toTopOf="@+id/textViewPadel9"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/ratingBarPadel3" />
+
+                    <TextView
+                        android:id="@+id/textViewPadel8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/circolotennnisCeriano"
+                        android:textColor="#020000"
+                        android:textSize="38sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.constraintlayout.widget.Barrier
+                        android:id="@+id/barrierPadel3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:barrierDirection="top" />
+
+                    <TextView
+                        android:id="@+id/textViewPadel9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="77dp"
+                        android:text="@string/via_campaccio"
+                        android:textColor="#090909"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadel7" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBarPadel3"
+                        style="@style/Widget.AppCompat.RatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:numStars="5"
+                        android:progressTint="#CDDC39"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.2"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadel8"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/buttonaPadel3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="@string/submit"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ratingBarPadel3"
+                        app:layout_constraintTop_toBottomOf="@id/textViewPadel8" />
+
+                    <Button
+                        android:id="@+id/callButtonPadel3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#4CAF50"
+                        android:text="@string/call"
+                        app:icon="@drawable/ic_baseline_call_24"
+                        app:iconTint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageViewCircoloTennisCeriano"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadel7" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/CV_PlaysportPadel"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/CV_CircoloTennisCeriano">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    tools:layout_editor_absoluteY="1dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewPlaySportPadel"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="32dp"
+                        android:contentDescription="@string/playsport_img"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:srcCompat="@drawable/playsportpadel" />
+
+                    <TextView
+                        android:id="@+id/textViewPadel10"
+                        android:layout_width="219dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="24dp"
+                        android:lines="5"
+                        android:singleLine="false"
+                        android:text="@string/descrizione_playsportpadel"
+                        android:textAlignment="gravity"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toTopOf="@+id/textViewPadel12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/ratingBarPadel4" />
+
+                    <TextView
+                        android:id="@+id/textViewPadel11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/playsport"
+                        android:textColor="#020000"
+                        android:textSize="38sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.constraintlayout.widget.Barrier
+                        android:id="@+id/barrierPadel4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:barrierDirection="top" />
+
+                    <TextView
+                        android:id="@+id/textViewPadel12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="77dp"
+                        android:text="@string/via_petrarca_2_lesmo"
+                        android:textColor="#090909"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadel10" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBarPadel4"
+                        style="@style/Widget.AppCompat.RatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:numStars="5"
+                        android:progressTint="#CDDC39"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.2"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadel11"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/buttonPadel4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="@string/submit"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ratingBarPadel4"
+                        app:layout_constraintTop_toBottomOf="@id/textViewPadel11" />
+
+                    <Button
+                        android:id="@+id/callButtonPadel4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#4CAF50"
+                        android:text="@string/call"
+                        app:icon="@drawable/ic_baseline_call_24"
+                        app:iconTint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageViewPlaySportPadel"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadel10" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/CV_PadelSulbiate"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/CV_PadelClubSeregno"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    tools:layout_editor_absoluteY="1dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageViewPadelSulbiate"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="32dp"
+                        android:contentDescription="@string/padelsulbiate_img"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:srcCompat="@drawable/padelsulbiate" />
+
+                    <TextView
+                        android:id="@+id/textViewPadelsulbiate"
+                        android:layout_width="219dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="24dp"
+                        android:lines="5"
+                        android:singleLine="false"
+                        android:text="@string/descrizione_padelsulbiate"
+                        android:textAlignment="gravity"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toTopOf="@+id/textViewPadelSulbiate3"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/ratingBarPadelSulbiate" />
+
+                    <TextView
+                        android:id="@+id/textViewPadelSulbiate2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/sulbiate"
+                        android:textColor="#020000"
+                        android:textSize="38sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.constraintlayout.widget.Barrier
+                        android:id="@+id/barrierPadelSulbiate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:barrierDirection="top" />
+
+                    <TextView
+                        android:id="@+id/textViewPadelSulbiate3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="77dp"
+                        android:text="@string/via_pitagora_monza"
+                        android:textColor="#090909"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadelsulbiate" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBarPadelSulbiate"
+                        style="@style/Widget.AppCompat.RatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:numStars="5"
+                        android:progressTint="#CDDC39"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.2"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadelSulbiate2"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/buttonPadelSulbiate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="@string/submit"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ratingBarPadelSulbiate"
+                        app:layout_constraintTop_toBottomOf="@id/textViewPadelSulbiate2" />
+
+                    <Button
+                        android:id="@+id/callButtonPadelSulbiate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#4CAF50"
+                        android:text="@string/call"
+                        app:icon="@drawable/ic_baseline_call_24"
+                        app:iconTint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageViewPadelSulbiate"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadelSulbiate3" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/CV_SestoPadelClub"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/CV_PadelSulbiate"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    tools:layout_editor_absoluteY="1dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageViewPadelSesto"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="32dp"
+                        android:contentDescription="@string/padelsesto_img"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:srcCompat="@drawable/padelsesto" />
+
+                    <TextView
+                        android:id="@+id/textViewPadelclubsesto"
+                        android:layout_width="219dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="24dp"
+                        android:lines="5"
+                        android:singleLine="false"
+                        android:text="@string/descrizione_padelsesto"
+                        android:textAlignment="gravity"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toTopOf="@+id/textViewPadelSesto3"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/ratingBarPadelSesto" />
+
+                    <TextView
+                        android:id="@+id/textViewPadelSesto2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/padelsesto"
+                        android:textColor="#020000"
+                        android:textSize="38sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.constraintlayout.widget.Barrier
+                        android:id="@+id/barrierPadelSesto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:barrierDirection="top" />
+
+                    <TextView
+                        android:id="@+id/textViewPadelSesto3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="77dp"
+                        android:text="@string/via_giovanniboccaccio"
+                        android:textColor="#090909"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadelclubsesto" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBarPadelSesto"
+                        style="@style/Widget.AppCompat.RatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:numStars="5"
+                        android:progressTint="#CDDC39"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.2"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadelSesto2"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/buttonPadelSesto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="@string/submit"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ratingBarPadelSesto"
+                        app:layout_constraintTop_toBottomOf="@id/textViewPadelSesto2" />
+
+                    <Button
+                        android:id="@+id/callButtonPadelSesto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#4CAF50"
+                        android:text="@string/call"
+                        app:icon="@drawable/ic_baseline_call_24"
+                        app:iconTint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageViewPadelSesto"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadelSesto3" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/CV_PadelClubSeregno"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/CV_PlaysportPadel" >
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    tools:layout_editor_absoluteY="1dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageViewPadelClub"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="32dp"
+                        android:contentDescription="@string/padelclub_img"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:srcCompat="@drawable/padelclub" />
+
+                    <TextView
+                        android:id="@+id/textViewPadelclubseregno"
+                        android:layout_width="219dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="24dp"
+                        android:lines="5"
+                        android:singleLine="false"
+                        android:text="@string/descrizione_padelclub"
+                        android:textAlignment="gravity"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toTopOf="@+id/textViewPadelSeregno3"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/ratingBarPadelSeregno" />
+
+                    <TextView
+                        android:id="@+id/textViewPadelSeregno2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/triante"
+                        android:textColor="#020000"
+                        android:textSize="38sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.constraintlayout.widget.Barrier
+                        android:id="@+id/barrierPadelSeregno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:barrierDirection="top" />
+
+                    <TextView
+                        android:id="@+id/textViewPadelSeregno3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="77dp"
+                        android:text="@string/via_pitagora_monza"
+                        android:textColor="#090909"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadelclubseregno" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBarPadelSeregno"
+                        style="@style/Widget.AppCompat.RatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:numStars="5"
+                        android:progressTint="#CDDC39"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.2"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadelSeregno2"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/buttonPadelSeregno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="@string/submit"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ratingBarPadelSeregno"
+                        app:layout_constraintTop_toBottomOf="@id/textViewPadelSeregno2" />
+
+                    <Button
+                        android:id="@+id/callButtonPadelSeregno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#4CAF50"
+                        android:text="@string/call"
+                        app:icon="@drawable/ic_baseline_call_24"
+                        app:iconTint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageViewPadelClub"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewPadelSeregno3" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ContactUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/CV_SestoPadelClub">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    tools:layout_editor_absoluteY="1dp">
+
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="203dp"
+                        android:layout_height="53dp"
+                        android:text="@string/non_hai_trovato_il_campo"
+                        android:textColor="#000000"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/TextView14" />
+
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/floatingActionButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:autoLink="web"
+                        android:clickable="true"
+                        android:contentDescription="@string/il_tuo_campo_non_ce"
+                        android:focusable="true"
+                        android:linksClickable="true"
+                        android:onClick="goToSo"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.110000014"
+                        app:srcCompat="@android:drawable/ic_dialog_email"
+                        tools:ignore="UsingOnClickInXml" />
+
+                    <TextView
+                        android:id="@+id/TextView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/contattaci"
+                        android:textColor="#020000"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.constraintlayout.widget.Barrier
+                        android:id="@+id/barrier10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:barrierDirection="top" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
