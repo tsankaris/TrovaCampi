@@ -13,11 +13,11 @@
     <fragment
         android:id="@+id/calcio_activity"
         android:name="it.sal.disco.unimib.trovacampi.ui.home.Calcio_activity"
-        android:label="fragment_calcio"
+        android:label="@string/Campi_da_calcio"
         tools:layout="@layout/fragment_calcio" />
     <fragment
         android:id="@+id/mapsFragment"
         android:name="it.sal.disco.unimib.trovacampi.MapsFragment"
-        android:label="fragment_maps"
+        android:label="@string/Mappa"
         tools:layout="@layout/fragment_maps" />
 </navigation>

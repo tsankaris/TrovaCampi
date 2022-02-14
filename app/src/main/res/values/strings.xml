@@ -27,7 +27,7 @@
     <string name="next">NEXT</string>
     <string name="title_activity_calcio">Football</string>
 
-    <string name="descrizione_sportpark">"PHONE: 0392494846 MAIL: info@sportparkonline.com INDOOR: no SPORT FIELD: 5 and 7 a-side-football\n           "</string>
+    <string name="descrizione_sportpark">"PHONE: 0392494846\n MAIL: info@sportparkonline.com\n INDOOR: no\n SPORT FIELD: 5 and 7 a-side-football\n           "</string>
     <string name="action_settings">Settings</string>
     <string name="sportpark" translatable="false">SPORTPARK</string>
     <string name="leonArena" translatable="false">LEON ARENA</string>
@@ -44,18 +44,18 @@
     <string name="piscineLissone_img" translatable="false">piscineLissone_img</string>
     <string name="playsport_img" translatable="false">playsport_img</string>
     <string name="tijuana_img" translatable="false">tijuana_img</string>
-    <string name="descrizione_opensport">"PHONE : 389 7874334 MAIL : tennis.sportsopen@libero.it INDOOR : yes SPORT FIELD : 5-a-side football           "</string>
-    <string name="descrizione_tijuana">PHONE : 338 6360999 MAIL : manuel.tiju@gmail.com INDOOR : no SPORT FIELD : 5-a-side football</string>
+    <string name="descrizione_opensport">"PHONE : 389 7874334\n MAIL : tennis.sportsopen@libero.it\n INDOOR : yes\n SPORT FIELD : 5-a-side football           "</string>
+    <string name="descrizione_tijuana">"PHONE : 338 6360999\n MAIL : manuel.tiju@gmail.com\n INDOOR : no\n SPORT FIELD : 5-a-side football"</string>
     <string name="derby_img" translatable="false">derby_img</string>
     <string name="cantera_img" translatable="false">cantera_img</string>
     <string name="sportpark_img" translatable="false">sportpark_img</string>
     <string name="inSport_img" translatable="false">inSport_img</string>
     <string name="opensport_img" translatable="false">opensport_img</string>
-    <string name="descrizione_derby">PHONE : 039 733229 MAIL : info@derbymonza.it INDOOR : yes SPORT FIELD : 5-a-side football</string>
-    <string name="descrizione_LaDominante">"PHONE : 039 321221 MAIL : info@ladominante.it INDOOR : no SPORT FIELD :5,7,11-a-side football        "</string>
-    <string name="descrizione_InSport">PHONE : 039 617831 MAIL : arcore@insportsrl.it INDOOR : no SPORT FIELD : 5,7-a-side football</string>
-    <string name="descrizione_playsport">PHONE : 039 6980021 MAIL : info@playsportlesmo.it INDOOR : yes SPORT FIELD : 5-a-side football</string>
-    <string name="descrizione_leonArena">PHONE : 348 8207614 MAIL : ND INDOOR : no SPORT FIELD : 5,7-a-side football</string>
+    <string name="descrizione_derby">"PHONE : 039 733229\n MAIL : info@derbymonza.it\n INDOOR : yes\n SPORT FIELD : 5-a-side football"</string>
+    <string name="descrizione_LaDominante">"PHONE : 039 321221\n MAIL : info@ladominante.it\n INDOOR : no\n SPORT FIELD :5,7,11-a-side football        "</string>
+    <string name="descrizione_InSport">"PHONE : 039 617831\n MAIL : arcore@insportsrl.it\n INDOOR : no\n SPORT FIELD : 5,7-a-side football"</string>
+    <string name="descrizione_playsport">"PHONE : 039 6980021\n MAIL : info@playsportlesmo.it\n INDOOR : yes\n SPORT FIELD : 5-a-side football"</string>
+    <string name="descrizione_leonArena">"PHONE : 348 8207614\n MAIL : ND\n INDOOR : no\n SPORT FIELD : 5,7-a-side football"</string>
     <string name="title_activity_main2" translatable="false">MainActivity2</string>
     <string name="previous">Previous</string>
 
@@ -87,30 +87,83 @@
     <string name="bentornato">WELCOME BACK!</string>
     <string name="benvenuto">WELCOME!</string>
     <string name="password_dimenticata">FORGOT PASSWORD?</string>
-    <string name="descrizione_cantera">PHONE : 375 5667883 MAIL : srl.gruppofive@gmail.com INDOOR : no SPORT FIELD : 5-a-side-football</string>
-    <string name="descrizione_piscineLissone">PHONE : 039 262 2048 MAIL : info@cierregroup.it INDOOR : yes SPORT FIELD : 5-a-side football</string>
+    <string name="descrizione_cantera">"PHONE : 375 5667883\n MAIL : srl.gruppofive@gmail.com\n INDOOR : no\n SPORT FIELD : 5-a-side-football"</string>
+    <string name="descrizione_piscineLissone">"PHONE : 039 262 2048\n MAIL : info@cierregroup.it\n INDOOR : yes\n SPORT FIELD : 5-a-side football"</string>
     <string name="title_activity_navigation_calcio" translatable="false">NavigationCalcio</string>
     <string name="title_home" translatable="false">Home</string>
-    <string name="title_dashboard" translatable="false">Dashboard</string>
-    <string name="title_notifications" translatable="false">Notifications</string>
+    <string name="title_dashboard">Maps</string>
+    <string name="title_notifications">Profile</string>
     <string name="logout" translatable="false">LOGOUT</string>
     <string name="reset_password" translatable="false">RESET PASSWORD</string>
     <string name="change_ppassword" translatable="false">CHANGE PASSWORD</string>
     <string name="delete_account" translatable="false">DELETE ACCOUNT</string>
     <string name="carugate" translatable="false">CARUGATE</string>
     <string name="carugate_img" translatable="false">carugate_img</string>
-    <string name="descrizione_carugate">"PHONE: 02 9252111 MAIL: carugate@gestisport.com INDOOR: yes \n           "</string>
+    <string name="descrizione_carugate">"PHONE: 02 9252111\n MAIL: carugate@gestisport.com\n INDOOR: yes \n           "</string>
     <string name="via_ginestrino_carugate" translatable="false">VIA DEL GINESTRINO 17, CARUGATE</string>
     <string name="insport_img" translatable="false">insport_img</string>
-    <string name="descrizione_insport2">"PHONE: 0396042562 MAIL: concorezzo@insportsrl.it INDOOR: yes \n           "</string>
+    <string name="descrizione_insport2">"PHONE: 0396042562\n MAIL: concorezzo@insportsrl.it\n INDOOR: yes \n           "</string>
     <string name="via_pio_X" translatable="false">VIA PIO X 34, CONCOREZZO</string>
     <string name="gerardiana" translatable="false">GERARDIANA</string>
     <string name="gerardiana_img" translatable="false">gerardiana_img</string>
-    <string name="descrizione_gerardiana">"PHONE: 347 8534436 MAIL: segreteria@gerardianabasket.it INDOOR: no \n           "</string>
+    <string name="descrizione_gerardiana">"PHONE: 347 8534436\n MAIL: segreteria@gerardianabasket.it\n INDOOR: no \n           "</string>
     <string name="via_cremona" translatable="false">VIA T. CREMONA 7, MONZA</string>
     <string name="carnate" translatable="false">PALESTRA CARNATE</string>
     <string name="carnate_img" translatable="false">carnate_img</string>
-    <string name="descrizione_carnate">"PHONE: 039670734 MAIL: basketcarnate2008@libero.it INDOOR: yes \n           "</string>
+    <string name="descrizione_carnate">"PHONE: 039670734\n MAIL: basketcarnate2008@libero.it\n INDOOR: yes \n           "</string>
     <string name="via_premoli" translatable="false">VIA C. PREMOLI 5, CARNATE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="triante_img" translatable="false">triante_img</string>
+    <string name="descrizione_triante" translatable="false">"PHONE: 039 744673\n MAIL: piscinatriante@tiscali.it\n OUTDOOR"</string>
+    <string name="triante" translatable="false">CENTRO TRIANTE</string>
+    <string name="via_pitagora_monza" translatable="false">via Pitagora 12, Monza</string>
+    <string name="circolotennis_img" translatable="false">CircoloTennis_img</string>
+    <string name="descrizione_CircoloTennis" translatable="false">"PHONE: 349 7530959\n MAIL: info@ctcarate.it\n OUTDOOR"</string>
+    <string name="CircoloTennisCarate" translatable="false">PHONE: 3297530959 MAIL: info@ctcarate.it OUTDOOR</string>
+    <string name="via_olimpia_carate" translatable="false">via Olimpia, Carate Brianza</string>
+    <string name="ceriano_img" translatable="false">ceriano_img</string>
+    <string name="descrizione_circoloTennisCeriano" translatable="false">"PHONE: 0239449723\n MAIL: ctceriano@gmail.com\n INDOOR"</string>
+    <string name="circolotennnisCeriano" translatable="false">CIRCOLO CERIANO</string>
+    <string name="via_campaccio" translatable="false">via Campaccio 3, Ceriano Laghetto</string>
+    <string name="descrizione_playsportpadel" translatable="false">"PHONE: 0396980021\n MAIL : info@playsportlesmo.it\n INDOOR : NO"</string>
+    <string name="padelclub_img" translatable="false">padelclub_img</string>
+    <string name="descrizione_padelclub" translatable="false">"PHONE: 275 5184588\n MAIL: info@padelclubseregno.it\n INDOOR"</string>
+    <string name="padelsulbiate_img" translatable="false">padelsulbiate_img</string>
+    <string name="descrizione_padelsulbiate" translatable="false">"PHONE: 3460627329\n MAIL: info@sulpaddle.it\n INDOOR</string>
+    <string name="sulbiate" translatable="false">PADEL SULBIATE</string>
+    <string name="padelsesto_img" translatable="false">padelsesto_img</string>
+    <string name="descrizione_padelsesto" translatable="false">"PHONE: 3294378707\n MAIL:associazionesport4life@gmail.com\n OUTDOOR</string>
+    <string name="padelsesto" translatable="false">SESTO PADEL CLUB</string>
+    <string name="via_giovanniboccaccio" translatable="false">via Giovanni Boccaccio 265, Sesto San Giovanni</string>
+    <string name="CircoloCarate" translatable="false">CIRCOLO CARATE</string>
+    <string name="centrosportivbiassono_img" translatable="false">centrosportivobiassono_img</string>
+    <string name="descrizione_sportparktennis" translatable="false">"PHONE: 3755667883\n REDBRICK"</string>
+    <string name="biassono" translatable="false">CENTRO BIASSONO</string>
+    <string name="descrizione_playsporttennis" translatable="false">"PHONE: 0396980021\n MAIL: info@playsportlesmo.it\n GREENBRICK</string>
+    <string name="sovico_img" translatable="false">sovico_img</string>
+    <string name="descrizione_sovico" translatable="false">"PHONE: 0392010099\n GREENBRICK"</string>
+    <string name="sovico" translatable="false">CENTRO SOVICO</string>
+    <string name="via_SantaCaterina" translatable="false">via Santa Caterina da Siena 1, Sovico</string>
+    <string name="descrizione_arcore" translatable="false">"PHONE: 039617894\n MAIL: direzione@tennisclubarcore.it\n REDBRICK</string>
+    <string name="descrizione_villasanta" translatable="false">"PHONE: 039302300\n MAIL: info@ctvillasanta.it\n REDBRICK</string>
+    <string name="villa" translatable="false">CLUB VILLASANTA</string>
+    <string name="via_mameli" translatable="false">via mameli 8, Arcore</string>
+    <string name="desio_img" translatable="false">desio_img</string>
+    <string name="descrizione_desio">"PHONE:334989752\n  MAIL: info@tennisdesio.it\n REDBRICK"</string>
+    <string name="desio" translatable="false">CENTRO DESIO</string>
+    <string name="via_agnese" translatable="false">via Gaetana Agnese 133, Desio</string>
+    <string name="descrizione_ladoTennis" translatable="false">"PHONE: 039321221\n MAIL: tennis@ladominante.it\n REDBRICK"</string>
+    <string name="Campi_da_calcio">Football Pitch</string>
+    <string name="Mappa">Maps</string>
+    <string name="descrizione_LaDominante2">"PHONE : 039 321221\n MAIL : info@ladominante.it\n INDOOR: NO \n        "</string>
+    <string name="descrizione_Derby2">"PHONE : 039733229\n MAIL : info@derbymonza.it\n  INDOOR : YES \n        "</string>
+    <string name="descrizione_planetsoccer">"PHONE: 335 657 9807 \n MAIL: info@planetsoccer.it \n INDOOR: YES \n           "</string>
+    <string name="planetsoccer_img" translatable="false" />
+    <string name="Campi_da_basket">Basket Pitch</string>
+    <string name="Campi_da_padel">Padel Pitch</string>
+    <string name="Campi_da_tennis">Tennis Pitch</string>
+    <string name="Campi_da_volley">Volley Pitch</string>
+
 
 </resources>

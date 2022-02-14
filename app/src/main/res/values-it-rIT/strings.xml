@@ -11,7 +11,7 @@
     <string name="submit">VOTA</string>
     <string name="contattaci">CONTATTACI</string>
     <string name="registrati">REGISTRATI</string>
-    <string name="non_hai_trovato_il_campo">Non trovi il  campo? Clicca il bottone per contattarci</string>
+    <string name="non_hai_trovato_il_campo">"Non trovi il  campo?\n Clicca il bottone per contattarci"</string>
     <string name="Benvenuto">BENVENUTO</string>
     <string name="CALCIO">calcio</string>
     <string name="PALLAVOLO">pallavolo</string>
@@ -27,22 +27,31 @@
     <string name="bentornato">BENTORNATO!</string>
     <string name="benvenuto">BENVENUTO!</string>
     <string name="password_dimenticata">PASSWORD DIMENTICATA?</string>
-    <string name="descrizione_sportpark" translatable="false">" TELEFONO : 039 2494846 MAIL : info@sportparkonline.com COPERTO : NO TIPO CAMPO : CALCIO A 5,7  "</string>
-    <string name="descrizione_opensport" translatable="false">"TELEFONO : 389 7874334 MAIL : tennis.sportsopen@libero.it COPERTO : SI TIPO CAMPO : CALCIO A 5  "</string>
-    <string name="descrizione_tijuana" translatable="false">TELEFONO : 338 6360999 MAIL : manuel.tiju@gmail.com COPERTO : NO TIPO CAMPO : CALCIO A 5 a-side football</string>
-    <string name="descrizione_cantera" translatable="false">TELEFONO : 375 5667883 MAIL : srl.gruppofive@gmail.com COPERTO : NO TIPO CAMPO : CALCIO A 5</string>
-    <string name="descrizione_derby" translatable="false">TELEFONO : 039 733229 MAIL : info@derbymonza.it COPERTO : SI TIPO CAMPO : CALCIO A 5</string>
-    <string name="descrizione_piscineLissone" translatable="false">TELEFONO : 039 262 2048 MAIL : info@cierregroup.it COPERTO : SI TIPO CAMPO : CALCIO A 5</string>
-    <string name="descrizione_LaDominante" translatable="false">"TELEFONO : 039 321221 MAIL : info@ladominante.it COPERTO : NO TIPO CAMPO : CALCIO A 5,7,11 "</string>
-    <string name="descrizione_InSport" translatable="false">TELEFONO : 039 617831 MAIL : arcore@insportsrl.it COPERTO : NO TIPO CAMPO : CALCIO A 5,7</string>
-    <string name="descrizione_playsport" translatable="false">TELEFONO : 039 6980021 MAIL : info@playsportlesmo.it COPERTO : SI TIPO CAMPO : CALCIO a 5</string>
-    <string name="descrizione_leonArena" translatable="false">TELEFONO : 348 8207614 MAIL : ND COPERTO : NO TIPO CAMPO : CALCIO A 5,7</string>
-    <string name="descrizione_carugate" translatable="false">" TELEFONO : 02 9252111 MAIL : carugate@gestisport.com COPERTO : SI  "</string>
-    <string name="descrizione_insport2">"TELEFONO: 0396042562 MAIL: concorezzo@insportsrl.it COPERTO: SI \n           "</string>
-    <string name="descrizione_gerardiana">"TELEFONO: 347 8534436 MAIL: segreteria@gerardianabasket.it COPERTO: NO \n           "</string>
-    <string name="descrizione_carnate">"TELEFONO: 039670734 MAIL: basketcarnate2008@libero.it COPERTO: SI \n           "</string>
+    <string name="descrizione_sportpark" translatable="false">" TELEFONO : 039 2494846\n MAIL : info@sportparkonline.com\n COPERTO : NO\n TIPO CAMPO : CALCIO A 5,7  "</string>
+    <string name="descrizione_opensport" translatable="false">"TELEFONO : 389 7874334\n MAIL : tennis.sportsopen@libero.it\n COPERTO : SI\n TIPO CAMPO : CALCIO A 5  "</string>
+    <string name="descrizione_tijuana" translatable="false">"TELEFONO : 338 6360999\n MAIL : manuel.tiju@gmail.com\n COPERTO : NO\n TIPO CAMPO : CALCIO A 5" </string>
+    <string name="descrizione_cantera" translatable="false">"TELEFONO : 375 5667883\n MAIL : srl.gruppofive@gmail.com\n COPERTO : NO\n TIPO CAMPO : CALCIO A 5"</string>
+    <string name="descrizione_derby" translatable="false">"TELEFONO : 039 733229\n MAIL : info@derbymonza.it\n COPERTO : SI\n TIPO CAMPO : CALCIO A 5"</string>
+    <string name="descrizione_piscineLissone" translatable="false">"TELEFONO : 039 262 2048\n MAIL : info@cierregroup.it\n COPERTO : SI\n TIPO CAMPO : CALCIO A 5"</string>
+    <string name="descrizione_LaDominante" translatable="false">"TELEFONO : 039 321221\n MAIL : info@ladominante.it\n COPERTO : NO\n TIPO CAMPO : CALCIO A 5,7,11 "</string>
+    <string name="descrizione_InSport" translatable="false">"TELEFONO : 039 617831\n MAIL : arcore@insportsrl.it\n COPERTO : NO\n TIPO CAMPO : CALCIO A 5,7"</string>
+    <string name="descrizione_playsport" translatable="false">"TELEFONO : 039 6980021\n MAIL : info@playsportlesmo.it\n COPERTO : SI\n TIPO CAMPO : CALCIO a 5"</string>
+    <string name="descrizione_leonArena" translatable="false">"TELEFONO : 348 8207614\n MAIL : ND\n COPERTO : NO\n TIPO CAMPO : CALCIO A 5,7"</string>
+    <string name="descrizione_carugate" translatable="false">" TELEFONO : 02 9252111\n MAIL : carugate@gestisport.com\n COPERTO : SI  "</string>
+    <string name="descrizione_insport2">"TELEFONO: 0396042562\n MAIL: concorezzo@insportsrl.it\n COPERTO: SI \n           "</string>
+    <string name="descrizione_gerardiana">"TELEFONO: 347 8534436\n MAIL: segreteria@gerardianabasket.it\n COPERTO: NO \n           "</string>
+    <string name="descrizione_carnate">"TELEFONO: 039670734\n MAIL: basketcarnate2008@libero.it\n COPERTO: SI \n           "</string>
+    <string name="Campi_da_calcio">Campi da calcio</string>
+    <string name="Mappa">Mappa</string>
+    <string name="title_dashboard">Mappa</string>
+    <string name="title_notifications">Profilo</string>
     <string name="descrizione_desio">"TELEFONO: 3349897502 MAIL: info@tennisdesio.it  COPERTO: NO \n           "</string>
     <string name="descrizione_LaDominante2">"TELEFONO : 039 321221 MAIL : info@ladominante.it COPERTO: NO \n        "</string>
     <string name="descrizione_Derby2">"TELEFONO : 039733229 MAIL : info@derbymonza.it  COPERTO : SI \n        "</string>
     <string name="descrizione_planetsoccer">"TELEFONO: 335 657 9807 \n MAIL: info@planetsoccer.it \n COPERTO: SI \n           "</string>
+    <string name="Campi_da_basket">Campi da Basket</string>
+    <string name="Campi_da_padel">Campi da Padel</string>
+    <string name="Campi_da_tennis">Campi da Tennis</string>
+    <string name="Campi_da_volley">Campi da Volley</string>
+
 </resources>

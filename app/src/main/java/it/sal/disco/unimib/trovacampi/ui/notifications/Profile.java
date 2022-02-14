@@ -100,7 +100,7 @@ public class Profile extends Fragment {
 
                 }else{
                     String errore = " Non Hai Effettuato Il Login";
-                    Toast.makeText(requireActivity(), errore, Toast.LENGTH_LONG).show();
+                    Toast.makeText(requireActivity(),errore,Toast.LENGTH_LONG).show();
                 }
             }
 
