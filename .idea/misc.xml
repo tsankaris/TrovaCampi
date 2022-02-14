@@ -37,12 +37,16 @@
         <entry key="..\:/Users/lucag/TrovaCampi1/app/src/main/res/menu/menu_scrolling.xml" value="0.1" />
         <entry key="..\:/Users/lucag/TrovaCampi1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1824074074074074" />
         <entry key="..\:/Users/matte/AndroidStudioProjects/TrovaCampi2/app/src/main/res/layout/activity_calcio.xml" value="0.264" />
-        <entry key="..\:/Users/matte/AndroidStudioProjects/TrovaCampi3/app/src/main/res/layout/activity_basket.xml" value="0.1265625" />
+        <entry key="..\:/Users/matte/AndroidStudioProjects/TrovaCampi3/app/src/main/res/layout/activity_basket.xml" value="0.264" />
+        <entry key="..\:/Users/matte/AndroidStudioProjects/TrovaCampi3/app/src/main/res/layout/activity_pallavolo.xml" value="0.13496376811594202" />
         <entry key="..\:/Users/matte/AndroidStudioProjects/TrovaCampi3/app/src/main/res/layout/fragment_basket.xml" value="0.264" />
         <entry key="..\:/Users/matte/AndroidStudioProjects/TrovaCampi3/app/src/main/res/layout/fragment_calcio.xml" value="0.1480978260869565" />
         <entry key="..\:/Users/matte/AndroidStudioProjects/TrovaCampi3/app/src/main/res/layout/fragment_maps_basket.xml" value="0.1480978260869565" />
+        <entry key="..\:/Users/matte/AndroidStudioProjects/TrovaCampi3/app/src/main/res/layout/fragment_maps_pallavolo.xml" value="0.13496376811594202" />
+        <entry key="..\:/Users/matte/AndroidStudioProjects/TrovaCampi3/app/src/main/res/layout/fragment_pallavolo.xml" value="0.264" />
         <entry key="..\:/Users/matte/AndroidStudioProjects/TrovaCampi3/app/src/main/res/layout/fragment_profile.xml" value="0.15489130434782608" />
         <entry key="..\:/Users/matte/AndroidStudioProjects/TrovaCampi3/app/src/main/res/menu/bottom_nav_menu_basket.xml" value="0.1265625" />
+        <entry key="..\:/Users/matte/AndroidStudioProjects/TrovaCampi3/app/src/main/res/menu/bottom_nav_menu_volley.xml" value="0.25416666666666665" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.17291666666666666" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.17291666666666666" />
         <entry key="app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.16875" />

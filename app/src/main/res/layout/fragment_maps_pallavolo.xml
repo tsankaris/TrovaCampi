@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MapsFragmentBasket">
+    tools:context=".MapsFragmentPallavolo">
 
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/google_map_basket"
+        android:id="@+id/google_map_volley"
         android:name="com.google.android.gms.maps.SupportMapFragment">
 
     </fragment>

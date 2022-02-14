@@ -99,7 +99,7 @@
     <string name="delete_account" translatable="false">DELETE ACCOUNT</string>
     <string name="carugate" translatable="false">CARUGATE</string>
     <string name="carugate_img" translatable="false">carugate_img</string>
-    <string name="descrizione_carugate">"PHONE: 02 9252111 MAIL: carugate@gestisport.com INDOOR: yes \n           "</string>
+    <string name="descrizione_carugate">"PHONE: 02 9252111 \n MAIL: carugate@gestisport.com \n INDOOR: yes \n           "</string>
     <string name="via_ginestrino_carugate" translatable="false">VIA DEL GINESTRINO 17, CARUGATE</string>
     <string name="insport_img" translatable="false">insport_img</string>
     <string name="descrizione_insport2">"PHONE: 0396042562 MAIL: concorezzo@insportsrl.it INDOOR: yes \n           "</string>
@@ -112,5 +112,18 @@
     <string name="carnate_img" translatable="false">carnate_img</string>
     <string name="descrizione_carnate">"PHONE: 039670734 MAIL: basketcarnate2008@libero.it INDOOR: yes \n           "</string>
     <string name="via_premoli" translatable="false">VIA C. PREMOLI 5, CARNATE</string>
+    <string name="desio" translatable="false">DESIO</string>
+    <string name="desio_img" translatable="false">desio_img</string>
+    <string name="descrizione_desio">"PHONE: 3349897502 MAIL: info@tennisdesio.it  INDOOR: no \n           "</string>
+    <string name="via_agnesi" translatable="false">VIA G. AGNESI 133, DESIO</string>
+    <string name="descrizione_LaDominante2">"PHONE : 039 321221 MAIL : info@ladominante.it INDOOR : no \n        "</string>
+    <string name="descrizione_Derby2">"PHONE : 039733229 MAIL : info@derbymonza.it  INDOOR : yes \n        "</string>
+    <string name="planetsoccer" translatable="false">PLANET SOCCER</string>
+    <string name="planetsoccer_img" translatable="false">planetsoccer_img</string>
+    <string name="descrizione_planetsoccer">"PHONE: 335 657 9807 \n MAIL: info@planetsoccer.it \n INDOOR: yes \n           "</string>
+    <string name="via_abruzzi" translatable="false">VIA ABRUZZI 10, CESANO MADERNO</string>
+
+
+
 
 </resources>
