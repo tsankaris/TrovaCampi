@@ -2,22 +2,22 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation_basket"
-    app:startDestination="@id/basketFragment">
+    android:id="@+id/mobile_navigation_tennis"
+    app:startDestination="@id/tennisFragment">
 
     <fragment
-        android:id="@+id/basketFragment"
-        android:name="it.sal.disco.unimib.trovacampi.BasketFragment"
+        android:id="@+id/tennisFragment"
+        android:name="it.sal.disco.unimib.trovacampi.TennisFragment"
         android:label="@string/Campi_da_tennis"
-        tools:layout="@layout/fragment_basket" />
+        tools:layout="@layout/fragment_tennis" />
     <fragment
         android:id="@+id/profile"
         android:name="it.sal.disco.unimib.trovacampi.ui.notifications.Profile"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_profile" />
     <fragment
-        android:id="@+id/mapsFragmentBasket"
-        android:name="it.sal.disco.unimib.trovacampi.MapsFragmentBasket"
+        android:id="@+id/mapsFragmentTennis"
+        android:name="it.sal.disco.unimib.trovacampi.MapsFragmentTennis"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_maps_basket" />
+        tools:layout="@layout/fragment_maps_tennis" />
 </navigation>

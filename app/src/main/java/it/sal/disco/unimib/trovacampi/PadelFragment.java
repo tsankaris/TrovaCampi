@@ -167,37 +167,37 @@ public class PadelFragment extends Fragment {
 
         Button callB = (Button)view.findViewById(R.id.callButtonPadel);
         callB.setOnClickListener(new View.OnClickListener(){
-            @Override //
+            @Override //TRIANTE
             public void onClick(View v){
                 Intent intentB= new Intent(Intent.ACTION_DIAL);
-                intentB.setData(Uri.parse("tel:029252111"));
+                intentB.setData(Uri.parse("tel:039744673"));
                 startActivity(intentB);
             }
         });
         Button callC = (Button)view.findViewById(R.id.callButtonPadel2);
         callC.setOnClickListener(new View.OnClickListener(){
-            @Override //INSPORT
+            @Override //CARATE
             public void onClick(View v){
                 Intent intentB= new Intent(Intent.ACTION_DIAL);
-                intentB.setData(Uri.parse("tel:0396042562"));
+                intentB.setData(Uri.parse("tel:3297530959"));
                 startActivity(intentB);
             }
         });
         Button callD = (Button)view.findViewById(R.id.callButtonPadel3);
         callD.setOnClickListener(new View.OnClickListener(){
-            @Override //GERARDIANA
+            @Override //CERIANO
             public void onClick(View v){
                 Intent intentB= new Intent(Intent.ACTION_DIAL);
-                intentB.setData(Uri.parse("tel:3478534436"));
+                intentB.setData(Uri.parse("tel:0239449723"));
                 startActivity(intentB);
             }
         });
         Button callE = (Button)view.findViewById(R.id.callButtonPadel4);
         callE.setOnClickListener(new View.OnClickListener(){
-            @Override //CARNATE
+            @Override //PLAYSPORT
             public void onClick(View v){
                 Intent intentB= new Intent(Intent.ACTION_DIAL);
-                intentB.setData(Uri.parse("tel:3478534436"));
+                intentB.setData(Uri.parse("tel:0396980021"));
                 startActivity(intentB);
             }
         });

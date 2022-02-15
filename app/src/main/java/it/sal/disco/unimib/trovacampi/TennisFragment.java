@@ -154,7 +154,7 @@ public class TennisFragment extends Fragment {
 
         TextView textView = (TextView) view.findViewById(R.id.textViewTennis3);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
-        textView.setText(Html.fromHtml("<a href=\"https://www.google.it/maps/place/Centro+Sportivo+Sportpark/@45.6183641,9.2783404,14z/data=!4m5!3m4!1s0x4786bbcf7934a365:0x9bb080f0b3a79618!8m2!3d45.6153534!4d9.265605\">VIA DEL GINESTRINO 17, CARUGATE\n</a>"));
+        textView.setText(Html.fromHtml("<a href=\"https://www.google.it/maps/place/Centro+Sportivo+Sportpark/@45.6183641,9.2783404,14z/data=!4m5!3m4!1s0x4786bbcf7934a365:0x9bb080f0b3a79618!8m2!3d45.6153534!4d9.265605\">VIA VITTORIO ALFIERI 35, VEDANO\n</a>"));
         TextView textView2 = (TextView) view.findViewById(R.id.textViewTennis6);
         textView2.setMovementMethod(LinkMovementMethod.getInstance());
         textView2.setText(Html.fromHtml("<a href=\"https://www.google.it/maps/place/Centro+Sportivo+Sportpark/@45.6183641,9.2783404,14z/data=!4m5!3m4!1s0x4786bbcf7934a365:0x9bb080f0b3a79618!8m2!3d45.6153534!4d9.265605\">VIA PIO X 34, CONCOREZZO\n</a>"));
@@ -167,37 +167,37 @@ public class TennisFragment extends Fragment {
 
         Button callB = (Button)view.findViewById(R.id.callButtonTennis);
         callB.setOnClickListener(new View.OnClickListener(){
-            @Override //CARUGATE
+            @Override //SPORTPARK
             public void onClick(View v){
                 Intent intentB= new Intent(Intent.ACTION_DIAL);
-                intentB.setData(Uri.parse("tel:029252111"));
+                intentB.setData(Uri.parse("tel:0392494846"));
                 startActivity(intentB);
             }
         });
         Button callC = (Button)view.findViewById(R.id.callButtonTennis2);
         callC.setOnClickListener(new View.OnClickListener(){
-            @Override //INSPORT
+            @Override //BIASSONO
             public void onClick(View v){
                 Intent intentB= new Intent(Intent.ACTION_DIAL);
-                intentB.setData(Uri.parse("tel:0396042562"));
+                intentB.setData(Uri.parse("tel:3755667883"));
                 startActivity(intentB);
             }
         });
         Button callD = (Button)view.findViewById(R.id.callButtonTennis3);
         callD.setOnClickListener(new View.OnClickListener(){
-            @Override //GERARDIANA
+            @Override //PLAYSPORT
             public void onClick(View v){
                 Intent intentB= new Intent(Intent.ACTION_DIAL);
-                intentB.setData(Uri.parse("tel:3478534436"));
+                intentB.setData(Uri.parse("tel:0396980021"));
                 startActivity(intentB);
             }
         });
         Button callE = (Button)view.findViewById(R.id.callButtonTennis4);
         callE.setOnClickListener(new View.OnClickListener(){
-            @Override //CARNATE
+            @Override //SOVICO
             public void onClick(View v){
                 Intent intentB= new Intent(Intent.ACTION_DIAL);
-                intentB.setData(Uri.parse("tel:3478534436"));
+                intentB.setData(Uri.parse("tel:0392010099"));
                 startActivity(intentB);
             }
         });
