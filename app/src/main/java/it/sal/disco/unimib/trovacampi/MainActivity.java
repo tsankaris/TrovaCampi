@@ -74,7 +74,6 @@ public class MainActivity extends AppCompatActivity {
                  }
              }
          });
-         LocationButton = findViewById(R.id.button13);
 
          locationRequest = LocationRequest.create();
          locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
