@@ -35,11 +35,31 @@ public class MapsFragmentPadel extends Fragment {
                 googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(posizione, 11));
 
 
-                LatLng cantera = new LatLng(45.630718, 9.285114);
+                LatLng triante = new LatLng(45.575281, 9.251948);
                 googleMap.addMarker(new MarkerOptions()
-                        .title("Cantera")
-                        .snippet("The most populous city in Australia.")
-                        .position(cantera));
+                        .title("Centro Trainte")
+                        .snippet("")
+                        .position(triante));
+
+
+                  LatLng carate = new LatLng(45.675311, 9.223362);
+                googleMap.addMarker(new MarkerOptions()
+                        .title("Circolo Carate")
+                        .snippet("")
+                        .position(carate));
+
+                  LatLng ceriano = new LatLng(45.632658, 9.075507);
+                googleMap.addMarker(new MarkerOptions()
+                        .title("Circolo Ceriano")
+                        .snippet("")
+                        .position(ceriano));
+
+                  LatLng playsport = new LatLng(45.642917, 9.303909);
+                googleMap.addMarker(new MarkerOptions()
+                        .title("PlaySport")
+                        .snippet("")
+                        .position(playsport));
+
 
 
             }

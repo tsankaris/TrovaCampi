@@ -1,19 +1,13 @@
 package it.sal.disco.unimib.trovacampi;
 
-import android.location.Address;
-import android.location.Location;
-
 import android.os.Bundle;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-
 import androidx.fragment.app.Fragment;
-
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -45,6 +39,24 @@ public class MapsFragmentTennis extends Fragment {
                         .title("Cantera")
                         .snippet("The most populous city in Australia.")
                         .position(cantera));
+
+                LatLng sportpark = new LatLng(45.615736, 9.266916);
+                googleMap.addMarker(new MarkerOptions()
+                        .title("SportPark")
+                        .snippet("")
+                        .position(sportpark));
+
+                LatLng playsport = new LatLng(45.642917, 9.303909);
+                googleMap.addMarker(new MarkerOptions()
+                        .title("PlaySport")
+                        .snippet("")
+                        .position(playsport));
+
+                LatLng open_sport= new LatLng(45.649961, 9.268412);
+                googleMap.addMarker(new MarkerOptions()
+                        .title("Open Sport")
+                        .snippet("")
+                        .position(open_sport));
 
 
             }

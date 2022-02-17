@@ -3,11 +3,6 @@ package it.sal.disco.unimib.trovacampi;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
-
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
@@ -17,6 +12,10 @@ import android.widget.Button;
 import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -157,13 +156,13 @@ public class TennisFragment extends Fragment {
         textView.setText(Html.fromHtml("<a href=\"https://www.google.it/maps/place/Centro+Sportivo+Sportpark/@45.6183641,9.2783404,14z/data=!4m5!3m4!1s0x4786bbcf7934a365:0x9bb080f0b3a79618!8m2!3d45.6153534!4d9.265605\">VIA VITTORIO ALFIERI 35, VEDANO\n</a>"));
         TextView textView2 = (TextView) view.findViewById(R.id.textViewTennis6);
         textView2.setMovementMethod(LinkMovementMethod.getInstance());
-        textView2.setText(Html.fromHtml("<a href=\"https://www.google.it/maps/place/Centro+Sportivo+Sportpark/@45.6183641,9.2783404,14z/data=!4m5!3m4!1s0x4786bbcf7934a365:0x9bb080f0b3a79618!8m2!3d45.6153534!4d9.265605\">VIA PIO X 34, CONCOREZZO\n</a>"));
+        textView2.setText(Html.fromHtml("<a href=\"https://www.google.it/maps/place/Cantera+Club+Sport+%26+Restaurant/@45.6305723,9.2835103,17z/data=!3m1!4b1!4m5!3m4!1s0x4786bb4d03095c7d:0x52d8b5ae6fb13b7b!8m2!3d45.6305721!4d9.2856544\">VIA PARCO 51, BIASSONO\n</a>"));
         TextView textView3 = (TextView) view.findViewById(R.id.textViewTennis9);
         textView3.setMovementMethod(LinkMovementMethod.getInstance());
-        textView3.setText(Html.fromHtml("<a href=\"https://www.google.it/maps/place/Centro+Sportivo+Sportpark/@45.6183641,9.2783404,14z/data=!4m5!3m4!1s0x4786bbcf7934a365:0x9bb080f0b3a79618!8m2!3d45.6153534!4d9.265605\">VIA T. CREMONA 7, MONZA\n</a>"));
+        textView3.setText(Html.fromHtml("<a href=\"https://www.bing.com/local?lid=YN2000x15716454582749594760&id=YN2000x15716454582749594760&q=Playsport&name=Playsport&cp=45.64289474487305%7e9.303834915161133&ppois=45.64289474487305_9.303834915161133_Playsport\">VIA PETRARCA 2, LESMO</a>"));
         TextView textView4 = (TextView) view.findViewById(R.id.textViewTennis12);
         textView4.setMovementMethod(LinkMovementMethod.getInstance());
-        textView4.setText(Html.fromHtml("<a href=\"https://www.google.it/maps/place/Centro+Sportivo+Sportpark/@45.6183641,9.2783404,14z/data=!4m5!3m4!1s0x4786bbcf7934a365:0x9bb080f0b3a79618!8m2!3d45.6153534!4d9.265605\">VIA C. PREMOLI 5, CARNATE\n</a>"));
+        textView4.setText(Html.fromHtml("<a href=\"https://www.bing.com/local?lid=YN1354x4914129612009534898&id=YN1354x4914129612009534898&q=Centro+Sportivo+Comunale&name=Centro+Sportivo+Comunale&cp=45.651878356933594%7e9.266690254211426&ppois=45.651878356933594_9.266690254211426_Centro+Sportivo+Comunale\">VIA LAMBRO, SOVICO</a>"));
 
         Button callB = (Button)view.findViewById(R.id.callButtonTennis);
         callB.setOnClickListener(new View.OnClickListener(){
