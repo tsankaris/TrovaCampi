@@ -45,9 +45,9 @@
     <string name="Mappa">Mappa</string>
     <string name="title_dashboard">Mappa</string>
     <string name="title_notifications">Profilo</string>
-    <string name="descrizione_desio">"TELEFONO: 3349897502 MAIL: info@tennisdesio.it  COPERTO: NO \n           "</string>
-    <string name="descrizione_LaDominante2">"TELEFONO : 039 321221 MAIL : info@ladominante.it COPERTO: NO \n        "</string>
-    <string name="descrizione_Derby2">"TELEFONO : 039733229 MAIL : info@derbymonza.it  COPERTO : SI \n        "</string>
+    <string name="descrizione_desio">"TELEFONO: 3349897502\n MAIL: info@tennisdesio.it\n  COPERTO: NO \n           "</string>
+    <string name="descrizione_LaDominante2">"TELEFONO : 039 321221\n MAIL : info@ladominante.it\n COPERTO: NO \n        "</string>
+    <string name="descrizione_Derby2">"TELEFONO : 039733229\n MAIL : info@derbymonza.it\n  COPERTO : SI \n        "</string>
     <string name="descrizione_planetsoccer">"TELEFONO: 335 657 9807 \n MAIL: info@planetsoccer.it \n COPERTO: SI \n           "</string>
     <string name="Campi_da_basket">Campi da Basket</string>
     <string name="Campi_da_padel">Campi da Padel</string>

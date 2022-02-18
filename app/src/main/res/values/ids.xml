@@ -8,4 +8,7 @@
     <item name="callButtonF" type="id" />
     <item name="callButtonE" type="id" />
     <item name="callButtonD" type="id" />
+    <item name="floatingActionButtonB" type="id" />
+    <item name="floatingActionButtonT" type="id" />
+    <item name="floatingActionButtonPa" type="id" />
 </resources>

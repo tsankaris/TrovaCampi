@@ -12,12 +12,13 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Padel extends AppCompatActivity {
 
+    private static final String TAG = "Padel";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_padel);
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.PadelFragment, R.id.mapsFragmentPadel, R.id.profile).build();
+                R.id.PadelFragment, R.id.mapsFragmentPadel, R.id.profilePadel).build();
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.nav_view_padel);
 

@@ -2,22 +2,22 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation_basket"
+    android:id="@+id/mobile_navigation_padel"
     app:startDestination="@id/PadelFragment">
 
     <fragment
         android:id="@+id/PadelFragment"
-        android:name="it.sal.disco.unimib.trovacampi.BasketFragment"
+        android:name="it.sal.disco.unimib.trovacampi.PadelFragment"
         android:label="@string/Campi_da_padel"
         tools:layout="@layout/fragment_padel" />
     <fragment
-        android:id="@+id/profile"
+        android:id="@+id/profilePadel"
         android:name="it.sal.disco.unimib.trovacampi.ui.notifications.Profile"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/mapsFragmentPadel"
-        android:name="it.sal.disco.unimib.trovacampi.MapsFragmentBasket"
+        android:name="it.sal.disco.unimib.trovacampi.MapsFragmentPadel"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_maps_padel" />
 </navigation>

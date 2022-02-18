@@ -470,29 +470,19 @@ public class Calcio_activity extends Fragment {
             }
         });
 
+    FloatingActionButton button = (FloatingActionButton) view.findViewById(R.id.floatingActionButton3);
+    button.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+                Uri uriUrl = Uri.parse("https://docs.google.com/forms/d/e/1FAIpQLScrtyp4cQ7QILiA1EeFmkRf3-KZq0Q2lLtRPam4GMKLkUfBwA/viewform?usp=sf_link");
+                Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+                startActivity(launchBrowser);
+            }
 
+    });
 
 
 
         return view;
     }
-
-       
-
-
-
-
-
-
-    public void goToSo (View view) {
-        goToUrl ();
-    }
-
-    private void goToUrl() {
-        Uri uriUrl = Uri.parse("https://docs.google.com/forms/d/e/1FAIpQLScrtyp4cQ7QILiA1EeFmkRf3-KZq0Q2lLtRPam4GMKLkUfBwA/viewform?usp=sf_link");
-        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
-        startActivity(launchBrowser);
-    }
-
-
 }

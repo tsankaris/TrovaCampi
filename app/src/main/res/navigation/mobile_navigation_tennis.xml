@@ -11,7 +11,7 @@
         android:label="@string/Campi_da_tennis"
         tools:layout="@layout/fragment_tennis" />
     <fragment
-        android:id="@+id/profile"
+        android:id="@+id/profileT"
         android:name="it.sal.disco.unimib.trovacampi.ui.notifications.Profile"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_profile" />

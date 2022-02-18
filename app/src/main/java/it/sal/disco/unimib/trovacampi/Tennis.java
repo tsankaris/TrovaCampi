@@ -12,12 +12,13 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Tennis extends AppCompatActivity {
 
+    private static final String TAG = "Tennis";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tennis);
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.tennisFragment, R.id.mapsFragmentTennis, R.id.profile).build();
+                R.id.tennisFragment, R.id.mapsFragmentTennis, R.id.profileT).build();
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.nav_view_tennis);
 
