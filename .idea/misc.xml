@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/david/AndroidStudioProjects/TrovaCampi/app/src/main/res/drawable/icona_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/david/AndroidStudioProjects/TrovaCampi/app/src/main/res/layout/activity_basket.xml" value="0.12092391304347826" />
         <entry key="..\:/Users/david/AndroidStudioProjects/TrovaCampi/app/src/main/res/layout/activity_calcio.xml" value="0.18216216216216216" />
         <entry key="..\:/Users/david/AndroidStudioProjects/TrovaCampi/app/src/main/res/layout/activity_dopo_login.xml" value="0.1408514492753623" />
@@ -12,6 +13,7 @@
         <entry key="..\:/Users/david/AndroidStudioProjects/TrovaCampi/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/david/AndroidStudioProjects/TrovaCampi/app/src/main/res/layout/activity_navigation_calcio.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/david/AndroidStudioProjects/TrovaCampi/app/src/main/res/layout/activity_padel.xml" value="0.12092391304347826" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/TrovaCampi/app/src/main/res/layout/activity_pallavolo.xml" value="0.161231884057971" />
         <entry key="..\:/Users/david/AndroidStudioProjects/TrovaCampi/app/src/main/res/layout/activity_tennis.xml" value="0.12092391304347826" />
         <entry key="..\:/Users/david/AndroidStudioProjects/TrovaCampi/app/src/main/res/layout/fragment_basket.xml" value="0.1" />
         <entry key="..\:/Users/david/AndroidStudioProjects/TrovaCampi/app/src/main/res/layout/fragment_calcio.xml" value="0.1453804347826087" />
@@ -33,6 +35,9 @@
         <entry key="..\:/Users/david/AndroidStudioProjects/TrovaCampi/app/src/main/res/menu/bottom_nav_menu_tennis.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/david/AndroidStudioProjects/TrovaCampi/app/src/main/res/menu/bottom_nav_menu_volley.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/david/AndroidStudioProjects/TrovaCampi/app/src/main/res/menu/menu_calcio.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/TrovaCampi/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/TrovaCampi/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/TrovaCampi/app/src/main/res/mipmap-anydpi-v26/icona_launcher.xml" value="0.1" />
         <entry key="..\:/Users/lucag/TrovaCampi/app/src/main/res/layout/activity_autenticazione.xml" value="0.1" />
         <entry key="..\:/Users/lucag/TrovaCampi/app/src/main/res/layout/activity_calcio.xml" value="0.22" />
         <entry key="..\:/Users/lucag/TrovaCampi/app/src/main/res/layout/activity_dopo_login.xml" value="0.1" />
