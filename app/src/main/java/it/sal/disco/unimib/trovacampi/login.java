@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -40,7 +41,6 @@ public class login extends AppCompatActivity {
         button = findViewById(R.id.button4);
         button1 = findViewById(R.id.button5);
         button2 = findViewById(R.id.button3);
-        button3 = findViewById(R.id.button8);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -95,9 +95,10 @@ public class login extends AppCompatActivity {
 
         });
 
-button3.setOnClickListener(new View.OnClickListener() {
-    @Override
-    public void onClick(View v) {
+    }
+
+
+    public void perform_action(View view) {
         FirebaseAuth auth = FirebaseAuth.getInstance();
         String emailAddress = memail.getText().toString().trim();
 
@@ -117,11 +118,5 @@ button3.setOnClickListener(new View.OnClickListener() {
                         }
                     });
         }
-
     }
-});
-    }
-
-
-
 }

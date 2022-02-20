@@ -13,17 +13,10 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class Pallavolo extends AppCompatActivity {
 
     private static final String TAG = "Pallavolo";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pallavolo);
-
-
-
-
-
-
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.pallavoloFragment, R.id.mapsFragmentPallavolo, R.id.profile2).build();
 
