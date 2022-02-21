@@ -64,28 +64,32 @@ public class login extends AppCompatActivity {
                 String password = mpassword.getText().toString().trim();
 
                 if (TextUtils.isEmpty(email)) {
-                    memail.setError("email is required");
+                    String emailRichiesta = "email richiesta";
+                    memail.setError(emailRichiesta);
                 } else if (!android.util.Patterns.EMAIL_ADDRESS.matcher(memail.getText().toString()).matches()) {
-                    memail.setError("please enter a valid email");
+                    String emailValida = "inserisci un'email valida";
+                    memail.setError(emailValida);
                 }
                 if (TextUtils.isEmpty(password)) {
-                    mpassword.setError("password is required");
+                    String passwordRichiesta = "password richiesta";
+                    mpassword.setError(passwordRichiesta);
                     return;
                 }
 
 
                 if (password.length() < 6) {
-                    mpassword.setError("please enter password minimum in 6 char");
+                    String passwordCorta = "inserisci una password lunga almeno 6 caratteri";
+                    mpassword.setError(passwordCorta);
                     return;
                 }
                 mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            Toast.makeText(login.this, "Logged In Successfully", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(login.this, "Accesso effettuato", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         } else {
-                            Toast.makeText(login.this, "error" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(login.this, "errore: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
@@ -103,9 +107,11 @@ public class login extends AppCompatActivity {
         String emailAddress = memail.getText().toString().trim();
 
         if (TextUtils.isEmpty(emailAddress)) {
-            memail.setError("email is required");
+            String emailRichiesta = "email is required";
+            memail.setError(emailRichiesta);
         } else if (!android.util.Patterns.EMAIL_ADDRESS.matcher(memail.getText().toString()).matches()) {
-            memail.setError("please enter a valid email");
+            String emailValida = "please enter a valid email";
+            memail.setError(emailValida);
         }else{
 
             auth.sendPasswordResetEmail(emailAddress)
@@ -113,7 +119,10 @@ public class login extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
                             if (task.isSuccessful()) {
+
                                 Log.d(TAG, "Email sent.");
+                                String errore = "Email sent";
+                                Toast.makeText(login.this, errore, Toast.LENGTH_LONG).show();
                             }
                         }
                     });

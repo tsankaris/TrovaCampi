@@ -56,7 +56,7 @@ public class TennisFragment extends Fragment {
                     Double numStelle = Double.valueOf(ratingbar1.getRating());
                     Rating.add(numStelle);
 
-                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("tennis_sportpark");
                     mediDatabase.push().setValue(numStelle);
 
 
@@ -85,7 +85,7 @@ public class TennisFragment extends Fragment {
                     Double numStelle = Double.valueOf(ratingbar2.getRating());
                     Rating.add(numStelle);
 
-                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("tennis_centroBiassono");
                     mediDatabase.push().setValue(numStelle);
 
 
@@ -113,7 +113,7 @@ public class TennisFragment extends Fragment {
                     Double numStelle = Double.valueOf(ratingbar3.getRating());
                     Rating.add(numStelle);
 
-                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("tennis_playsport");
                     mediDatabase.push().setValue(numStelle);
 
 
@@ -141,7 +141,7 @@ public class TennisFragment extends Fragment {
                     Double numStelle = Double.valueOf(ratingbar4.getRating());
                     Rating.add(numStelle);
 
-                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("tennis_centroSovico");
                     mediDatabase.push().setValue(numStelle);
 
 

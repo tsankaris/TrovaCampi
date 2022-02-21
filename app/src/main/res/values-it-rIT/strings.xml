@@ -53,5 +53,21 @@
     <string name="Campi_da_padel">Campi da Padel</string>
     <string name="Campi_da_tennis">Campi da Tennis</string>
     <string name="Campi_da_volley">Campi da Volley</string>
+    <string name="descrizione_sportparktennis">"TELEFONO: 3755667883\n MAIL: info@sportparkonline.com\n TERRA ROSSA"</string>
+    <string name="descrizione_sovico">"TELEFONO: 0392010099\n  TERRA VERDE"</string>
+    <string name="descrizione_ladoTennis">"TELEFONO: 039321221\n  MAIL: tennis@ladominante.it\n  TERRA ROSSA"</string>
+    <string name="descrizione_arcore">"TELEFONO: 039617894\n  MAIL: direzione@tennisclubarcore.it\n TERRA ROSSA"</string>
+    <string name="descrizione_padelsesto">"TELEFONO: 3294378707\n  MAIL:associazionesport4life@gmail.com\n  COPERTO:NO"</string>
+    <string name="descrizione_circoloTennisCeriano">"TELEFONO: 0239449723\n  MAIL: ctceriano@gmail.com\n  COPERTO:SI"</string>
+    <string name="descrizione_triante">"TELEFONO: 039 744673\n  MAIL: piscinatriante@tiscali.it\n  COPERTO:NO"</string>
+    <string name="CircoloTennisCarate">"TELEFONO: 3297530959\n MAIL: info@ctcarate.it\n COPERTO: NO"</string>
+    <string name="descrizione_playsportpadel">"TELEFONO: 0396980021\n  MAIL : info@playsportlesmo.it\n  COPERTO: NO"</string>
+    <string name="descrizione_playsporttennis">"TELEFONO: 0396980021\n  MAIL: info@playsportlesmo.it\n  TERRA VERDE"</string>
+    <string name="profilo">PROFILO</string>
+    <string name="change_ppassword">CAMBIA PASSWORD</string>
+    <string name="reset_password">MODIFICA PASSWORD</string>
+    <string name="delete_account">ELIMINA ACCOUNT</string>
+    <string name="logout">DISCONNETTI</string>
+
 
 </resources>

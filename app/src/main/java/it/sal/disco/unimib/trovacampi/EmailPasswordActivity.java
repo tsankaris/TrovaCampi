@@ -39,7 +39,7 @@ public class EmailPasswordActivity extends Activity {
         setContentView(R.layout.activity_emailpassword);
         // [END initialize_auth]
         memail = findViewById(R.id.editTextTextEmailAddress); //indirizzo email
-        mpassword = findViewById(R.id.editTextTextPassword2); //password
+        mpassword = findViewById(R.id.editTextTextPassword); //password
         mripetipassword = findViewById(R.id.editTextTextPassword3); //ripeti password
         button = findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {

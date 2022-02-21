@@ -93,10 +93,10 @@
     <string name="title_home" translatable="false">Home</string>
     <string name="title_dashboard">Maps</string>
     <string name="title_notifications">Profile</string>
-    <string name="logout" translatable="false">LOGOUT</string>
-    <string name="reset_password" translatable="false">RESET PASSWORD</string>
-    <string name="change_ppassword" translatable="false">CHANGE PASSWORD</string>
-    <string name="delete_account" translatable="false">DELETE ACCOUNT</string>
+    <string name="logout">LOGOUT</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="change_ppassword">CHANGE PASSWORD</string>
+    <string name="delete_account">DELETE ACCOUNT</string>
     <string name="carugate" translatable="false">CARUGATE</string>
     <string name="carugate_img" translatable="false">carugate_img</string>
     <string name="descrizione_carugate">"PHONE: 02 9252111\n MAIL: carugate@gestisport.com\n INDOOR: yes \n           "</string>
@@ -115,37 +115,37 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
     <string name="triante_img" translatable="false">triante_img</string>
-    <string name="descrizione_triante" translatable="false">"PHONE: 039 744673\n MAIL: piscinatriante@tiscali.it\n OUTDOOR"</string>
+    <string name="descrizione_triante">PHONE: 039 744673  MAIL: piscinatriante@tiscali.it  OUTDOOR</string>
     <string name="triante" translatable="false">CENTRO TRIANTE</string>
     <string name="via_pitagora_monza" translatable="false">via Pitagora 12, Monza</string>
     <string name="circolotennis_img" translatable="false">CircoloTennis_img</string>
     <string name="descrizione_CircoloTennis" translatable="false">"PHONE: 349 7530959\n MAIL: info@ctcarate.it\n OUTDOOR"</string>
-    <string name="CircoloTennisCarate" translatable="false">PHONE: 3297530959 MAIL: info@ctcarate.it OUTDOOR</string>
+    <string name="CircoloTennisCarate">"PHONE: 3297530959\n MAIL: info@ctcarate.it\n OUTDOOR"</string>
     <string name="via_olimpia_carate" translatable="false">via Olimpia, Carate Brianza</string>
     <string name="ceriano_img" translatable="false">ceriano_img</string>
-    <string name="descrizione_circoloTennisCeriano" translatable="false">"PHONE: 0239449723\n MAIL: ctceriano@gmail.com\n INDOOR"</string>
+    <string name="descrizione_circoloTennisCeriano">PHONE: 0239449723  MAIL: ctceriano@gmail.com  INDOOR</string>
     <string name="circolotennnisCeriano" translatable="false">CIRCOLO CERIANO</string>
     <string name="via_campaccio" translatable="false">via Campaccio 3, Ceriano Laghetto</string>
-    <string name="descrizione_playsportpadel" translatable="false">"PHONE: 0396980021\n MAIL : info@playsportlesmo.it\n INDOOR : NO"</string>
+    <string name="descrizione_playsportpadel" translatable="false">"PHONE: 0396980021\n MAIL: info@playsportlesmo.it\n OUTDOOR"</string>
     <string name="padelclub_img" translatable="false">padelclub_img</string>
     <string name="descrizione_padelclub" translatable="false">"PHONE: 275 5184588\n MAIL: info@padelclubseregno.it\n INDOOR"</string>
     <string name="padelsulbiate_img" translatable="false">padelsulbiate_img</string>
     <string name="descrizione_padelsulbiate" translatable="false">"PHONE: 3460627329\n MAIL: info@sulpaddle.it\n INDOOR</string>
     <string name="sulbiate" translatable="false">PADEL SULBIATE</string>
     <string name="padelsesto_img" translatable="false">padelsesto_img</string>
-    <string name="descrizione_padelsesto" translatable="false">"PHONE: 3294378707\n MAIL:associazionesport4life@gmail.com\n OUTDOOR</string>
+    <string name="descrizione_padelsesto">PHONE: 3294378707  MAIL:associazionesport4life@gmail.com  OUTDOOR</string>
     <string name="padelsesto" translatable="false">SESTO PADEL CLUB</string>
     <string name="via_giovanniboccaccio" translatable="false">via Giovanni Boccaccio 265, Sesto San Giovanni</string>
     <string name="CircoloCarate" translatable="false">CIRCOLO CARATE</string>
     <string name="centrosportivbiassono_img" translatable="false">centrosportivobiassono_img</string>
-    <string name="descrizione_sportparktennis" translatable="false">"PHONE: 3755667883\n REDBRICK"</string>
+    <string name="descrizione_sportparktennis" >"PHONE: 3755667883\n MAIL: info@sportparkonline.com\n REDBRICK"</string>
     <string name="biassono" translatable="false">CENTRO BIASSONO</string>
-    <string name="descrizione_playsporttennis" translatable="false">"PHONE: 0396980021\n MAIL: info@playsportlesmo.it\n GREENBRICK</string>
+    <string name="descrizione_playsporttennis">PHONE: 0396980021  MAIL: info@playsportlesmo.it  GREENBRICK</string>
     <string name="sovico_img" translatable="false">sovico_img</string>
-    <string name="descrizione_sovico" translatable="false">"PHONE: 0392010099\n GREENBRICK"</string>
+    <string name="descrizione_sovico">"PHONE: 0392010099\n GREENBRICK"</string>
     <string name="sovico" translatable="false">CENTRO SOVICO</string>
     <string name="via_SantaCaterina" translatable="false">via Santa Caterina da Siena 1, Sovico</string>
-    <string name="descrizione_arcore" translatable="false">"PHONE: 039617894\n MAIL: direzione@tennisclubarcore.it\n REDBRICK</string>
+    <string name="descrizione_arcore">PHONE: 039617894  MAIL: direzione@tennisclubarcore.it\\n REDBRICK</string>
     <string name="descrizione_villasanta" translatable="false">"PHONE: 039302300\n MAIL: info@ctvillasanta.it\n REDBRICK</string>
     <string name="villa" translatable="false">CLUB VILLASANTA</string>
     <string name="via_mameli" translatable="false">via mameli 8, Arcore</string>
@@ -153,7 +153,7 @@
     <string name="descrizione_desio">"PHONE:334989752\n  MAIL: info@tennisdesio.it\n REDBRICK"</string>
     <string name="desio" translatable="false">CENTRO DESIO</string>
     <string name="via_agnese" translatable="false">via Gaetana Agnese 133, Desio</string>
-    <string name="descrizione_ladoTennis" translatable="false">"PHONE: 039321221\n MAIL: tennis@ladominante.it\n REDBRICK"</string>
+    <string name="descrizione_ladoTennis">PHONE: 039321221  MAIL: tennis@ladominante.it  REDBRICK</string>
     <string name="Campi_da_calcio">Football Pitch</string>
     <string name="Mappa">Maps</string>
     <string name="descrizione_LaDominante2">"PHONE : 039 321221\n MAIL : info@ladominante.it\n INDOOR: NO \n        "</string>
@@ -164,6 +164,6 @@
     <string name="Campi_da_padel">Padel Pitch</string>
     <string name="Campi_da_tennis">Tennis Pitch</string>
     <string name="Campi_da_volley">Volley Pitch</string>
-
+    <string name="profilo">PROFILE</string>
 
 </resources>

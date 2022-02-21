@@ -62,7 +62,7 @@ public class Profile extends Fragment {
                                 @Override
                                 public void onComplete(@NonNull Task<Void> task) {
                                     if (task.isSuccessful()) {
-                                        Log.d(TAG, "User account deleted.");
+                                        Log.d(TAG, "Utente cancellato correttamente.");
 
                                         String errore = " Utente cancellato correttamente";
                                         Toast.makeText(requireActivity(), errore, Toast.LENGTH_LONG).show();
@@ -90,7 +90,7 @@ public class Profile extends Fragment {
                                 @Override
                                 public void onComplete(@NonNull Task<Void> task) {
                                     if (task.isSuccessful()) {
-                                        Log.d(TAG, "Email sent.");
+                                        Log.d(TAG, "Email inviata.");
 
                                         String errore = " Email inviata";
                                         Toast.makeText(requireActivity(), errore, Toast.LENGTH_LONG).show();

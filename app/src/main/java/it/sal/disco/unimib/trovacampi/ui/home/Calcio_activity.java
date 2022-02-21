@@ -60,7 +60,7 @@ public class Calcio_activity extends Fragment {
                     Double numStelle = Double.valueOf(ratingbar1.getRating());
                     Rating.add(numStelle);
 
-                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("calcio_sportpark");
                     mediDatabase.push().setValue(numStelle);
 
 
@@ -89,7 +89,7 @@ public class Calcio_activity extends Fragment {
                     Double numStelle = Double.valueOf(ratingbar2.getRating());
                     Rating.add(numStelle);
 
-                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("calcio_cantera");
                     mediDatabase.push().setValue(numStelle);
 
 
@@ -117,7 +117,7 @@ public class Calcio_activity extends Fragment {
                     Double numStelle = Double.valueOf(ratingbar3.getRating());
                     Rating.add(numStelle);
 
-                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("calcio_derby");
                     mediDatabase.push().setValue(numStelle);
 
 
@@ -145,7 +145,7 @@ public class Calcio_activity extends Fragment {
                     Double numStelle = Double.valueOf(ratingbar4.getRating());
                     Rating.add(numStelle);
 
-                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("calcio_tijuana");
                     mediDatabase.push().setValue(numStelle);
 
 
@@ -173,7 +173,7 @@ public class Calcio_activity extends Fragment {
                     Double numStelle = Double.valueOf(ratingbar5.getRating());
                     Rating.add(numStelle);
 
-                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("calcio_playsport");
                     mediDatabase.push().setValue(numStelle);
 
 
@@ -201,7 +201,7 @@ public class Calcio_activity extends Fragment {
                     Double numStelle = Double.valueOf(ratingbar6.getRating());
                     Rating.add(numStelle);
 
-                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("calcio_piscineLissone");
                     mediDatabase.push().setValue(numStelle);
 
 
@@ -229,7 +229,7 @@ public class Calcio_activity extends Fragment {
                     Double numStelle = Double.valueOf(ratingbar7.getRating());
                     Rating.add(numStelle);
 
-                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("calcio_inSport");
                     mediDatabase.push().setValue(numStelle);
 
 
@@ -257,7 +257,7 @@ public class Calcio_activity extends Fragment {
                     Double numStelle = Double.valueOf(ratingbar8.getRating());
                     Rating.add(numStelle);
 
-                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("calcio_leonArena");
                     mediDatabase.push().setValue(numStelle);
 
 
@@ -285,7 +285,7 @@ public class Calcio_activity extends Fragment {
                     Double numStelle = Double.valueOf(ratingbar9.getRating());
                     Rating.add(numStelle);
 
-                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("calcio_openSport");
                     mediDatabase.push().setValue(numStelle);
 
 
@@ -313,7 +313,7 @@ public class Calcio_activity extends Fragment {
                     Double numStelle = Double.valueOf(ratingbar10.getRating());
                     Rating.add(numStelle);
 
-                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("sportpark");
+                    DatabaseReference mediDatabase = FirebaseDatabase.getInstance("https://trovacampi-4634e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("calcio_laDominante");
                     mediDatabase.push().setValue(numStelle);
 
 
