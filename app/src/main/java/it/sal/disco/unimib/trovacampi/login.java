@@ -107,10 +107,10 @@ public class login extends AppCompatActivity {
         String emailAddress = memail.getText().toString().trim();
 
         if (TextUtils.isEmpty(emailAddress)) {
-            String emailRichiesta = "email is required";
+            String emailRichiesta = "email richiesta";
             memail.setError(emailRichiesta);
         } else if (!android.util.Patterns.EMAIL_ADDRESS.matcher(memail.getText().toString()).matches()) {
-            String emailValida = "please enter a valid email";
+            String emailValida = "inserisci un'email valida";
             memail.setError(emailValida);
         }else{
 
@@ -121,7 +121,7 @@ public class login extends AppCompatActivity {
                             if (task.isSuccessful()) {
 
                                 Log.d(TAG, "Email sent.");
-                                String errore = "Email sent";
+                                String errore = "Email inviata.";
                                 Toast.makeText(login.this, errore, Toast.LENGTH_LONG).show();
                             }
                         }

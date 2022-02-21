@@ -49,27 +49,27 @@ public class EmailPasswordActivity extends Activity {
                 String password = mpassword.getText().toString().trim();
                 String ripetipassword = mripetipassword.getText().toString().trim();
                 if (TextUtils.isEmpty(email)) {
-                    memail.setError("email is required");
+                    memail.setError("email richiesta");
                 }
                 else if(!android.util.Patterns.EMAIL_ADDRESS.matcher(memail.getText().toString()).matches()){
-                    memail.setError("please enter a valid email");
+                    memail.setError("inserisci un'email valida");
                 }
                 if (TextUtils.isEmpty(password)) {
-                    mpassword.setError("password is required");
+                    mpassword.setError("password richiesta");
                 }
 
                 if (TextUtils.isEmpty(ripetipassword)) {
-                    mripetipassword.setError("password is required");
+                    mripetipassword.setError("password richiesta");
                     return;
                 }
 
                 if (!(password.equals(ripetipassword))){
-                    mripetipassword.setError("passwords are not matched");
+                    mripetipassword.setError("password diverse");
                     return;
                 }
 
                 if (password.length()<6) {
-                    mpassword.setError("please enter password minimum in 6 char");
+                    mpassword.setError("la password deve contenere almeno 6 caratteri");
                     return;
                 }
 
